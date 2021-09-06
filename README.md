@@ -1,4 +1,4 @@
-### Repository associated with RAL-ICRA 2022 submission:  
+## Repository associated with RAL-ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
 Code is being updated  
