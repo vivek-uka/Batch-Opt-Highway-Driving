@@ -1,0 +1,33 @@
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:[m[K In function ‘[01m[KEigen::ArrayXXf optim::cumsum(Eigen::ArrayXXf, Eigen::ArrayXXf)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:136:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinit[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  136 |   float [01;35m[Kinit[m[K = arr1(0);
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:[m[K In function ‘[01m[Kbool optim::inLane(Eigen::ArrayXXf, float, float, float, float)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcarx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  444 |  bool inLane(ArrayXXf lane, [01;35m[Kfloat carx[m[K, float cary, float obsx, float obsy)
+      |                             [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobsx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  444 |  bool inLane(ArrayXXf lane, float carx, float cary, [01;35m[Kfloat obsx[m[K, float obsy)
+      |                                                     [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:[m[K In function ‘[01m[Koptim::probData optim::mpc(optim::probData, optim::three_var, Eigen::ArrayXXf, Eigen::ArrayXXf, float, float, float, float, float, float, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, bool)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:543:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetprecision[m[K’ was not declared in this scope
+  543 |   cout << "TIME TAKEN in secs = " << [01;31m[Ksetprecision[m[K(5) << time_taken << endl;
+      |                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klane[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, [01;35m[KArrayXXf lane[m[K, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+      |                                                                                             [01;35m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, [01;35m[KArrayXXf pre_x[m[K, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+      |                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, [01;35m[KArrayXXf pre_y[m[K, ArrayXXf pre_xdot, bool sample)
+      |                                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:149:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_xdot[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, [01;35m[KArrayXXf pre_xdot[m[K, bool sample)
+      |                                                                                                                                            [01;35m[K~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:164:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksample[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, [01;35m[Kbool sample[m[K)
+      |                                                                                                                                                               [01;35m[K~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/mpc_node_lib.dir/build.make:63: CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpc_node_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

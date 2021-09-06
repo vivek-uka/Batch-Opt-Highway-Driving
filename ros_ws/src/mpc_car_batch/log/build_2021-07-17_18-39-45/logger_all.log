@@ -1,0 +1,98 @@
+[0.278s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.278s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f208a3d4fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f208a3d4fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f208a3df490>)
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.284s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'mpc_car_batch'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_car_batch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch', 'symlink_install': False, 'test_result_base': None}
+[0.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch'
+[0.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[10.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[10.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[10.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_batch)
+[10.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch' for CMake module files
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch' for CMake config files
+[10.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_batch', 'cmake_prefix_path')
+[10.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.ps1'
+[10.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.dsv'
+[10.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.sh'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/bin'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/pkgconfig/mpc_car_batch.pc'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/python3.8/site-packages'
+[10.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.ps1'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.dsv'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.sh'
+[10.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.bash'
+[10.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.zsh'
+[10.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/colcon-core/packages/mpc_car_batch)
+[10.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_batch)
+[10.593s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch' for CMake module files
+[10.594s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch' for CMake config files
+[10.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_batch', 'cmake_prefix_path')
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.ps1'
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.dsv'
+[10.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.sh'
+[10.597s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib'
+[10.598s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/bin'
+[10.598s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/pkgconfig/mpc_car_batch.pc'
+[10.598s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/python3.8/site-packages'
+[10.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.ps1'
+[10.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.dsv'
+[10.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.sh'
+[10.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.bash'
+[10.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.zsh'
+[10.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/colcon-core/packages/mpc_car_batch)
+[10.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.602s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.609s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.628s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/local_setup.ps1'
+[10.630s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/_local_setup_util_ps1.py'
+[10.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/setup.ps1'
+[10.634s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/local_setup.sh'
+[10.635s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/_local_setup_util_sh.py'
+[10.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/setup.sh'
+[10.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/local_setup.bash'
+[10.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/setup.bash'
+[10.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/local_setup.zsh'
+[10.645s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/setup.zsh'

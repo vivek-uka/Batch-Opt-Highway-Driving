@@ -1,0 +1,36 @@
+[0.016s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.043s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.253s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.537s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.537s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/include>
+[0.538s] -- Configured cppcheck exclude dirs and/or files: 
+[0.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.554s] -- Configured cpplint exclude dirs and/or files: 
+[0.555s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.558s] -- Added test 'lint_cmake' to check CMake code style
+[0.560s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.570s] -- Added test 'uncrustify' to check C / C++ code style
+[0.570s] -- Configured uncrustify additional arguments: 
+[0.571s] -- Added test 'xmllint' to check XML markup files
+[0.573s] -- Configuring done
+[0.578s] -- Generating done
+[0.581s] -- Build files have been written to: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[0.610s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o[0m
+[0.610s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[0.644s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+[0.644s]     2 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+[0.645s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.645s] compilation terminated.
+[0.646s] make[2]: *** [CMakeFiles/mpc_node_lib.dir/build.make:63: CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o] Error 1
+[0.647s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpc_node_lib.dir/all] Error 2
+[0.647s] make[1]: *** Waiting for unfinished jobs....
+[0.723s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+[0.723s]     9 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+[0.723s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.723s] compilation terminated.
+[0.726s] make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1
+[0.726s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+[0.726s] make: *** [Makefile:141: all] Error 2
+[0.729s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

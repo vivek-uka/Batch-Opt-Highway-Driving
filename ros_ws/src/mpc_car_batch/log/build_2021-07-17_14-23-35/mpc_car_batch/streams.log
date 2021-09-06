@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.065s] [ 75%] [32m[1mLinking CXX executable mpc_node[0m
+[0.065s] [ 75%] Built target mpc_node_lib
+[0.185s] /usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `main':
+[0.185s] main.cpp:(.text+0x12fd): undefined reference to `optim::arctan2(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'
+[0.185s] /usr/bin/ld: main.cpp:(.text+0x1316): undefined reference to `optim::diff(Eigen::Array<float, -1, -1, 0, -1, -1>)'
+[0.185s] /usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `mpc(optim::probData, optim::three_var, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, float, float, float, float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, bool)':
+[0.185s] main.cpp:(.text+0x2263): undefined reference to `optim::ones(int, int)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x23a6): undefined reference to `optim::ones(int, int)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x29a9): undefined reference to `optim::reshape(Eigen::Array<float, -1, -1, 0, -1, -1>, unsigned int, unsigned int)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x2b1b): undefined reference to `optim::reshape(Eigen::Array<float, -1, -1, 0, -1, -1>, unsigned int, unsigned int)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x2c33): undefined reference to `optim::arctan2(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x2fc5): undefined reference to `optim::maximum(float, Eigen::Array<float, -1, -1, 0, -1, -1>)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x33e1): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x3490): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x353f): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'
+[0.186s] /usr/bin/ld: main.cpp:(.text+0x360a): undefined reference to `optim::ones(int, int)'
+[0.187s] /usr/bin/ld: main.cpp:(.text+0x3681): undefined reference to `optim::ones(int, int)'
+[0.187s] /usr/bin/ld: main.cpp:(.text+0x36f8): undefined reference to `optim::ones(int, int)'
+[0.187s] /usr/bin/ld: main.cpp:(.text+0x3775): undefined reference to `optim::ones(int, int)'
+[0.187s] /usr/bin/ld: main.cpp:(.text+0x37f2): undefined reference to `optim::ones(int, int)'
+[0.187s] /usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o:main.cpp:(.text+0x386f): more undefined references to `optim::ones(int, int)' follow
+[0.187s] /usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `mpc(optim::probData, optim::three_var, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, float, float, float, float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, bool)':
+[0.187s] main.cpp:(.text+0x396e): undefined reference to `optim::wrapper_batch(optim::probData, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'
+[0.187s] /usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `compute_bernstein(Eigen::Array<float, -1, -1, 0, -1, -1>, float, int)':
+[0.187s] main.cpp:(.text+0x4049): undefined reference to `optim::bernstein_coeff_order10_new(float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, int)'
+[0.188s] collect2: error: ld returned 1 exit status
+[0.189s] make[2]: *** [CMakeFiles/mpc_node.dir/build.make:84: mpc_node] Error 1
+[0.189s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+[0.189s] make: *** [Makefile:141: all] Error 2
+[0.192s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

@@ -1,0 +1,14 @@
+[0.015s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.041s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.255s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.256s]   ament_target_dependencies() the passed package name 'mpc_node_lib' was not
+[0.256s]   found before
+[0.256s] Call Stack (most recent call first):
+[0.256s]   CMakeLists.txt:26 (ament_target_dependencies)
+[0.256s] 
+[0.256s] 
+[0.256s] -- Configuring incomplete, errors occurred!
+[0.256s] See also "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch/CMakeFiles/CMakeOutput.log".
+[0.258s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.260s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

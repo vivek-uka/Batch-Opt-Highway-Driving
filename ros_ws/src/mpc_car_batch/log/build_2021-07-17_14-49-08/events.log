@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (mpc_car_batch) JobQueued: {'identifier': 'mpc_car_batch', 'dependencies': OrderedDict()}
+[0.000379] (mpc_car_batch) JobStarted: {'identifier': 'mpc_car_batch'}
+[0.010510] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'cmake'}
+[0.011306] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'build'}
+[0.012209] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1812'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CARLA_ROOT', '/opt/carla-simulator'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:45631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1855,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', 'd3068469c1a4406eac86806c884469bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59417091_73cf_4fc9_bcfe_66a093433f5a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.770'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.042108] (mpc_car_batch) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.071001] (mpc_car_batch) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.097749] (-) TimerEvent: {}
+[0.198165] (-) TimerEvent: {}
+[0.298675] (-) TimerEvent: {}
+[0.399389] (-) TimerEvent: {}
+[0.499976] (-) TimerEvent: {}
+[0.600606] (-) TimerEvent: {}
+[0.701208] (-) TimerEvent: {}
+[0.801804] (-) TimerEvent: {}
+[0.842716] (mpc_car_batch) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.902002] (-) TimerEvent: {}
+[1.002612] (-) TimerEvent: {}
+[1.103244] (-) TimerEvent: {}
+[1.203981] (-) TimerEvent: {}
+[1.304650] (-) TimerEvent: {}
+[1.405318] (-) TimerEvent: {}
+[1.505947] (-) TimerEvent: {}
+[1.606653] (-) TimerEvent: {}
+[1.707383] (-) TimerEvent: {}
+[1.808114] (-) TimerEvent: {}
+[1.908782] (-) TimerEvent: {}
+[2.009357] (-) TimerEvent: {}
+[2.109960] (-) TimerEvent: {}
+[2.210694] (-) TimerEvent: {}
+[2.311422] (-) TimerEvent: {}
+[2.412055] (-) TimerEvent: {}
+[2.512752] (-) TimerEvent: {}
+[2.613348] (-) TimerEvent: {}
+[2.714047] (-) TimerEvent: {}
+[2.814738] (-) TimerEvent: {}
+[2.915466] (-) TimerEvent: {}
+[3.016132] (-) TimerEvent: {}
+[3.116850] (-) TimerEvent: {}
+[3.217418] (-) TimerEvent: {}
+[3.317937] (-) TimerEvent: {}
+[3.418638] (-) TimerEvent: {}
+[3.519280] (-) TimerEvent: {}
+[3.619973] (-) TimerEvent: {}
+[3.720610] (-) TimerEvent: {}
+[3.821245] (-) TimerEvent: {}
+[3.922027] (-) TimerEvent: {}
+[4.022754] (-) TimerEvent: {}
+[4.123478] (-) TimerEvent: {}
+[4.224028] (-) TimerEvent: {}
+[4.324437] (-) TimerEvent: {}
+[4.425048] (-) TimerEvent: {}
+[4.525691] (-) TimerEvent: {}
+[4.626355] (-) TimerEvent: {}
+[4.727079] (-) TimerEvent: {}
+[4.827694] (-) TimerEvent: {}
+[4.872685] (mpc_car_batch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.927876] (-) TimerEvent: {}
+[4.932015] (mpc_car_batch) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.028117] (-) TimerEvent: {}
+[5.128784] (-) TimerEvent: {}
+[5.229415] (-) TimerEvent: {}
+[5.330065] (-) TimerEvent: {}
+[5.430774] (-) TimerEvent: {}
+[5.531435] (-) TimerEvent: {}
+[5.632217] (-) TimerEvent: {}
+[5.732862] (-) TimerEvent: {}
+[5.833592] (-) TimerEvent: {}
+[5.934325] (-) TimerEvent: {}
+[6.035053] (-) TimerEvent: {}
+[6.135818] (-) TimerEvent: {}
+[6.236443] (-) TimerEvent: {}
+[6.337085] (-) TimerEvent: {}
+[6.437676] (-) TimerEvent: {}
+[6.538355] (-) TimerEvent: {}
+[6.639092] (-) TimerEvent: {}
+[6.739816] (-) TimerEvent: {}
+[6.840444] (-) TimerEvent: {}
+[6.941087] (-) TimerEvent: {}
+[7.041724] (-) TimerEvent: {}
+[7.142436] (-) TimerEvent: {}
+[7.243111] (-) TimerEvent: {}
+[7.343818] (-) TimerEvent: {}
+[7.444438] (-) TimerEvent: {}
+[7.545071] (-) TimerEvent: {}
+[7.645674] (-) TimerEvent: {}
+[7.746297] (-) TimerEvent: {}
+[7.846945] (-) TimerEvent: {}
+[7.947608] (-) TimerEvent: {}
+[8.048263] (-) TimerEvent: {}
+[8.148878] (-) TimerEvent: {}
+[8.249476] (-) TimerEvent: {}
+[8.350067] (-) TimerEvent: {}
+[8.450775] (-) TimerEvent: {}
+[8.551397] (-) TimerEvent: {}
+[8.652120] (-) TimerEvent: {}
+[8.752861] (-) TimerEvent: {}
+[8.853455] (-) TimerEvent: {}
+[8.954071] (-) TimerEvent: {}
+[9.054693] (-) TimerEvent: {}
+[9.155357] (-) TimerEvent: {}
+[9.256039] (-) TimerEvent: {}
+[9.356763] (-) TimerEvent: {}
+[9.457357] (-) TimerEvent: {}
+[9.558024] (-) TimerEvent: {}
+[9.658615] (-) TimerEvent: {}
+[9.676224] (mpc_car_batch) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[9.734714] (mpc_car_batch) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[9.758736] (-) TimerEvent: {}
+[9.859268] (-) TimerEvent: {}
+[9.959998] (-) TimerEvent: {}
+[10.060751] (-) TimerEvent: {}
+[10.161338] (-) TimerEvent: {}
+[10.261874] (-) TimerEvent: {}
+[10.362199] (-) TimerEvent: {}
+[10.386050] (mpc_car_batch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.462498] (-) TimerEvent: {}
+[10.563163] (-) TimerEvent: {}
+[10.663716] (-) TimerEvent: {}
+[10.764168] (-) TimerEvent: {}
+[10.864580] (-) TimerEvent: {}
+[10.965211] (-) TimerEvent: {}
+[11.065904] (-) TimerEvent: {}
+[11.166500] (-) TimerEvent: {}
+[11.267197] (-) TimerEvent: {}
+[11.367820] (-) TimerEvent: {}
+[11.468480] (-) TimerEvent: {}
+[11.569156] (-) TimerEvent: {}
+[11.624282] (mpc_car_batch) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.669440] (-) TimerEvent: {}
+[11.770183] (-) TimerEvent: {}
+[11.784223] (mpc_car_batch) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.870404] (-) TimerEvent: {}
+[11.971029] (-) TimerEvent: {}
+[12.071750] (-) TimerEvent: {}
+[12.172430] (-) TimerEvent: {}
+[12.257531] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.272542] (-) TimerEvent: {}
+[12.334411] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.334793] (mpc_car_batch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.372700] (-) TimerEvent: {}
+[12.473002] (-) TimerEvent: {}
+[12.573344] (-) TimerEvent: {}
+[12.605546] (mpc_car_batch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[12.605816] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[12.673436] (-) TimerEvent: {}
+[12.773711] (-) TimerEvent: {}
+[12.874098] (-) TimerEvent: {}
+[12.964895] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[12.965322] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.974251] (-) TimerEvent: {}
+[13.074777] (-) TimerEvent: {}
+[13.175271] (-) TimerEvent: {}
+[13.275748] (-) TimerEvent: {}
+[13.376388] (-) TimerEvent: {}
+[13.415536] (mpc_car_batch) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[13.417163] (mpc_car_batch) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.476571] (-) TimerEvent: {}
+[13.577110] (-) TimerEvent: {}
+[13.677704] (-) TimerEvent: {}
+[13.778332] (-) TimerEvent: {}
+[13.878956] (-) TimerEvent: {}
+[13.979673] (-) TimerEvent: {}
+[14.080321] (-) TimerEvent: {}
+[14.181018] (-) TimerEvent: {}
+[14.281624] (-) TimerEvent: {}
+[14.382138] (-) TimerEvent: {}
+[14.482842] (-) TimerEvent: {}
+[14.583555] (-) TimerEvent: {}
+[14.684220] (-) TimerEvent: {}
+[14.784790] (-) TimerEvent: {}
+[14.885712] (-) TimerEvent: {}
+[14.986232] (-) TimerEvent: {}
+[15.086957] (-) TimerEvent: {}
+[15.187585] (-) TimerEvent: {}
+[15.288229] (-) TimerEvent: {}
+[15.388851] (-) TimerEvent: {}
+[15.489493] (-) TimerEvent: {}
+[15.590073] (-) TimerEvent: {}
+[15.690472] (-) TimerEvent: {}
+[15.791048] (-) TimerEvent: {}
+[15.891601] (-) TimerEvent: {}
+[15.992271] (-) TimerEvent: {}
+[16.092908] (-) TimerEvent: {}
+[16.127452] (mpc_car_batch) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[16.193059] (-) TimerEvent: {}
+[16.209011] (mpc_car_batch) StderrLine: {'line': b'CMake Error at CMakeLists.txt:26 (find_package):\n'}
+[16.209244] (mpc_car_batch) StderrLine: {'line': b'  By not providing "Findodometry_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[16.209374] (mpc_car_batch) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[16.209486] (mpc_car_batch) StderrLine: {'line': b'  "odometry_msgs", but CMake did not find one.\n'}
+[16.209607] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[16.209689] (mpc_car_batch) StderrLine: {'line': b'  Could not find a package configuration file provided by "odometry_msgs"\n'}
+[16.209757] (mpc_car_batch) StderrLine: {'line': b'  with any of the following names:\n'}
+[16.209825] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[16.209893] (mpc_car_batch) StderrLine: {'line': b'    odometry_msgsConfig.cmake\n'}
+[16.209960] (mpc_car_batch) StderrLine: {'line': b'    odometry_msgs-config.cmake\n'}
+[16.210028] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[16.210094] (mpc_car_batch) StderrLine: {'line': b'  Add the installation prefix of "odometry_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[16.210161] (mpc_car_batch) StderrLine: {'line': b'  "odometry_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[16.210228] (mpc_car_batch) StderrLine: {'line': b'  "odometry_msgs" provides a separate development package or SDK, be sure it\n'}
+[16.210295] (mpc_car_batch) StderrLine: {'line': b'  has been installed.\n'}
+[16.210362] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[16.210775] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[16.210879] (mpc_car_batch) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[16.210972] (mpc_car_batch) StdoutLine: {'line': b'See also "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch/CMakeFiles/CMakeOutput.log".\n'}
+[16.211088] (mpc_car_batch) StdoutLine: {'line': b'See also "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch/CMakeFiles/CMakeError.log".\n'}
+[16.217075] (mpc_car_batch) StderrLine: {'line': b'make: *** [Makefile:310: cmake_check_build_system] Error 1\n'}
+[16.220213] (mpc_car_batch) CommandEnded: {'returncode': 2}
+[16.257455] (mpc_car_batch) JobEnded: {'identifier': 'mpc_car_batch', 'rc': 2}
+[16.268826] (-) EventReactorShutdown: {}

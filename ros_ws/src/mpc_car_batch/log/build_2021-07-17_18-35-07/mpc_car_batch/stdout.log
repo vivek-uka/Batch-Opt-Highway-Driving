@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target mpc_node_lib[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libmpc_node_lib.a[0m
+[ 50%] Built target mpc_node_lib
+[35m[1mScanning dependencies of target mpc_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m

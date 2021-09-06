@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.144s] [ 50%] Built target mpc_node_lib
+[0.158s] [35m[1mScanning dependencies of target mpc_node[0m
+[0.431s] [ 75%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[2.489s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[2.490s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:69:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmin[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.490s]    69 |     float [01;35m[Kmin[m[K = 1000000;
+[2.490s]       |           [01;35m[K^~~[m[K
+[2.783s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In function ‘[01m[Koptim::probData mpc(optim::probData, optim::three_var, Eigen::ArrayXXf, Eigen::ArrayXXf, float, float, float, float, float, float, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, bool)[m[K’:
+[2.783s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:144:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klane[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.783s]   144 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, [01;35m[KArrayXXf lane[m[K, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+[2.783s]       |                                                                                             [01;35m[K~~~~~~~~~^~~~[m[K
+[2.783s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:144:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.783s]   144 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, [01;35m[KArrayXXf pre_x[m[K, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+[2.784s]       |                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[2.784s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:144:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.784s]   144 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, [01;35m[KArrayXXf pre_y[m[K, ArrayXXf pre_xdot, bool sample)
+[2.784s]       |                                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[2.784s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:144:149:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_xdot[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.784s]   144 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, [01;35m[KArrayXXf pre_xdot[m[K, bool sample)
+[2.784s]       |                                                                                                                                            [01;35m[K~~~~~~~~~^~~~~~~~[m[K
+[2.784s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:144:164:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksample[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.784s]   144 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, [01;35m[Kbool sample[m[K)
+[2.784s]       |                                                                                                                                                               [01;35m[K~~~~~^~~~~~[m[K
+[4.939s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[5.420s] [100%] Built target mpc_node
+[5.437s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[5.474s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[5.486s] -- Install configuration: ""
+[5.487s] -- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node
+[5.496s] -- Set runtime path of "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node" to ""
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/package_run_dependencies/mpc_car_batch
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/parent_prefix_path/mpc_car_batch
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.sh
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.dsv
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.sh
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.dsv
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.bash
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.sh
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.zsh
+[5.496s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.dsv
+[5.496s] -- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.dsv
+[5.497s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/packages/mpc_car_batch
+[5.497s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig.cmake
+[5.497s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig-version.cmake
+[5.497s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.xml
+[5.499s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch

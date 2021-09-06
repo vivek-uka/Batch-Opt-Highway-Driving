@@ -1,0 +1,2 @@
+Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch -DCMAKE_INSTALL_PREFIX=/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch
+Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch -DCMAKE_INSTALL_PREFIX=/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch

@@ -1,0 +1,499 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (mpc_car_batch) JobQueued: {'identifier': 'mpc_car_batch', 'dependencies': OrderedDict()}
+[0.001139] (mpc_car_batch) JobStarted: {'identifier': 'mpc_car_batch'}
+[0.099912] (-) TimerEvent: {}
+[0.566667] (-) TimerEvent: {}
+[0.667280] (-) TimerEvent: {}
+[0.767883] (-) TimerEvent: {}
+[0.868429] (-) TimerEvent: {}
+[0.968991] (-) TimerEvent: {}
+[1.069701] (-) TimerEvent: {}
+[1.089193] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'cmake'}
+[1.169945] (-) TimerEvent: {}
+[1.270573] (-) TimerEvent: {}
+[1.371220] (-) TimerEvent: {}
+[1.471952] (-) TimerEvent: {}
+[1.503419] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'build'}
+[1.503615] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1740'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/vivek/On-Codes/Batch_traj_opt'), ('TERM_PROGRAM_VERSION', '1.56.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4084'), ('CARLA_ROOT', '/opt/carla-simulator'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:46133'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.local/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1783,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1783'), ('INVOCATION_ID', 'c4a6ff72b29249d687e4ee04a6643f57'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-139bcc8d49.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('BREAKPAD_DUMP_LOCATION', '/home/vivek/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy')]), 'shell': False}
+[1.572225] (-) TimerEvent: {}
+[1.673431] (-) TimerEvent: {}
+[1.774041] (-) TimerEvent: {}
+[1.874628] (-) TimerEvent: {}
+[1.896384] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node_lib\x1b[0m\n'}
+[2.171690] (-) TimerEvent: {}
+[2.272318] (-) TimerEvent: {}
+[2.372953] (-) TimerEvent: {}
+[2.473574] (-) TimerEvent: {}
+[2.574176] (-) TimerEvent: {}
+[2.674840] (-) TimerEvent: {}
+[2.751938] (mpc_car_batch) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o\x1b[0m\n'}
+[2.775013] (-) TimerEvent: {}
+[2.875479] (-) TimerEvent: {}
+[2.975788] (-) TimerEvent: {}
+[3.076212] (-) TimerEvent: {}
+[3.176541] (-) TimerEvent: {}
+[3.276927] (-) TimerEvent: {}
+[3.377250] (-) TimerEvent: {}
+[3.477568] (-) TimerEvent: {}
+[3.577876] (-) TimerEvent: {}
+[3.678256] (-) TimerEvent: {}
+[3.778615] (-) TimerEvent: {}
+[3.784475] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KEigen::ArrayXXf optim::cumsum(Eigen::ArrayXXf, Eigen::ArrayXXf)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.784767] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:136:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kinit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.784936] (mpc_car_batch) StderrLine: {'line': b'  136 |   float \x1b[01;35m\x1b[Kinit\x1b[m\x1b[K = arr1(0);\n'}
+[3.785008] (mpc_car_batch) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.878777] (-) TimerEvent: {}
+[3.979354] (-) TimerEvent: {}
+[4.079910] (-) TimerEvent: {}
+[4.180382] (-) TimerEvent: {}
+[4.280945] (-) TimerEvent: {}
+[4.381469] (-) TimerEvent: {}
+[4.481964] (-) TimerEvent: {}
+[4.582277] (-) TimerEvent: {}
+[4.682605] (-) TimerEvent: {}
+[4.782958] (-) TimerEvent: {}
+[4.883478] (-) TimerEvent: {}
+[4.983820] (-) TimerEvent: {}
+[5.084182] (-) TimerEvent: {}
+[5.184473] (-) TimerEvent: {}
+[5.284820] (-) TimerEvent: {}
+[5.385162] (-) TimerEvent: {}
+[5.485488] (-) TimerEvent: {}
+[5.499121] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool optim::inLane(Eigen::ArrayXXf, float, float, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.499807] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcarx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.500166] (mpc_car_batch) StderrLine: {'line': b'  444 |  bool inLane(ArrayXXf lane, \x1b[01;35m\x1b[Kfloat carx\x1b[m\x1b[K, float cary, float obsx, float obsy)\n'}
+[5.500332] (mpc_car_batch) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.500472] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobsx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.500598] (mpc_car_batch) StderrLine: {'line': b'  444 |  bool inLane(ArrayXXf lane, float carx, float cary, \x1b[01;35m\x1b[Kfloat obsx\x1b[m\x1b[K, float obsy)\n'}
+[5.500702] (mpc_car_batch) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.578901] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Koptim::probData optim::mpc(optim::probData, optim::three_var, Eigen::ArrayXXf, Eigen::ArrayXXf, float, float, float, float, float, float, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.579120] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:542:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktime_taken\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.579211] (mpc_car_batch) StderrLine: {'line': b'  542 |   float \x1b[01;35m\x1b[Ktime_taken\x1b[m\x1b[K = double(end - start) / double(CLOCKS_PER_SEC);\n'}
+[5.579295] (mpc_car_batch) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.579623] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klane\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.579713] (mpc_car_batch) StderrLine: {'line': b'  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, \x1b[01;35m\x1b[KArrayXXf lane\x1b[m\x1b[K, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)\n'}
+[5.579803] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.579877] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:117:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.579951] (mpc_car_batch) StderrLine: {'line': b'  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, \x1b[01;35m\x1b[KArrayXXf pre_x\x1b[m\x1b[K, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)\n'}
+[5.580024] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                                            \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.580115] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:133:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.580189] (mpc_car_batch) StderrLine: {'line': b'  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, \x1b[01;35m\x1b[KArrayXXf pre_y\x1b[m\x1b[K, ArrayXXf pre_xdot, bool sample)\n'}
+[5.580267] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                                                            \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.580339] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:149:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_xdot\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.580409] (mpc_car_batch) StderrLine: {'line': b'  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, \x1b[01;35m\x1b[KArrayXXf pre_xdot\x1b[m\x1b[K, bool sample)\n'}
+[5.580485] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                                                                            \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.580563] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:457:164:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksample\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.580632] (mpc_car_batch) StderrLine: {'line': b'  457 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, \x1b[01;35m\x1b[Kbool sample\x1b[m\x1b[K)\n'}
+[5.580702] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                                                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.585591] (-) TimerEvent: {}
+[5.685884] (-) TimerEvent: {}
+[5.786225] (-) TimerEvent: {}
+[5.886561] (-) TimerEvent: {}
+[5.986898] (-) TimerEvent: {}
+[6.087256] (-) TimerEvent: {}
+[6.187601] (-) TimerEvent: {}
+[6.287946] (-) TimerEvent: {}
+[6.388300] (-) TimerEvent: {}
+[6.488691] (-) TimerEvent: {}
+[6.589002] (-) TimerEvent: {}
+[6.689345] (-) TimerEvent: {}
+[6.789680] (-) TimerEvent: {}
+[6.890029] (-) TimerEvent: {}
+[6.990364] (-) TimerEvent: {}
+[7.090752] (-) TimerEvent: {}
+[7.592893] (-) TimerEvent: {}
+[7.693232] (-) TimerEvent: {}
+[7.793564] (-) TimerEvent: {}
+[7.893915] (-) TimerEvent: {}
+[7.994255] (-) TimerEvent: {}
+[8.094594] (-) TimerEvent: {}
+[8.194941] (-) TimerEvent: {}
+[8.295317] (-) TimerEvent: {}
+[8.395655] (-) TimerEvent: {}
+[8.495981] (-) TimerEvent: {}
+[8.596292] (-) TimerEvent: {}
+[8.696595] (-) TimerEvent: {}
+[8.796910] (-) TimerEvent: {}
+[8.897245] (-) TimerEvent: {}
+[8.997578] (-) TimerEvent: {}
+[9.097922] (-) TimerEvent: {}
+[9.198286] (-) TimerEvent: {}
+[9.298626] (-) TimerEvent: {}
+[9.398970] (-) TimerEvent: {}
+[9.499313] (-) TimerEvent: {}
+[9.599677] (-) TimerEvent: {}
+[9.700017] (-) TimerEvent: {}
+[9.800375] (-) TimerEvent: {}
+[9.900721] (-) TimerEvent: {}
+[10.001029] (-) TimerEvent: {}
+[10.101346] (-) TimerEvent: {}
+[10.201682] (-) TimerEvent: {}
+[10.302018] (-) TimerEvent: {}
+[10.402376] (-) TimerEvent: {}
+[10.502775] (-) TimerEvent: {}
+[10.603132] (-) TimerEvent: {}
+[10.703463] (-) TimerEvent: {}
+[10.803777] (-) TimerEvent: {}
+[10.904154] (-) TimerEvent: {}
+[11.004493] (-) TimerEvent: {}
+[11.104827] (-) TimerEvent: {}
+[11.205185] (-) TimerEvent: {}
+[11.305572] (-) TimerEvent: {}
+[11.405915] (-) TimerEvent: {}
+[11.506282] (-) TimerEvent: {}
+[11.606655] (-) TimerEvent: {}
+[11.706992] (-) TimerEvent: {}
+[11.807335] (-) TimerEvent: {}
+[11.907664] (-) TimerEvent: {}
+[12.008016] (-) TimerEvent: {}
+[12.108397] (-) TimerEvent: {}
+[12.208777] (-) TimerEvent: {}
+[12.743059] (-) TimerEvent: {}
+[12.843403] (-) TimerEvent: {}
+[12.943776] (-) TimerEvent: {}
+[13.044157] (-) TimerEvent: {}
+[13.144464] (-) TimerEvent: {}
+[13.244769] (-) TimerEvent: {}
+[13.345113] (-) TimerEvent: {}
+[13.445472] (-) TimerEvent: {}
+[13.545803] (-) TimerEvent: {}
+[13.646251] (-) TimerEvent: {}
+[13.746536] (-) TimerEvent: {}
+[13.846868] (-) TimerEvent: {}
+[13.947213] (-) TimerEvent: {}
+[14.047583] (-) TimerEvent: {}
+[14.147925] (-) TimerEvent: {}
+[14.248248] (-) TimerEvent: {}
+[14.348580] (-) TimerEvent: {}
+[14.448915] (-) TimerEvent: {}
+[14.745117] (-) TimerEvent: {}
+[14.845423] (-) TimerEvent: {}
+[14.945723] (-) TimerEvent: {}
+[15.046061] (-) TimerEvent: {}
+[15.146384] (-) TimerEvent: {}
+[15.246740] (-) TimerEvent: {}
+[15.347060] (-) TimerEvent: {}
+[15.447383] (-) TimerEvent: {}
+[16.323006] (-) TimerEvent: {}
+[16.423342] (-) TimerEvent: {}
+[16.523695] (-) TimerEvent: {}
+[16.624028] (-) TimerEvent: {}
+[16.724345] (-) TimerEvent: {}
+[16.824642] (-) TimerEvent: {}
+[16.924951] (-) TimerEvent: {}
+[17.025263] (-) TimerEvent: {}
+[17.125576] (-) TimerEvent: {}
+[17.225905] (-) TimerEvent: {}
+[17.326235] (-) TimerEvent: {}
+[17.426578] (-) TimerEvent: {}
+[17.526910] (-) TimerEvent: {}
+[17.627239] (-) TimerEvent: {}
+[17.727602] (-) TimerEvent: {}
+[17.827940] (-) TimerEvent: {}
+[17.928243] (-) TimerEvent: {}
+[18.028563] (-) TimerEvent: {}
+[18.128889] (-) TimerEvent: {}
+[18.229206] (-) TimerEvent: {}
+[18.329530] (-) TimerEvent: {}
+[18.429844] (-) TimerEvent: {}
+[18.530168] (-) TimerEvent: {}
+[18.630490] (-) TimerEvent: {}
+[18.730828] (-) TimerEvent: {}
+[18.831178] (-) TimerEvent: {}
+[18.931629] (-) TimerEvent: {}
+[19.031987] (-) TimerEvent: {}
+[19.132391] (-) TimerEvent: {}
+[19.232708] (-) TimerEvent: {}
+[19.333060] (-) TimerEvent: {}
+[19.433410] (-) TimerEvent: {}
+[19.533769] (-) TimerEvent: {}
+[19.634113] (-) TimerEvent: {}
+[19.734455] (-) TimerEvent: {}
+[19.834787] (-) TimerEvent: {}
+[19.935122] (-) TimerEvent: {}
+[20.035455] (-) TimerEvent: {}
+[20.135814] (-) TimerEvent: {}
+[20.236195] (-) TimerEvent: {}
+[20.336523] (-) TimerEvent: {}
+[20.436870] (-) TimerEvent: {}
+[20.537175] (-) TimerEvent: {}
+[20.637512] (-) TimerEvent: {}
+[20.737860] (-) TimerEvent: {}
+[20.838216] (-) TimerEvent: {}
+[20.938540] (-) TimerEvent: {}
+[21.410020] (-) TimerEvent: {}
+[21.510336] (-) TimerEvent: {}
+[21.610682] (-) TimerEvent: {}
+[21.711026] (-) TimerEvent: {}
+[21.811365] (-) TimerEvent: {}
+[21.911701] (-) TimerEvent: {}
+[22.012032] (-) TimerEvent: {}
+[22.112526] (-) TimerEvent: {}
+[22.525571] (-) TimerEvent: {}
+[22.625886] (-) TimerEvent: {}
+[22.726195] (-) TimerEvent: {}
+[22.826560] (-) TimerEvent: {}
+[22.926867] (-) TimerEvent: {}
+[23.027214] (-) TimerEvent: {}
+[23.127554] (-) TimerEvent: {}
+[23.227896] (-) TimerEvent: {}
+[23.328387] (-) TimerEvent: {}
+[23.604856] (-) TimerEvent: {}
+[23.705197] (-) TimerEvent: {}
+[23.805554] (-) TimerEvent: {}
+[23.905908] (-) TimerEvent: {}
+[24.006238] (-) TimerEvent: {}
+[24.106566] (-) TimerEvent: {}
+[24.207028] (-) TimerEvent: {}
+[24.635899] (-) TimerEvent: {}
+[24.736252] (-) TimerEvent: {}
+[24.836622] (-) TimerEvent: {}
+[24.936950] (-) TimerEvent: {}
+[25.037290] (-) TimerEvent: {}
+[25.137627] (-) TimerEvent: {}
+[25.237987] (-) TimerEvent: {}
+[25.338340] (-) TimerEvent: {}
+[25.438699] (-) TimerEvent: {}
+[25.539035] (-) TimerEvent: {}
+[25.639417] (-) TimerEvent: {}
+[25.739768] (-) TimerEvent: {}
+[25.840165] (-) TimerEvent: {}
+[25.940516] (-) TimerEvent: {}
+[26.040867] (-) TimerEvent: {}
+[26.141215] (-) TimerEvent: {}
+[26.241568] (-) TimerEvent: {}
+[26.341953] (-) TimerEvent: {}
+[26.442307] (-) TimerEvent: {}
+[26.542677] (-) TimerEvent: {}
+[26.643027] (-) TimerEvent: {}
+[26.743379] (-) TimerEvent: {}
+[26.843714] (-) TimerEvent: {}
+[26.944072] (-) TimerEvent: {}
+[27.044476] (-) TimerEvent: {}
+[27.144875] (-) TimerEvent: {}
+[27.245215] (-) TimerEvent: {}
+[27.345553] (-) TimerEvent: {}
+[27.445936] (-) TimerEvent: {}
+[27.546274] (-) TimerEvent: {}
+[27.646636] (-) TimerEvent: {}
+[27.747003] (-) TimerEvent: {}
+[27.847385] (-) TimerEvent: {}
+[27.947733] (-) TimerEvent: {}
+[28.048117] (-) TimerEvent: {}
+[28.148490] (-) TimerEvent: {}
+[28.248839] (-) TimerEvent: {}
+[28.349198] (-) TimerEvent: {}
+[28.449538] (-) TimerEvent: {}
+[28.549884] (-) TimerEvent: {}
+[28.650279] (-) TimerEvent: {}
+[28.750672] (-) TimerEvent: {}
+[28.851022] (-) TimerEvent: {}
+[28.951395] (-) TimerEvent: {}
+[29.051780] (-) TimerEvent: {}
+[29.152194] (-) TimerEvent: {}
+[29.252669] (-) TimerEvent: {}
+[29.849409] (-) TimerEvent: {}
+[29.949744] (-) TimerEvent: {}
+[30.050178] (-) TimerEvent: {}
+[30.150524] (-) TimerEvent: {}
+[30.250864] (-) TimerEvent: {}
+[30.351197] (-) TimerEvent: {}
+[30.451668] (-) TimerEvent: {}
+[30.552260] (-) TimerEvent: {}
+[30.652838] (-) TimerEvent: {}
+[30.753508] (-) TimerEvent: {}
+[30.854209] (-) TimerEvent: {}
+[30.954896] (-) TimerEvent: {}
+[31.055571] (-) TimerEvent: {}
+[31.156259] (-) TimerEvent: {}
+[31.256926] (-) TimerEvent: {}
+[31.357625] (-) TimerEvent: {}
+[31.458326] (-) TimerEvent: {}
+[31.559020] (-) TimerEvent: {}
+[31.659725] (-) TimerEvent: {}
+[31.760377] (-) TimerEvent: {}
+[31.860968] (-) TimerEvent: {}
+[31.961434] (-) TimerEvent: {}
+[32.061825] (-) TimerEvent: {}
+[32.162176] (-) TimerEvent: {}
+[32.262539] (-) TimerEvent: {}
+[32.362888] (-) TimerEvent: {}
+[32.463195] (-) TimerEvent: {}
+[32.563532] (-) TimerEvent: {}
+[32.663868] (-) TimerEvent: {}
+[32.764197] (-) TimerEvent: {}
+[32.864552] (-) TimerEvent: {}
+[32.964849] (-) TimerEvent: {}
+[33.065173] (-) TimerEvent: {}
+[33.165516] (-) TimerEvent: {}
+[33.265865] (-) TimerEvent: {}
+[33.366205] (-) TimerEvent: {}
+[33.466545] (-) TimerEvent: {}
+[33.566884] (-) TimerEvent: {}
+[33.667249] (-) TimerEvent: {}
+[33.767599] (-) TimerEvent: {}
+[33.867956] (-) TimerEvent: {}
+[33.968320] (-) TimerEvent: {}
+[34.068657] (-) TimerEvent: {}
+[34.169013] (-) TimerEvent: {}
+[34.269451] (-) TimerEvent: {}
+[34.369824] (-) TimerEvent: {}
+[34.470166] (-) TimerEvent: {}
+[34.570509] (-) TimerEvent: {}
+[34.670847] (-) TimerEvent: {}
+[34.771188] (-) TimerEvent: {}
+[34.871534] (-) TimerEvent: {}
+[34.971845] (-) TimerEvent: {}
+[35.072225] (-) TimerEvent: {}
+[35.172593] (-) TimerEvent: {}
+[35.272996] (-) TimerEvent: {}
+[35.373381] (-) TimerEvent: {}
+[35.473771] (-) TimerEvent: {}
+[35.574160] (-) TimerEvent: {}
+[35.674596] (-) TimerEvent: {}
+[35.774961] (-) TimerEvent: {}
+[35.875320] (-) TimerEvent: {}
+[35.915104] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libmpc_node_lib.a\x1b[0m\n'}
+[35.975431] (-) TimerEvent: {}
+[36.075714] (-) TimerEvent: {}
+[36.176067] (-) TimerEvent: {}
+[36.276439] (-) TimerEvent: {}
+[36.376791] (-) TimerEvent: {}
+[36.477130] (-) TimerEvent: {}
+[36.577436] (-) TimerEvent: {}
+[36.675201] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] Built target mpc_node_lib\n'}
+[36.677525] (-) TimerEvent: {}
+[36.693251] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node\x1b[0m\n'}
+[36.766098] (mpc_car_batch) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o\x1b[0m\n'}
+[36.777664] (-) TimerEvent: {}
+[36.878017] (-) TimerEvent: {}
+[36.978324] (-) TimerEvent: {}
+[37.078652] (-) TimerEvent: {}
+[37.178991] (-) TimerEvent: {}
+[37.279332] (-) TimerEvent: {}
+[37.379677] (-) TimerEvent: {}
+[37.479997] (-) TimerEvent: {}
+[37.580391] (-) TimerEvent: {}
+[37.680731] (-) TimerEvent: {}
+[37.781058] (-) TimerEvent: {}
+[37.881399] (-) TimerEvent: {}
+[37.981769] (-) TimerEvent: {}
+[38.082255] (-) TimerEvent: {}
+[38.182718] (-) TimerEvent: {}
+[38.283065] (-) TimerEvent: {}
+[38.383398] (-) TimerEvent: {}
+[38.483751] (-) TimerEvent: {}
+[38.584166] (-) TimerEvent: {}
+[38.684487] (-) TimerEvent: {}
+[38.784868] (-) TimerEvent: {}
+[38.885207] (-) TimerEvent: {}
+[38.985543] (-) TimerEvent: {}
+[39.085867] (-) TimerEvent: {}
+[39.186225] (-) TimerEvent: {}
+[39.286623] (-) TimerEvent: {}
+[39.326127] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[39.326357] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:87:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kmin\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[39.326450] (mpc_car_batch) StderrLine: {'line': b'   87 |     float \x1b[01;35m\x1b[Kmin\x1b[m\x1b[K = 1000000;\n'}
+[39.326527] (mpc_car_batch) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[39.386747] (-) TimerEvent: {}
+[39.487075] (-) TimerEvent: {}
+[39.587417] (-) TimerEvent: {}
+[39.687749] (-) TimerEvent: {}
+[39.788112] (-) TimerEvent: {}
+[39.888537] (-) TimerEvent: {}
+[39.989243] (-) TimerEvent: {}
+[40.089783] (-) TimerEvent: {}
+[40.190121] (-) TimerEvent: {}
+[40.290469] (-) TimerEvent: {}
+[40.390817] (-) TimerEvent: {}
+[40.491222] (-) TimerEvent: {}
+[40.591678] (-) TimerEvent: {}
+[40.692033] (-) TimerEvent: {}
+[40.792412] (-) TimerEvent: {}
+[40.892753] (-) TimerEvent: {}
+[40.993093] (-) TimerEvent: {}
+[41.093424] (-) TimerEvent: {}
+[41.193766] (-) TimerEvent: {}
+[41.294117] (-) TimerEvent: {}
+[41.394460] (-) TimerEvent: {}
+[41.494804] (-) TimerEvent: {}
+[41.595143] (-) TimerEvent: {}
+[41.695489] (-) TimerEvent: {}
+[41.795848] (-) TimerEvent: {}
+[41.896190] (-) TimerEvent: {}
+[41.996516] (-) TimerEvent: {}
+[42.096876] (-) TimerEvent: {}
+[42.197213] (-) TimerEvent: {}
+[42.297542] (-) TimerEvent: {}
+[42.397875] (-) TimerEvent: {}
+[42.498219] (-) TimerEvent: {}
+[42.598613] (-) TimerEvent: {}
+[42.698967] (-) TimerEvent: {}
+[42.799318] (-) TimerEvent: {}
+[42.899652] (-) TimerEvent: {}
+[42.999985] (-) TimerEvent: {}
+[43.100357] (-) TimerEvent: {}
+[43.200701] (-) TimerEvent: {}
+[43.301035] (-) TimerEvent: {}
+[43.401381] (-) TimerEvent: {}
+[43.501745] (-) TimerEvent: {}
+[43.602078] (-) TimerEvent: {}
+[43.702463] (-) TimerEvent: {}
+[43.802806] (-) TimerEvent: {}
+[43.903142] (-) TimerEvent: {}
+[44.003471] (-) TimerEvent: {}
+[44.103800] (-) TimerEvent: {}
+[44.204149] (-) TimerEvent: {}
+[44.304510] (-) TimerEvent: {}
+[44.404886] (-) TimerEvent: {}
+[44.505245] (-) TimerEvent: {}
+[44.605579] (-) TimerEvent: {}
+[44.705926] (-) TimerEvent: {}
+[44.806243] (-) TimerEvent: {}
+[44.906590] (-) TimerEvent: {}
+[45.006910] (-) TimerEvent: {}
+[45.107254] (-) TimerEvent: {}
+[45.207754] (-) TimerEvent: {}
+[45.308181] (-) TimerEvent: {}
+[45.408635] (-) TimerEvent: {}
+[45.508929] (-) TimerEvent: {}
+[45.609265] (-) TimerEvent: {}
+[45.709617] (-) TimerEvent: {}
+[45.809953] (-) TimerEvent: {}
+[45.910336] (-) TimerEvent: {}
+[46.010699] (-) TimerEvent: {}
+[46.111095] (-) TimerEvent: {}
+[46.179524] (mpc_car_batch) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_node\x1b[0m\n'}
+[46.211228] (-) TimerEvent: {}
+[46.311631] (-) TimerEvent: {}
+[46.412058] (-) TimerEvent: {}
+[46.512436] (-) TimerEvent: {}
+[46.612736] (-) TimerEvent: {}
+[46.713071] (-) TimerEvent: {}
+[46.813373] (-) TimerEvent: {}
+[46.814819] (mpc_car_batch) StdoutLine: {'line': b'[100%] Built target mpc_node\n'}
+[46.828545] (mpc_car_batch) CommandEnded: {'returncode': 0}
+[46.853741] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'install'}
+[46.865433] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'], 'cwd': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1740'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/vivek/On-Codes/Batch_traj_opt'), ('TERM_PROGRAM_VERSION', '1.56.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4084'), ('CARLA_ROOT', '/opt/carla-simulator'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:46133'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.local/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1783,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1783'), ('INVOCATION_ID', 'c4a6ff72b29249d687e4ee04a6643f57'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-139bcc8d49.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('BREAKPAD_DUMP_LOCATION', '/home/vivek/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy')]), 'shell': False}
+[46.873755] (mpc_car_batch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.874144] (mpc_car_batch) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node\n'}
+[46.913507] (-) TimerEvent: {}
+[46.924699] (mpc_car_batch) StdoutLine: {'line': b'-- Set runtime path of "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node" to ""\n'}
+[46.925137] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/package_run_dependencies/mpc_car_batch\n'}
+[46.925542] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/parent_prefix_path/mpc_car_batch\n'}
+[46.925670] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.sh\n'}
+[46.925752] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.dsv\n'}
+[46.925867] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.sh\n'}
+[46.925961] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.dsv\n'}
+[46.926038] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.bash\n'}
+[46.926119] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.sh\n'}
+[46.926194] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.zsh\n'}
+[46.926265] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.dsv\n'}
+[46.926344] (mpc_car_batch) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.dsv\n'}
+[46.926417] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/packages/mpc_car_batch\n'}
+[46.926507] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig.cmake\n'}
+[46.926591] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig-version.cmake\n'}
+[46.926678] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.xml\n'}
+[46.929608] (mpc_car_batch) CommandEnded: {'returncode': 0}
+[46.977128] (mpc_car_batch) JobEnded: {'identifier': 'mpc_car_batch', 'rc': 0}
+[46.977932] (-) EventReactorShutdown: {}

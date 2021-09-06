@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:26 (find_package):
+  By not providing "Findodometry_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "odometry_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "odometry_msgs"
+  with any of the following names:
+
+    odometry_msgsConfig.cmake
+    odometry_msgs-config.cmake
+
+  Add the installation prefix of "odometry_msgs" to CMAKE_PREFIX_PATH or set
+  "odometry_msgs_DIR" to a directory containing one of the above files.  If
+  "odometry_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+make: *** [Makefile:310: cmake_check_build_system] Error 1

@@ -1,0 +1,14 @@
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+    2 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mpc_node_lib.dir/build.make:63: CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpc_node_lib.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+    9 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

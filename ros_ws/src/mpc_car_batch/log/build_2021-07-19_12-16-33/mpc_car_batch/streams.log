@@ -1,0 +1,33 @@
+[0.098s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.663s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.761s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.124s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.315s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.819s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.838s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.193s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.251s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.389s] CMake Error at CMakeLists.txt:32 (find_package):
+[2.389s]   By not providing "Findhighway_env.cmake" in CMAKE_MODULE_PATH this project
+[2.389s]   has asked CMake to find a package configuration file provided by
+[2.389s]   "highway_env", but CMake did not find one.
+[2.389s] 
+[2.390s]   Could not find a package configuration file provided by "highway_env" with
+[2.390s]   any of the following names:
+[2.390s] 
+[2.390s]     highway_envConfig.cmake
+[2.390s]     highway_env-config.cmake
+[2.390s] 
+[2.390s]   Add the installation prefix of "highway_env" to CMAKE_PREFIX_PATH or set
+[2.390s]   "highway_env_DIR" to a directory containing one of the above files.  If
+[2.390s]   "highway_env" provides a separate development package or SDK, be sure it
+[2.391s]   has been installed.
+[2.391s] 
+[2.391s] 
+[2.391s] -- Configuring incomplete, errors occurred!
+[2.391s] See also "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch/CMakeFiles/CMakeOutput.log".
+[2.391s] See also "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch/CMakeFiles/CMakeError.log".
+[2.398s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[2.401s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.082s] [ 50%] Built target mpc_node_lib
+[0.094s] [35m[1mScanning dependencies of target mpc_node[0m
+[0.126s] [ 75%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[2.453s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.453s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:87:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmin[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.453s]    87 |     float [01;35m[Kmin[m[K = 1000000;
+[2.453s]       |           [01;35m[K^~~[m[K
+[9.256s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[9.896s] [100%] Built target mpc_node
+[9.907s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[9.944s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[9.954s] -- Install configuration: ""
+[9.954s] -- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node
+[10.004s] -- Set runtime path of "/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/lib/mpc_car_batch/mpc_node" to ""
+[10.004s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/package_run_dependencies/mpc_car_batch
+[10.004s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/parent_prefix_path/mpc_car_batch
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.sh
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.dsv
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.sh
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/environment/path.dsv
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.bash
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.sh
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.zsh
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/local_setup.dsv
+[10.005s] -- Installing: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.dsv
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/ament_index/resource_index/packages/mpc_car_batch
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig.cmake
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig-version.cmake
+[10.005s] -- Up-to-date: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch/share/mpc_car_batch/package.xml
+[10.007s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch

@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.042s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.249s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.310s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.326s] -- Configured cppcheck include dirs: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/include
+[0.326s] -- Configured cppcheck exclude dirs and/or files: 
+[0.342s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.342s] -- Configured cpplint exclude dirs and/or files: 
+[0.344s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.348s] -- Added test 'lint_cmake' to check CMake code style
+[0.351s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.366s] -- Added test 'uncrustify' to check C / C++ code style
+[0.366s] -- Configured uncrustify additional arguments: 
+[0.368s] -- Added test 'xmllint' to check XML markup files
+[0.369s] -- Configuring done
+[0.374s] -- Generating done
+[0.375s] -- Build files have been written to: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[0.404s] [ 50%] Built target mpc_node_lib
+[0.422s] [ 75%] [32m[1mLinking CXX executable mpc_node[0m
+[0.636s] /usr/bin/ld: cannot find -leigqn-quadprog
+[0.637s] collect2: error: ld returned 1 exit status
+[0.638s] make[2]: *** [CMakeFiles/mpc_node.dir/build.make:85: mpc_node] Error 1
+[0.638s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+[0.638s] make: *** [Makefile:141: all] Error 2
+[0.640s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

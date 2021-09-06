@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000630] (mpc_car_batch) JobQueued: {'identifier': 'mpc_car_batch', 'dependencies': OrderedDict()}
+[0.000701] (mpc_car_batch) JobStarted: {'identifier': 'mpc_car_batch'}
+[0.098327] (-) TimerEvent: {}
+[0.198794] (-) TimerEvent: {}
+[0.300012] (-) TimerEvent: {}
+[0.866202] (-) TimerEvent: {}
+[0.967002] (-) TimerEvent: {}
+[1.067642] (-) TimerEvent: {}
+[1.168207] (-) TimerEvent: {}
+[1.268888] (-) TimerEvent: {}
+[1.369539] (-) TimerEvent: {}
+[1.431537] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'cmake'}
+[1.469759] (-) TimerEvent: {}
+[1.570412] (-) TimerEvent: {}
+[1.611997] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'build'}
+[1.614535] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1740'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/vivek/On-Codes/Batch_traj_opt'), ('TERM_PROGRAM_VERSION', '1.56.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4084'), ('CARLA_ROOT', '/opt/carla-simulator'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:46133'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.local/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1783,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1783'), ('INVOCATION_ID', 'c4a6ff72b29249d687e4ee04a6643f57'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-139bcc8d49.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('BREAKPAD_DUMP_LOCATION', '/home/vivek/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/install/mpc_car_batch:/opt/ros/foxy')]), 'shell': False}
+[1.670598] (-) TimerEvent: {}
+[1.693243] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] Built target mpc_node_lib\n'}
+[1.763747] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node\x1b[0m\n'}
+[1.770727] (-) TimerEvent: {}
+[1.871205] (-) TimerEvent: {}
+[1.971628] (-) TimerEvent: {}
+[2.072171] (-) TimerEvent: {}
+[2.106948] (mpc_car_batch) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o\x1b[0m\n'}
+[2.172251] (-) TimerEvent: {}
+[2.272557] (-) TimerEvent: {}
+[2.372910] (-) TimerEvent: {}
+[2.473262] (-) TimerEvent: {}
+[2.573585] (-) TimerEvent: {}
+[2.673927] (-) TimerEvent: {}
+[2.774275] (-) TimerEvent: {}
+[2.874650] (-) TimerEvent: {}
+[2.974999] (-) TimerEvent: {}
+[3.075344] (-) TimerEvent: {}
+[3.175671] (-) TimerEvent: {}
+[3.276016] (-) TimerEvent: {}
+[3.376366] (-) TimerEvent: {}
+[3.476730] (-) TimerEvent: {}
+[3.577046] (-) TimerEvent: {}
+[3.677401] (-) TimerEvent: {}
+[3.777776] (-) TimerEvent: {}
+[3.878134] (-) TimerEvent: {}
+[3.978492] (-) TimerEvent: {}
+[4.078807] (-) TimerEvent: {}
+[4.179102] (-) TimerEvent: {}
+[4.244000] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:32:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before numeric constant\n'}
+[4.244291] (mpc_car_batch) StderrLine: {'line': b'   32 |     ArrayXXf lane(\x1b[01;31m\x1b[K9\x1b[m\x1b[K, 1);\n'}
+[4.244404] (mpc_car_batch) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.244472] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:32:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[4.245788] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klane\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.245946] (mpc_car_batch) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Klane\x1b[m\x1b[K << -12, -8, -4, -2, 0, 2, 4, 8, 12;\n'}
+[4.246026] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.248447] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.248607] (mpc_car_batch) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.t_fin = 10.0;\n'}
+[4.248687] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.251140] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.251310] (mpc_car_batch) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num = 100;\n'}
+[4.251390] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.253647] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.253780] (mpc_car_batch) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.weight_smoothness = 200.0;\n'}
+[4.253851] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.256188] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.256344] (mpc_car_batch) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.weight_psi = 10.0;\n'}
+[4.256425] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.258864] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:42:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.259056] (mpc_car_batch) StderrLine: {'line': b'   42 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.weight_v = 1.0;\n'}
+[4.259149] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.261644] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:43:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.261800] (mpc_car_batch) StderrLine: {'line': b'   43 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.maxiter = 200;\n'}
+[4.261885] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.264257] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.264435] (mpc_car_batch) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num_obs = 4;\n'}
+[4.264526] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.267085] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:45:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.267270] (mpc_car_batch) StderrLine: {'line': b'   45 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.v_max = 16.0;\n'}
+[4.267382] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.269842] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:46:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.270083] (mpc_car_batch) StderrLine: {'line': b'   46 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.a_max = 4.0;\n'}
+[4.270190] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.270262] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:48:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[4.270333] (mpc_car_batch) StderrLine: {'line': b'   48 |     ArrayXXf tot_time(\x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num, 1);\n'}
+[4.270403] (mpc_car_batch) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.270493] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:48:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.270570] (mpc_car_batch) StderrLine: {'line': b'   48 |     ArrayXXf tot_time(prob_data\x1b[01;31m\x1b[K.\x1b[m\x1b[Knum, 1);\n'}
+[4.270637] (mpc_car_batch) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.272671] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:49:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.272821] (mpc_car_batch) StderrLine: {'line': b'   49 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.t = prob_data.t_fin/prob_data.num;\n'}
+[4.272901] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.274814] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:50:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktot_time\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.275021] (mpc_car_batch) StderrLine: {'line': b'   50 |     \x1b[01;31m\x1b[Ktot_time\x1b[m\x1b[K.col(0).setLinSpaced(prob_data.num, 0.0, prob_data.t_fin);\n'}
+[4.275109] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.276042] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:53:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPPP\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.276151] (mpc_car_batch) StderrLine: {'line': b'   53 |     \x1b[01;31m\x1b[KPPP\x1b[m\x1b[K = compute_bernstein(tot_time, prob_data.t_fin, prob_data.num);\n'}
+[4.276225] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.278628] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.278754] (mpc_car_batch) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.nvar = PPP.a.cols();\n'}
+[4.278857] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.279156] (-) TimerEvent: {}
+[4.281665] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:55:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.282031] (mpc_car_batch) StderrLine: {'line': b'   55 |     \x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.cost_smoothness = prob_data.weight_smoothness * PPP.c.transpose().matrix() * PPP.c.matrix();\n'}
+[4.282124] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.282198] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[4.282272] (mpc_car_batch) StderrLine: {'line': b'   57 |     ArrayXXf x_obs_temp(\x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num_obs, 1), y_obs_temp(prob_data.num_obs, 1);\n'}
+[4.282342] (mpc_car_batch) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.282410] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.282515] (mpc_car_batch) StderrLine: {'line': b'   57 |     ArrayXXf x_obs_temp(prob_data\x1b[01;31m\x1b[K.\x1b[m\x1b[Knum_obs, 1), y_obs_temp(prob_data.num_obs, 1);\n'}
+[4.282583] (mpc_car_batch) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.282649] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[4.282717] (mpc_car_batch) StderrLine: {'line': b'   57 |     ArrayXXf x_obs_temp(prob_data.num_obs, 1), y_obs_temp(\x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num_obs, 1);\n'}
+[4.282783] (mpc_car_batch) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.282850] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.282918] (mpc_car_batch) StderrLine: {'line': b'   57 |     ArrayXXf x_obs_temp(prob_data.num_obs, 1), y_obs_temp(prob_data\x1b[01;31m\x1b[K.\x1b[m\x1b[Knum_obs, 1);\n'}
+[4.282984] (mpc_car_batch) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.283050] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[4.283117] (mpc_car_batch) StderrLine: {'line': b'   58 |     ArrayXXf vx_obs(\x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num_obs, 1), vy_obs(prob_data.num_obs, 1);\n'}
+[4.283201] (mpc_car_batch) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.283295] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.283379] (mpc_car_batch) StderrLine: {'line': b'   58 |     ArrayXXf vx_obs(prob_data\x1b[01;31m\x1b[K.\x1b[m\x1b[Knum_obs, 1), vy_obs(prob_data.num_obs, 1);\n'}
+[4.283461] (mpc_car_batch) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.283557] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprob_data\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[4.283642] (mpc_car_batch) StderrLine: {'line': b'   58 |     ArrayXXf vx_obs(prob_data.num_obs, 1), vy_obs(\x1b[01;31m\x1b[Kprob_data\x1b[m\x1b[K.num_obs, 1);\n'}
+[4.283714] (mpc_car_batch) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.283809] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.283905] (mpc_car_batch) StderrLine: {'line': b'   58 |     ArrayXXf vx_obs(prob_data.num_obs, 1), vy_obs(prob_data\x1b[01;31m\x1b[K.\x1b[m\x1b[Knum_obs, 1);\n'}
+[4.283976] (mpc_car_batch) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.285343] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:63:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_obs_temp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmkostemp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.285568] (mpc_car_batch) StderrLine: {'line': b'   63 |     \x1b[01;31m\x1b[Kx_obs_temp\x1b[m\x1b[K << 30.0, 52.0, 68.0, 10.0;//, -10.0, -10.0;\n'}
+[4.285670] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.285743] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kmkostemp\x1b[m\x1b[K\n'}
+[4.288959] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:64:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_obs_temp\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmkostemp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.289260] (mpc_car_batch) StderrLine: {'line': b'   64 |     \x1b[01;31m\x1b[Ky_obs_temp\x1b[m\x1b[K << -0.3, 0.2, -3.0, 2.0;//, 6, 10;\n'}
+[4.289379] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.289468] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kmkostemp\x1b[m\x1b[K\n'}
+[4.291387] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:65:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvx_obs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.291625] (mpc_car_batch) StderrLine: {'line': b'   65 |     \x1b[01;31m\x1b[Kvx_obs\x1b[m\x1b[K =0;//<< 7.0, 5.0, 8.0, 4.0, 10.0, 8.0;\n'}
+[4.291747] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.294637] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:66:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvy_obs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.295213] (mpc_car_batch) StderrLine: {'line': b'   66 |     \x1b[01;31m\x1b[Kvy_obs\x1b[m\x1b[K =0;//<< 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;\n'}
+[4.295394] (mpc_car_batch) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.332218] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.332439] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:124:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[KEigen::ArrayXXf MinimalPublisher::x_obs_temp(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.332570] (mpc_car_batch) StderrLine: {'line': b'  124 |         prob_data = mpc(prob_data, PPP, x_g, y_g, x_init, y_init, vx_init, vy_init, ax_init, ay_init, \x1b[01;31m\x1b[Kx_obs_temp\x1b[m\x1b[K, y_obs_temp,\n'}
+[4.332673] (mpc_car_batch) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.332760] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.332858] (mpc_car_batch) StderrLine: {'line': b'   57 |     ArrayXXf \x1b[01;36m\x1b[Kx_obs_temp\x1b[m\x1b[K(prob_data.num_obs, 1), y_obs_temp(prob_data.num_obs, 1);\n'}
+[4.332938] (mpc_car_batch) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.379294] (-) TimerEvent: {}
+[4.479638] (-) TimerEvent: {}
+[4.579986] (-) TimerEvent: {}
+[4.680337] (-) TimerEvent: {}
+[4.780681] (-) TimerEvent: {}
+[4.881021] (-) TimerEvent: {}
+[4.981376] (-) TimerEvent: {}
+[5.081837] (-) TimerEvent: {}
+[5.182380] (-) TimerEvent: {}
+[5.283083] (-) TimerEvent: {}
+[5.383669] (-) TimerEvent: {}
+[5.484232] (-) TimerEvent: {}
+[5.545116] (mpc_car_batch) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1\n'}
+[5.545880] (mpc_car_batch) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2\n'}
+[5.546250] (mpc_car_batch) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.550448] (mpc_car_batch) CommandEnded: {'returncode': 2}
+[5.584523] (-) TimerEvent: {}
+[5.685401] (-) TimerEvent: {}
+[5.786098] (-) TimerEvent: {}
+[5.886734] (-) TimerEvent: {}
+[5.987336] (-) TimerEvent: {}
+[6.087891] (-) TimerEvent: {}
+[6.188456] (-) TimerEvent: {}
+[6.289154] (-) TimerEvent: {}
+[6.389867] (-) TimerEvent: {}
+[6.490556] (-) TimerEvent: {}
+[6.525835] (mpc_car_batch) JobEnded: {'identifier': 'mpc_car_batch', 'rc': 2}
+[6.538379] (-) EventReactorShutdown: {}

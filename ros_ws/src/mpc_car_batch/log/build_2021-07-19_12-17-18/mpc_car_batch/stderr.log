@@ -1,0 +1,4 @@
+CMake Error: Cannot determine link language for target "highway_node".
+CMake Error: CMake can not determine linker language for target: highway_node
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:310: cmake_check_build_system] Error 1

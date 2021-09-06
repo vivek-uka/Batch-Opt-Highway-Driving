@@ -1,0 +1,20 @@
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In function ‘[01m[Koptim::probData mpc(optim::probData, optim::three_var, Eigen::ArrayXXf, Eigen::ArrayXXf, float, float, float, float, float, float, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, bool)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:221:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klane[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, [01;35m[KArrayXXf lane[m[K, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+      |                                                                                             [01;35m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:221:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, [01;35m[KArrayXXf pre_x[m[K, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)
+      |                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:221:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, [01;35m[KArrayXXf pre_y[m[K, ArrayXXf pre_xdot, bool sample)
+      |                                                                                                                            [01;35m[K~~~~~~~~~^~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:221:149:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpre_xdot[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, [01;35m[KArrayXXf pre_xdot[m[K, bool sample)
+      |                                                                                                                                            [01;35m[K~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:221:164:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksample[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  221 |                 ArrayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, [01;35m[Kbool sample[m[K)
+      |                                                                                                                                                               [01;35m[K~~~~~^~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In function ‘[01m[Koptim::three_var compute_bernstein(Eigen::ArrayXXf, float, int)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:311:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kt_fin[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  311 | three_var compute_bernstein(ArrayXXf tot_time, [01;35m[Kfloat t_fin[m[K, int num)
+      |                                                [01;35m[K~~~~~~^~~~~[m[K

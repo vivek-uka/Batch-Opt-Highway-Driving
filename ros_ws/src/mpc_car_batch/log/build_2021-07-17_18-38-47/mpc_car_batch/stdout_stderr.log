@@ -1,0 +1,106 @@
+[ 50%] Built target mpc_node_lib
+[35m[1mScanning dependencies of target mpc_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:32:19:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   32 |     ArrayXXf lane([01;31m[K9[m[K, 1);
+      |                   [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:32:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klane[m[K’ does not name a type
+   33 |     [01;31m[Klane[m[K << -12, -8, -4, -2, 0, 2, 4, 8, 12;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   38 |     [01;31m[Kprob_data[m[K.t_fin = 10.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   39 |     [01;31m[Kprob_data[m[K.num = 100;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   40 |     [01;31m[Kprob_data[m[K.weight_smoothness = 200.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   41 |     [01;31m[Kprob_data[m[K.weight_psi = 10.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   42 |     [01;31m[Kprob_data[m[K.weight_v = 1.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   43 |     [01;31m[Kprob_data[m[K.maxiter = 200;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   44 |     [01;31m[Kprob_data[m[K.num_obs = 4;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   45 |     [01;31m[Kprob_data[m[K.v_max = 16.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   46 |     [01;31m[Kprob_data[m[K.a_max = 4.0;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:48:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ is not a type
+   48 |     ArrayXXf tot_time([01;31m[Kprob_data[m[K.num, 1);
+      |                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:48:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   48 |     ArrayXXf tot_time(prob_data[01;31m[K.[m[Knum, 1);
+      |                                [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   49 |     [01;31m[Kprob_data[m[K.t = prob_data.t_fin/prob_data.num;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktot_time[m[K’ does not name a type
+   50 |     [01;31m[Ktot_time[m[K.col(0).setLinSpaced(prob_data.num, 0.0, prob_data.t_fin);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPPP[m[K’ does not name a type
+   53 |     [01;31m[KPPP[m[K = compute_bernstein(tot_time, prob_data.t_fin, prob_data.num);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   54 |     [01;31m[Kprob_data[m[K.nvar = PPP.a.cols();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ does not name a type
+   55 |     [01;31m[Kprob_data[m[K.cost_smoothness = prob_data.weight_smoothness * PPP.c.transpose().matrix() * PPP.c.matrix();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ is not a type
+   57 |     ArrayXXf x_obs_temp([01;31m[Kprob_data[m[K.num_obs, 1), y_obs_temp(prob_data.num_obs, 1);
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   57 |     ArrayXXf x_obs_temp(prob_data[01;31m[K.[m[Knum_obs, 1), y_obs_temp(prob_data.num_obs, 1);
+      |                                  [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ is not a type
+   57 |     ArrayXXf x_obs_temp(prob_data.num_obs, 1), y_obs_temp([01;31m[Kprob_data[m[K.num_obs, 1);
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   57 |     ArrayXXf x_obs_temp(prob_data.num_obs, 1), y_obs_temp(prob_data[01;31m[K.[m[Knum_obs, 1);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ is not a type
+   58 |     ArrayXXf vx_obs([01;31m[Kprob_data[m[K.num_obs, 1), vy_obs(prob_data.num_obs, 1);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   58 |     ArrayXXf vx_obs(prob_data[01;31m[K.[m[Knum_obs, 1), vy_obs(prob_data.num_obs, 1);
+      |                              [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ is not a type
+   58 |     ArrayXXf vx_obs(prob_data.num_obs, 1), vy_obs([01;31m[Kprob_data[m[K.num_obs, 1);
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:58:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K.[m[K’ token
+   58 |     ArrayXXf vx_obs(prob_data.num_obs, 1), vy_obs(prob_data[01;31m[K.[m[Knum_obs, 1);
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_obs_temp[m[K’ does not name a type; did you mean ‘[01m[Kmkostemp[m[K’?
+   63 |     [01;31m[Kx_obs_temp[m[K << 30.0, 52.0, 68.0, 10.0;//, -10.0, -10.0;
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kmkostemp[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_obs_temp[m[K’ does not name a type; did you mean ‘[01m[Kmkostemp[m[K’?
+   64 |     [01;31m[Ky_obs_temp[m[K << -0.3, 0.2, -3.0, 2.0;//, 6, 10;
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Kmkostemp[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx_obs[m[K’ does not name a type
+   65 |     [01;31m[Kvx_obs[m[K =0;//<< 7.0, 5.0, 8.0, 4.0, 10.0, 8.0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy_obs[m[K’ does not name a type
+   66 |     [01;31m[Kvy_obs[m[K =0;//<< 0.0, 0.0, 0.0, 0.0, 0.0, 0.0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:124:103:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KEigen::ArrayXXf MinimalPublisher::x_obs_temp(int)[m[K’
+  124 |         prob_data = mpc(prob_data, PPP, x_g, y_g, x_init, y_init, vx_init, vy_init, ax_init, ay_init, [01;31m[Kx_obs_temp[m[K, y_obs_temp,
+      |                                                                                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:57:14:[m[K [01;36m[Knote: [m[Kdeclared here
+   57 |     ArrayXXf [01;36m[Kx_obs_temp[m[K(prob_data.num_obs, 1), y_obs_temp(prob_data.num_obs, 1);
+      |              [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

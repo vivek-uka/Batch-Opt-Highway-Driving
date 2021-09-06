@@ -1,0 +1,36 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch
+[35m[1mScanning dependencies of target mpc_node_lib[0m
+[35m[1mScanning dependencies of target mpc_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Koptim.h: No such file or directory
+    2 | #include [01;31m[K"optim.h"[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mpc_node_lib.dir/build.make:63: CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpc_node_lib.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Koptim.h: No such file or directory
+    9 | #include [01;31m[K"optim.h"[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

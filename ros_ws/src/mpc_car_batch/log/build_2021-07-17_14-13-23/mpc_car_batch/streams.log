@@ -1,0 +1,20 @@
+[0.016s] Invoking command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4
+[0.055s] [35m[1mScanning dependencies of target mpc_node_lib[0m
+[0.055s] [35m[1mScanning dependencies of target mpc_node[0m
+[0.131s] [ 25%] [32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m
+[0.181s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+[0.181s]     2 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+[0.181s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.182s] compilation terminated.
+[0.183s] make[2]: *** [CMakeFiles/mpc_node_lib.dir/build.make:63: CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o] Error 1
+[0.183s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/mpc_node_lib.dir/all] Error 2
+[0.183s] make[1]: *** Waiting for unfinished jobs....
+[0.261s] [01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[K/include/mpc_car_batch/optim.h: No such file or directory
+[0.261s]     9 | #include [01;31m[K"/include/mpc_car_batch/optim.h"[m[K
+[0.261s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.261s] compilation terminated.
+[0.265s] make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main.cpp.o] Error 1
+[0.265s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+[0.265s] make: *** [Makefile:141: all] Error 2
+[0.267s] Invoked command in '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch -- -j4 -l4

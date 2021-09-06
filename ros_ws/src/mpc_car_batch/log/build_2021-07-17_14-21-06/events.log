@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000914] (mpc_car_batch) JobQueued: {'identifier': 'mpc_car_batch', 'dependencies': OrderedDict()}
+[0.000983] (mpc_car_batch) JobStarted: {'identifier': 'mpc_car_batch'}
+[0.010836] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'cmake'}
+[0.011612] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'build'}
+[0.012971] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1812'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('CARLA_ROOT', '/opt/carla-simulator'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:45631'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1855,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1855'), ('INVOCATION_ID', 'd3068469c1a4406eac86806c884469bc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59417091_73cf_4fc9_bcfe_66a093433f5a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.770'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/build/mpc_car_batch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.054832] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node\x1b[0m\n'}
+[0.055079] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node_lib\x1b[0m\n'}
+[0.065632] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o\x1b[0m\n'}
+[0.065811] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099589] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.300223] (-) TimerEvent: {}
+[0.400538] (-) TimerEvent: {}
+[0.500839] (-) TimerEvent: {}
+[0.601135] (-) TimerEvent: {}
+[0.701436] (-) TimerEvent: {}
+[0.801734] (-) TimerEvent: {}
+[0.889091] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KEigen::ArrayXXf optim::cumsum(Eigen::ArrayXXf, Eigen::ArrayXXf)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.889283] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:136:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kinit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[0.889364] (mpc_car_batch) StderrLine: {'line': b'  136 |   float \x1b[01;35m\x1b[Kinit\x1b[m\x1b[K = arr1(0);\n'}
+[0.889434] (mpc_car_batch) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.901856] (-) TimerEvent: {}
+[1.002191] (-) TimerEvent: {}
+[1.102500] (-) TimerEvent: {}
+[1.202805] (-) TimerEvent: {}
+[1.252487] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Koptim::probData mpc(optim::probData, optim::three_var, Eigen::ArrayXXf, Eigen::ArrayXXf, float, float, float, float, float, float, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, Eigen::ArrayXXf, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.252659] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:214:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klane\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.252755] (mpc_car_batch) StderrLine: {'line': b'  214 | ayXXf x_obs_temp, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, \x1b[01;35m\x1b[KArrayXXf lane\x1b[m\x1b[K, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)\n'}
+[1.252827] (mpc_car_batch) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.252894] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[1.252958] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:214:117:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.253042] (mpc_car_batch) StderrLine: {'line': b'  214 | p, ArrayXXf y_obs_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, \x1b[01;35m\x1b[KArrayXXf pre_x\x1b[m\x1b[K, ArrayXXf pre_y, ArrayXXf pre_xdot, bool sample)\n'}
+[1.253255] (mpc_car_batch) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.253330] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[1.253399] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:214:133:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.253466] (mpc_car_batch) StderrLine: {'line': b'  214 | s_temp, ArrayXXf vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, \x1b[01;35m\x1b[KArrayXXf pre_y\x1b[m\x1b[K, ArrayXXf pre_xdot, bool sample)\n'}
+[1.253531] (mpc_car_batch) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.253596] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[1.253659] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:214:149:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpre_xdot\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.253723] (mpc_car_batch) StderrLine: {'line': b'  214 |  vx_obs, ArrayXXf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, \x1b[01;35m\x1b[KArrayXXf pre_xdot\x1b[m\x1b[K, bool sample)\n'}
+[1.253788] (mpc_car_batch) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.253851] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[1.253914] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:214:164:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksample\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.253979] (mpc_car_batch) StderrLine: {'line': b'  214 | Xf vy_obs, ArrayXXf lane, ArrayXXf pre_x, ArrayXXf pre_y, ArrayXXf pre_xdot, \x1b[01;35m\x1b[Kbool sample\x1b[m\x1b[K)\n'}
+[1.254042] (mpc_car_batch) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.254105] (mpc_car_batch) StderrLine: {'line': b'\n'}
+[1.254167] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Koptim::three_var compute_bernstein(Eigen::ArrayXXf, float, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.254232] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:317:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kt_fin\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.254303] (mpc_car_batch) StderrLine: {'line': b'  317 | three_var compute_bernstein(ArrayXXf tot_time, \x1b[01;35m\x1b[Kfloat t_fin\x1b[m\x1b[K, int num)\n'}
+[1.254369] (mpc_car_batch) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.302971] (-) TimerEvent: {}
+[1.403260] (-) TimerEvent: {}
+[1.503569] (-) TimerEvent: {}
+[1.603887] (-) TimerEvent: {}
+[1.704223] (-) TimerEvent: {}
+[1.804527] (-) TimerEvent: {}
+[1.877661] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool optim::inLane(Eigen::ArrayXXf, float, float, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.877829] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcarx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.877921] (mpc_car_batch) StderrLine: {'line': b'  444 |  bool inLane(ArrayXXf lane, \x1b[01;35m\x1b[Kfloat carx\x1b[m\x1b[K, float cary, float obsx, float obsy)\n'}
+[1.877996] (mpc_car_batch) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.878062] (mpc_car_batch) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/optim.cpp:444:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobsx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.878129] (mpc_car_batch) StderrLine: {'line': b'  444 |  bool inLane(ArrayXXf lane, float carx, float cary, \x1b[01;35m\x1b[Kfloat obsx\x1b[m\x1b[K, float obsy)\n'}
+[1.878194] (mpc_car_batch) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.904652] (-) TimerEvent: {}
+[2.004971] (-) TimerEvent: {}
+[2.105285] (-) TimerEvent: {}
+[2.205589] (-) TimerEvent: {}
+[2.305884] (-) TimerEvent: {}
+[2.406177] (-) TimerEvent: {}
+[2.506483] (-) TimerEvent: {}
+[2.606799] (-) TimerEvent: {}
+[2.707113] (-) TimerEvent: {}
+[2.807417] (-) TimerEvent: {}
+[2.907710] (-) TimerEvent: {}
+[2.979108] (mpc_car_batch) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable mpc_node\x1b[0m\n'}
+[3.007834] (-) TimerEvent: {}
+[3.107819] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `main':\n"}
+[3.107994] (-) TimerEvent: {}
+[3.108311] (mpc_car_batch) StderrLine: {'line': b"main.cpp:(.text+0x12fd): undefined reference to `optim::arctan2(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'\n"}
+[3.108424] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x1316): undefined reference to `optim::diff(Eigen::Array<float, -1, -1, 0, -1, -1>)'\n"}
+[3.108591] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `mpc(optim::probData, optim::three_var, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, float, float, float, float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, bool)':\n"}
+[3.108677] (mpc_car_batch) StderrLine: {'line': b"main.cpp:(.text+0x2263): undefined reference to `optim::ones(int, int)'\n"}
+[3.108748] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x23a6): undefined reference to `optim::ones(int, int)'\n"}
+[3.108816] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x29a9): undefined reference to `optim::reshape(Eigen::Array<float, -1, -1, 0, -1, -1>, unsigned int, unsigned int)'\n"}
+[3.108973] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x2b1b): undefined reference to `optim::reshape(Eigen::Array<float, -1, -1, 0, -1, -1>, unsigned int, unsigned int)'\n"}
+[3.109393] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x2c33): undefined reference to `optim::arctan2(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'\n"}
+[3.109470] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x2fc5): undefined reference to `optim::maximum(float, Eigen::Array<float, -1, -1, 0, -1, -1>)'\n"}
+[3.109538] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x33e1): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'\n"}
+[3.109606] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x3490): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'\n"}
+[3.109681] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x353f): undefined reference to `optim::stack(Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, char)'\n"}
+[3.109748] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x360a): undefined reference to `optim::ones(int, int)'\n"}
+[3.109874] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x3681): undefined reference to `optim::ones(int, int)'\n"}
+[3.109948] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x36f8): undefined reference to `optim::ones(int, int)'\n"}
+[3.110016] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x3775): undefined reference to `optim::ones(int, int)'\n"}
+[3.110083] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: main.cpp:(.text+0x37f2): undefined reference to `optim::ones(int, int)'\n"}
+[3.110150] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o:main.cpp:(.text+0x386f): more undefined references to `optim::ones(int, int)' follow\n"}
+[3.110284] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `mpc(optim::probData, optim::three_var, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, float, float, float, float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, bool)':\n"}
+[3.110454] (mpc_car_batch) StderrLine: {'line': b"main.cpp:(.text+0x396e): undefined reference to `optim::wrapper_batch(optim::probData, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>, Eigen::Array<float, -1, -1, 0, -1, -1>)'\n"}
+[3.110539] (mpc_car_batch) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/mpc_node.dir/src/main.cpp.o: in function `compute_bernstein(Eigen::Array<float, -1, -1, 0, -1, -1>, float, int)':\n"}
+[3.110608] (mpc_car_batch) StderrLine: {'line': b"main.cpp:(.text+0x4049): undefined reference to `optim::bernstein_coeff_order10_new(float, float, float, Eigen::Array<float, -1, -1, 0, -1, -1>, int)'\n"}
+[3.118063] (mpc_car_batch) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[3.120057] (mpc_car_batch) StderrLine: {'line': b'make[2]: *** [CMakeFiles/mpc_node.dir/build.make:84: mpc_node] Error 1\n'}
+[3.120416] (mpc_car_batch) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2\n'}
+[3.120517] (mpc_car_batch) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.208130] (-) TimerEvent: {}
+[3.308445] (-) TimerEvent: {}
+[3.408762] (-) TimerEvent: {}
+[3.509085] (-) TimerEvent: {}
+[3.609408] (-) TimerEvent: {}
+[3.709712] (-) TimerEvent: {}
+[3.810031] (-) TimerEvent: {}
+[3.910354] (-) TimerEvent: {}
+[4.010672] (-) TimerEvent: {}
+[4.110988] (-) TimerEvent: {}
+[4.211306] (-) TimerEvent: {}
+[4.311629] (-) TimerEvent: {}
+[4.411987] (-) TimerEvent: {}
+[4.512315] (-) TimerEvent: {}
+[4.612635] (-) TimerEvent: {}
+[4.712953] (-) TimerEvent: {}
+[4.813273] (-) TimerEvent: {}
+[4.913590] (-) TimerEvent: {}
+[5.013911] (-) TimerEvent: {}
+[5.114236] (-) TimerEvent: {}
+[5.214561] (-) TimerEvent: {}
+[5.314909] (-) TimerEvent: {}
+[5.415242] (-) TimerEvent: {}
+[5.515558] (-) TimerEvent: {}
+[5.615876] (-) TimerEvent: {}
+[5.716193] (-) TimerEvent: {}
+[5.816517] (-) TimerEvent: {}
+[5.916851] (-) TimerEvent: {}
+[6.017181] (-) TimerEvent: {}
+[6.117503] (-) TimerEvent: {}
+[6.217850] (-) TimerEvent: {}
+[6.318209] (-) TimerEvent: {}
+[6.418537] (-) TimerEvent: {}
+[6.518855] (-) TimerEvent: {}
+[6.619196] (-) TimerEvent: {}
+[6.719509] (-) TimerEvent: {}
+[6.819819] (-) TimerEvent: {}
+[6.920114] (-) TimerEvent: {}
+[7.020427] (-) TimerEvent: {}
+[7.120746] (-) TimerEvent: {}
+[7.221038] (-) TimerEvent: {}
+[7.321346] (-) TimerEvent: {}
+[7.421665] (-) TimerEvent: {}
+[7.521978] (-) TimerEvent: {}
+[7.622273] (-) TimerEvent: {}
+[7.722585] (-) TimerEvent: {}
+[7.822926] (-) TimerEvent: {}
+[7.923267] (-) TimerEvent: {}
+[8.023580] (-) TimerEvent: {}
+[8.123895] (-) TimerEvent: {}
+[8.224207] (-) TimerEvent: {}
+[8.324522] (-) TimerEvent: {}
+[8.424833] (-) TimerEvent: {}
+[8.525149] (-) TimerEvent: {}
+[8.625459] (-) TimerEvent: {}
+[8.725771] (-) TimerEvent: {}
+[8.826087] (-) TimerEvent: {}
+[8.926401] (-) TimerEvent: {}
+[9.026716] (-) TimerEvent: {}
+[9.127039] (-) TimerEvent: {}
+[9.227398] (-) TimerEvent: {}
+[9.327734] (-) TimerEvent: {}
+[9.428066] (-) TimerEvent: {}
+[9.528393] (-) TimerEvent: {}
+[9.628716] (-) TimerEvent: {}
+[9.729054] (-) TimerEvent: {}
+[9.769867] (mpc_car_batch) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libmpc_node_lib.a\x1b[0m\n'}
+[9.829191] (-) TimerEvent: {}
+[9.886123] (mpc_car_batch) StdoutLine: {'line': b'[100%] Built target mpc_node_lib\n'}
+[9.887146] (mpc_car_batch) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[9.889107] (mpc_car_batch) CommandEnded: {'returncode': 2}
+[9.922360] (mpc_car_batch) JobEnded: {'identifier': 'mpc_car_batch', 'rc': 2}
+[9.929359] (-) TimerEvent: {}
+[9.933604] (-) EventReactorShutdown: {}

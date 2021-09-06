@@ -1,0 +1,4 @@
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/vivek/On-Codes/Batch_traj_opt/mpc_car_batch/src/main.cpp:87:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmin[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   87 |     float [01;35m[Kmin[m[K = 1000000;
+      |           [01;35m[K^~~[m[K
