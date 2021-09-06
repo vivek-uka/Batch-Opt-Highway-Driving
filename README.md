@@ -5,10 +5,10 @@
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)  
 or  
 * Run the following commands:  
-```sudo apt install libeigen-quadprog-dev```
+```sudo apt install libeigen-quadprog-dev```  
 ```sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen```  
-
-Download [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)   
+* [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
+Download and place in the folder ```ros_ws/src/highway_car/highway_car/```   
 
 ROS2   
 
