@@ -2,7 +2,7 @@
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
 ## Dependencies
-* [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)
+* [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)  
 or  
 ```sudo apt install libeigen-quadprog-dev```
 ```sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen```  
