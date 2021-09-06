@@ -1,4 +1,4 @@
-# Repository associated with RAL-ICRA 2022 submission:  
+# ROS2 Package - Repository associated with RAL-ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
 ## Dependencies
@@ -7,10 +7,17 @@ Run the following commands:
 ```sudo apt install libeigen-quadprog-dev```  
 ```sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen```  
 * [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)  
-Download and place it in the folder ```ros_ws/src/highway_car/highway_car/```   
+  
 
-ROS2   
-
+## Installation
+After installing the dependencies, build our package as follows:  
+``` 
+cd /your_ws/src
+git clone https://github.com/dv367/Batch-Opt-Highway-Driving  
+cd /ros_ws/src  
+colcon build  
+source ./install/setup.bash  
+``` 
 in terimal 1  
 colcon build  
 source ./install/setup.bash  
