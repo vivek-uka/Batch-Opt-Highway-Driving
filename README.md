@@ -1,13 +1,6 @@
-# Batch_traj_opt
+## Repository associated with RAL-ICRA 2022 submission "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-Repo for Batch Trajectory Optimization
-
-Ours
-
-Install [Eigen-Quadprog] ``sudo apt install libeigen-quadprog-dev`` and run ``sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen``
-
-1. To compile the code ``g++ main.cpp optim.cpp -o run -O2``
-
+Code is being updated
 
 ROS2 
 
