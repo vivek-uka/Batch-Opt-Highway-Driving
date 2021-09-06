@@ -1,5 +1,6 @@
 ## Repository associated with RAL-ICRA 2022 submission "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
+Download [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing) 
 Code is being updated
 
 ROS2 
