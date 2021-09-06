@@ -1,7 +1,11 @@
 ## Repository associated with RAL-ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-Code is being updated  
+# Dependencies
+* [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)
+or  
+```sudo apt install libeigen-quadprog-dev```
+```sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen```  
 
 Download [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)   
 
