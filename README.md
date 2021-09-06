@@ -4,6 +4,7 @@
 ## Dependencies
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)  
 or  
+* Run the following commands:  
 ```sudo apt install libeigen-quadprog-dev```
 ```sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen```  
 
