@@ -1,0 +1,4 @@
+Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car -- -j4 -l4
+Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car -- -j4 -l4
+Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car
+Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car

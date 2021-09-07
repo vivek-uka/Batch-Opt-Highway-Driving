@@ -55,7 +55,7 @@ class MinimalSubscriber(Node):
         self.num_goal = 10
 
         
-        self.setting = 2 # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
+        self.setting = 3 # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
 
         if self.setting == 3:
             self.NGSIM = True
@@ -100,7 +100,7 @@ class MinimalSubscriber(Node):
             for i in range(self.num_obs):
                 self.obs[i+1] = self.other_vehicles[i,:4] 
         else:
-            file = "ngsim_data1.csv"
+            file = "ngsim_data0.csv"
             if file == "ngsim_data0.csv":
                 self.time_shift = 250.0
                 self.y_shift = 10.7
@@ -338,7 +338,7 @@ class MinimalSubscriber(Node):
                     # plt.title('highway env')
 
                     plt.tight_layout()
-                    plt.draw()
+                    # plt.draw()
                     plt.pause(0.000000000000000001)
                 
                 if self.Gotit:
