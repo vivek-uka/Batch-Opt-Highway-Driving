@@ -1,0 +1,79 @@
+[1.285s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed
+[2.247s] running egg_info
+[2.248s] creating ../../build/frenet_car/frenet_car.egg-info
+[2.248s] writing ../../build/frenet_car/frenet_car.egg-info/PKG-INFO
+[2.248s] writing dependency_links to ../../build/frenet_car/frenet_car.egg-info/dependency_links.txt
+[2.248s] writing entry points to ../../build/frenet_car/frenet_car.egg-info/entry_points.txt
+[2.248s] writing requirements to ../../build/frenet_car/frenet_car.egg-info/requires.txt
+[2.248s] writing top-level names to ../../build/frenet_car/frenet_car.egg-info/top_level.txt
+[2.427s] writing manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'
+[2.853s] reading manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'
+[2.858s] writing manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'
+[2.859s] running build
+[2.859s] running build_py
+[2.859s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build
+[2.859s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib
+[2.859s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.859s] copying frenet_car/optimize.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.886s] copying frenet_car/nlcon.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.906s] copying frenet_car/FF_func.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.945s] copying frenet_car/run_Linearized_VO.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.946s] copying frenet_car/circ.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.975s] copying frenet_car/frenet_optimal_trajectory.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.975s] copying frenet_car/draw.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[2.976s] copying frenet_car/NonLinearConstraint.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.027s] copying frenet_car/frenet.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.034s] copying frenet_car/optimize_lane.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.034s] copying frenet_car/term2.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.034s] copying frenet_car/test.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.035s] copying frenet_car/fo.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.035s] copying frenet_car/term1.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.035s] copying frenet_car/__init__.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.036s] copying frenet_car/cubic_spline_planner.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car
+[3.038s] running install
+[3.039s] running install_lib
+[3.041s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/optimize.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/nlcon.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/FF_func.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/run_Linearized_VO.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/circ.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.041s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/frenet_optimal_trajectory.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/draw.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/NonLinearConstraint.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/frenet.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/optimize_lane.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/term2.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/test.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/fo.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.042s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/term1.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.043s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/__init__.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.043s] copying /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build/lib/frenet_car/cubic_spline_planner.py -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car
+[3.043s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/optimize.py to optimize.cpython-38.pyc
+[3.045s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/nlcon.py to nlcon.cpython-38.pyc
+[3.046s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/FF_func.py to FF_func.cpython-38.pyc
+[3.051s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/run_Linearized_VO.py to run_Linearized_VO.cpython-38.pyc
+[3.052s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/circ.py to circ.cpython-38.pyc
+[3.052s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/frenet_optimal_trajectory.py to frenet_optimal_trajectory.cpython-38.pyc
+[3.064s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/draw.py to draw.cpython-38.pyc
+[3.066s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/NonLinearConstraint.py to NonLinearConstraint.cpython-38.pyc
+[3.066s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/frenet.py to frenet.cpython-38.pyc
+[3.068s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/optimize_lane.py to optimize_lane.cpython-38.pyc
+[3.068s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/term2.py to term2.cpython-38.pyc
+[3.078s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/test.py to test.cpython-38.pyc
+[3.079s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/fo.py to fo.cpython-38.pyc
+[3.094s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/term1.py to term1.cpython-38.pyc
+[3.094s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/__init__.py to __init__.cpython-38.pyc
+[3.094s] byte-compiling /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car/cubic_spline_planner.py to cubic_spline_planner.cpython-38.pyc
+[3.096s] running install_data
+[3.097s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/ament_index
+[3.098s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/ament_index/resource_index
+[3.098s] creating /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/ament_index/resource_index/packages
+[3.098s] copying resource/frenet_car -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/ament_index/resource_index/packages
+[3.098s] copying package.xml -> /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car
+[3.098s] running install_egg_info
+[3.101s] Copying ../../build/frenet_car/frenet_car.egg-info to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car-0.0.0-py3.8.egg-info
+[3.103s] running install_scripts
+[3.198s] Installing frenet_node script to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/frenet_car
+[3.198s] writing list of installed files to '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log'
+[3.320s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed

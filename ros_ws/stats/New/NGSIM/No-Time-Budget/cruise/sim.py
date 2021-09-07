@@ -55,7 +55,7 @@ class sim():
                 
         file = "ngsim_data0.csv"
         if file == "ngsim_data0.csv":
-            self.time_shift = 250.0
+            self.time_shift = 250.0 + 1*0.08
             self.y_shift = 10.7
         else:
             self.time_shift = 511.12
@@ -136,19 +136,19 @@ class sim():
                 r.set_facecolor([1, 1, 1])
                 if mm == 0:
                     e.set_facecolor([1, 0.5, 0.5])
-                    plt.text(ego_vehicles_x[mm], ego_vehicles_y[mm], 'ours', fontsize=10, zorder = 20)
+                    plt.text(ego_vehicles_x[mm]-2, ego_vehicles_y[mm]-0.3, 'ours', fontsize=10, zorder = 20)
                 if mm == 1:
                     e.set_facecolor([0.5, 1, 0.5])
-                    plt.text(ego_vehicles_x[mm], ego_vehicles_y[mm], 'ACADO_6', fontsize=10, zorder = 20)
+                    plt.text(ego_vehicles_x[mm]-2, ego_vehicles_y[mm]-0.3, 'ACADO_6', fontsize=10, zorder = 20)
                 if mm == 2:
                     e.set_facecolor([0.5, 0.5, 1])
-                    plt.text(ego_vehicles_x[mm], ego_vehicles_y[mm], 'ACADO_11', fontsize=10, zorder = 20)
+                    plt.text(ego_vehicles_x[mm]-2, ego_vehicles_y[mm]-0.3, 'ACADO_11', fontsize=10, zorder = 20)
                 if mm == 3:
                     e.set_facecolor([1, 1, 0.5])
-                    plt.text(ego_vehicles_x[mm], ego_vehicles_y[mm], 'SMPC', fontsize=10, zorder = 20)
+                    plt.text(ego_vehicles_x[mm]-2, ego_vehicles_y[mm]-0.3, 'SMPC', fontsize=10, zorder = 20)
                 if mm == 4:
                     e.set_facecolor([0.5, 1, 1])
-                    plt.text(ego_vehicles_x[mm], ego_vehicles_y[mm], 'Frenet', fontsize=10, zorder = 20)
+                    plt.text(ego_vehicles_x[mm]-2, ego_vehicles_y[mm]-0.3, 'Frenet', fontsize=10, zorder = 20)
                 mm+=1
                 
                 

@@ -1,0 +1,24 @@
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:[m[K In copy constructor ‘[01m[KSolutionAnalysis::SolutionAnalysis(const SolutionAnalysis&)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:46:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krhs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   46 | SolutionAnalysis::SolutionAnalysis( [01;35m[Kconst SolutionAnalysis& rhs[m[K )
+      |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_integrator.c:[m[K In function ‘[01m[Kacado_integrate[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_integrator.c:94:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KresetIntegrator[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   94 | int acado_integrate( real_t* const rk_eta, [01;35m[Kint resetIntegrator[m[K )
+      |                                            [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_solver.c:[m[K In function ‘[01m[Kacado_multQN1d[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_solver.c:746:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KQN1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  746 | void acado_multQN1d( [01;35m[Kreal_t* const QN1[m[K, real_t* const dOld, real_t* const dNew )
+      |                      [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_solver.c:[m[K In function ‘[01m[Kacado_macETSlu[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/model/codegen/acado_solver.c:804:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KE0[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  804 | void acado_macETSlu( [01;35m[Kreal_t* const E0[m[K, real_t* const g1 )
+      |                      [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/src/main_acado.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/src/main_acado.cpp:135:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KThread[m[K’ [[01;35m[K-Wvla[m[K]
+  135 |   thread [01;35m[KThread[m[K[num_goal];
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/src/main_acado.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::optimize(int)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single/src/main_acado.cpp:255:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  255 |   acado_timer t, [01;35m[Kt2[m[K;
+      |                  [01;35m[K^~[m[K

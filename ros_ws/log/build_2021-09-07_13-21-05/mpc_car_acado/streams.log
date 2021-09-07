@@ -1,0 +1,131 @@
+[1.223s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado -DCMAKE_INSTALL_PREFIX=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado
+[1.604s] -- The C compiler identification is GNU 9.3.0
+[1.840s] -- The CXX compiler identification is GNU 9.3.0
+[1.850s] -- Check for working C compiler: /usr/bin/cc
+[2.287s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.287s] -- Detecting C compiler ABI info
+[2.406s] -- Detecting C compiler ABI info - done
+[2.422s] -- Detecting C compile features
+[2.423s] -- Detecting C compile features - done
+[2.429s] -- Check for working CXX compiler: /usr/bin/c++
+[2.603s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.603s] -- Detecting CXX compiler ABI info
+[2.779s] -- Detecting CXX compiler ABI info - done
+[2.806s] -- Detecting CXX compile features
+[2.806s] -- Detecting CXX compile features - done
+[2.813s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.888s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.247s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.428s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.674s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.752s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.161s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.165s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.187s] -- Looking for pthread.h
+[4.337s] -- Looking for pthread.h - found
+[4.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.576s] -- Looking for pthread_create in pthreads
+[4.691s] -- Looking for pthread_create in pthreads - not found
+[4.691s] -- Looking for pthread_create in pthread
+[4.876s] -- Looking for pthread_create in pthread - found
+[4.877s] -- Found Threads: TRUE  
+[5.491s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.051s] -- ********************************************************************************
+[6.051s] -- ---> Looking for ACADO toolkit:
+[6.051s] -- Found ACADO toolkit include directories: /home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build
+[6.051s] -- Found ACADO toolkit library directories: /home/vivek/ACADOtoolkit/build/lib
+[6.051s] -- Could not find ACADO static library.
+[6.188s] -- Found ACADO shared library: acado_toolkit_s
+[6.188s] -- ********************************************************************************
+[6.194s] -- Found msgs_car: 0.0.0 (/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake)
+[6.301s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.963s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.968s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.970s] -- Configured cppcheck include dirs: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/.;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/include;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/INCLUDE;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/SRC
+[6.971s] -- Configured cppcheck exclude dirs and/or files: 
+[6.977s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.977s] -- Configured cpplint exclude dirs and/or files: 
+[6.978s] -- Added test 'lint_cmake' to check CMake code style
+[6.983s] -- Added test 'uncrustify' to check C / C++ code style
+[6.983s] -- Configured uncrustify additional arguments: 
+[6.984s] -- Added test 'xmllint' to check XML markup files
+[6.991s] -- Configuring done
+[7.010s] -- Generating done
+[7.067s] -- Build files have been written to: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado
+[7.089s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado -DCMAKE_INSTALL_PREFIX=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado
+[7.090s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4
+[7.163s] [35m[1mScanning dependencies of target mpc_solver[0m
+[7.241s] [  5%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/Bounds.cpp.o[0m
+[10.162s] [ 11%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/Indexlist.cpp.o[0m
+[10.452s] [ 17%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/MessageHandling.cpp.o[0m
+[14.283s] [ 23%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/QProblem.cpp.o[0m
+[17.699s] [ 29%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/QProblemB.cpp.o[0m
+[19.180s] [ 35%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/SubjectTo.cpp.o[0m
+[19.789s] [ 41%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/Utils.cpp.o[0m
+[20.074s] [ 47%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp.o[0m
+[20.217s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:[m[K In copy constructor ‘[01m[KSolutionAnalysis::SolutionAnalysis(const SolutionAnalysis&)[m[K’:
+[20.217s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp:46:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krhs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.217s]    46 | SolutionAnalysis::SolutionAnalysis( [01;35m[Kconst SolutionAnalysis& rhs[m[K )
+[20.217s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[20.336s] [ 52%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/model/codegen/acado_qpoases_interface.cpp.o[0m
+[20.647s] [ 58%] [32mBuilding C object CMakeFiles/mpc_solver.dir/model/codegen/acado_integrator.c.o[0m
+[20.710s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_integrator.c:[m[K In function ‘[01m[Kacado_integrate[m[K’:
+[20.710s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_integrator.c:94:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KresetIntegrator[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.710s]    94 | int acado_integrate( real_t* const rk_eta, [01;35m[Kint resetIntegrator[m[K )
+[20.710s]       |                                            [01;35m[K~~~~^~~~~~~~~~~~~~~[m[K
+[20.925s] [ 64%] [32mBuilding C object CMakeFiles/mpc_solver.dir/model/codegen/acado_solver.c.o[0m
+[20.991s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_solver.c:[m[K In function ‘[01m[Kacado_multQN1d[m[K’:
+[20.993s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_solver.c:704:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KQN1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.994s]   704 | void acado_multQN1d( [01;35m[Kreal_t* const QN1[m[K, real_t* const dOld, real_t* const dNew )
+[20.994s]       |                      [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[20.994s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_solver.c:[m[K In function ‘[01m[Kacado_macETSlu[m[K’:
+[20.994s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/acado_solver.c:762:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KE0[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.994s]   762 | void acado_macETSlu( [01;35m[Kreal_t* const E0[m[K, real_t* const g1 )
+[20.994s]       |                      [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[23.343s] [ 70%] [32mBuilding C object CMakeFiles/mpc_solver.dir/model/codegen/acado_auxiliary_functions.c.o[0m
+[23.550s] [ 76%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/CyclingManager.cpp.o[0m
+[23.833s] [ 82%] [32mBuilding CXX object CMakeFiles/mpc_solver.dir/externals/qpoases/SRC/Constraints.cpp.o[0m
+[23.991s] [ 88%] [32m[1mLinking CXX static library libmpc_solver.a[0m
+[24.515s] [ 88%] Built target mpc_solver
+[24.538s] [35m[1mScanning dependencies of target mpc_node[0m
+[35.739s] [ 94%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main_acado.cpp.o[0m
+[41.173s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[41.173s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:121:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[41.173s]   121 |   for(int i = 0, [01;35m[Km[m[K = -1; i < num_goal; i++)
+[41.173s]       |                  [01;35m[K^[m[K
+[41.209s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:152:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KThread[m[K’ [[01;35m[K-Wvla[m[K]
+[41.209s]   152 |   thread [01;35m[KThread[m[K[num_goal];
+[41.209s]       |          [01;35m[K^~~~~~[m[K
+[41.853s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::optimize(int)[m[K’:
+[41.853s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:335:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[41.853s]   335 |   acado_timer t, [01;35m[Kt2[m[K;
+[41.853s]       |                  [01;35m[K^~[m[K
+[71.855s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[94.928s] [100%] Built target mpc_node
+[95.059s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4
+[95.357s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado
+[95.366s] -- Install configuration: ""
+[95.366s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/include/mpc_car_acado/
+[97.110s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/package_run_dependencies/mpc_car_acado
+[97.170s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/parent_prefix_path/mpc_car_acado
+[97.485s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/ament_prefix_path.sh
+[97.488s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/ament_prefix_path.dsv
+[97.544s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/path.sh
+[97.557s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/path.dsv
+[97.578s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.bash
+[97.599s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.sh
+[97.699s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.zsh
+[97.709s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.dsv
+[97.731s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.dsv
+[97.732s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/packages/mpc_car_acado
+[97.732s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/ament_cmake_export_include_directories-extras.cmake
+[97.732s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/mpc_car_acadoConfig.cmake
+[97.733s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/mpc_car_acadoConfig-version.cmake
+[97.733s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.xml
+[97.733s] -- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/mpc_car_acado/mpc_node
+[97.737s] -- Set runtime path of "/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/mpc_car_acado/mpc_node" to ""
+[97.742s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado

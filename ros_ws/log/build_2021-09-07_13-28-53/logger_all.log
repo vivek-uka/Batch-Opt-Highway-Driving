@@ -1,0 +1,677 @@
+[1.875s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.876s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7c11044700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7c11044700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7c11044c40>)
+[1.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.945s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['ignore', 'ignore_ament_install']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ignore'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ignore_ament_install'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['colcon_pkg']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'colcon_pkg'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['colcon_meta']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'colcon_meta'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['ros']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ros'
+[2.013s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frenet_car' with type 'ros.ament_python' and name 'frenet_car'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['ignore', 'ignore_ament_install']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ignore'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ignore_ament_install'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['colcon_pkg']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'colcon_pkg'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['colcon_meta']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'colcon_meta'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['ros']
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ros'
+[2.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/highway_car' with type 'ros.ament_python' and name 'highway_car'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ignore'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ignore_ament_install'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['colcon_pkg']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'colcon_pkg'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['colcon_meta']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'colcon_meta'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['ros']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ros'
+[2.019s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_acado' with type 'ros.ament_cmake' and name 'mpc_car_acado'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ignore'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ignore_ament_install'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['colcon_pkg']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'colcon_pkg'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['colcon_meta']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'colcon_meta'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['ros']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ros'
+[2.022s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_acado_single' with type 'ros.ament_cmake' and name 'mpc_car_acado_single'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['ignore', 'ignore_ament_install']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ignore'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ignore_ament_install'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['colcon_pkg']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'colcon_pkg'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['colcon_meta']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'colcon_meta'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['ros']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ros'
+[2.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_batch' with type 'ros.ament_cmake' and name 'mpc_car_batch'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['ignore', 'ignore_ament_install']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ignore'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ignore_ament_install'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['colcon_pkg']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'colcon_pkg'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['colcon_meta']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'colcon_meta'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['ros']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ros'
+[2.030s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msgs_car' with type 'ros.ament_cmake' and name 'msgs_car'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['ignore', 'ignore_ament_install']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ignore'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ignore_ament_install'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['colcon_pkg']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'colcon_pkg'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['colcon_meta']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'colcon_meta'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['ros']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ros'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['cmake', 'python']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'cmake'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'python'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['python_setup_py']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'python_setup_py'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['ignore', 'ignore_ament_install']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ignore'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ignore_ament_install'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['colcon_pkg']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'colcon_pkg'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['colcon_meta']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'colcon_meta'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['ros']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ros'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['cmake', 'python']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'cmake'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'python'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['python_setup_py']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'python_setup_py'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ignore'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ros'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['cmake', 'python']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'cmake'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'python'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['python_setup_py']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'python_setup_py'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ignore'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ignore_ament_install'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['colcon_pkg']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'colcon_pkg'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['colcon_meta']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'colcon_meta'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['ros']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ros'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['cmake', 'python']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'cmake'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'python'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['python_setup_py']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'python_setup_py'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ignore'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'colcon_meta'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['ros']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ros'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'cmake'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'python'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'python_setup_py'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ignore_ament_install'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['colcon_pkg']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'colcon_pkg'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['colcon_meta']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'colcon_meta'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['ros']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ros'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['cmake', 'python']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'cmake'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'python'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['python_setup_py']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'python_setup_py'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ignore'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ignore_ament_install'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['colcon_pkg']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'colcon_pkg'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['colcon_meta']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'colcon_meta'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['ros']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ros'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['cmake', 'python']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'cmake'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'python'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['python_setup_py']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'python_setup_py'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ignore'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'colcon_meta'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['ros']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ros'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'cmake'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'python'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'python_setup_py'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['ignore', 'ignore_ament_install']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ignore'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ignore_ament_install'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['colcon_pkg']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'colcon_pkg'
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['colcon_meta']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'colcon_meta'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['ros']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ros'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['cmake', 'python']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'cmake'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'python'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['python_setup_py']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'python_setup_py'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ignore'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ignore_ament_install'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['colcon_pkg']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'colcon_pkg'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['colcon_meta']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'colcon_meta'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['ros']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ros'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['cmake', 'python']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'cmake'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'python'
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['python_setup_py']
+[2.049s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'python_setup_py'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['ignore', 'ignore_ament_install']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ignore'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ignore_ament_install'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['colcon_pkg']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'colcon_pkg'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['colcon_meta']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'colcon_meta'
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['ros']
+[2.051s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ros'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['cmake', 'python']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'cmake'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'python'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['python_setup_py']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'python_setup_py'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['ignore', 'ignore_ament_install']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ignore'
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ignore_ament_install'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['colcon_pkg']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'colcon_pkg'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['colcon_meta']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'colcon_meta'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['ros']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ros'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['cmake', 'python']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'cmake'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'python'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['python_setup_py']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'python_setup_py'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['colcon_pkg']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'colcon_pkg'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['colcon_meta']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'colcon_meta'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['ros']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ros'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['cmake', 'python']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'cmake'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'python'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['python_setup_py']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'python_setup_py'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['ignore', 'ignore_ament_install']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ignore'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ignore_ament_install'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['colcon_pkg']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'colcon_meta'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['ros']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ros'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['cmake', 'python']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'cmake'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'python'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['python_setup_py']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'python_setup_py'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['ignore', 'ignore_ament_install']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ignore'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ignore_ament_install'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['colcon_pkg']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'colcon_pkg'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['colcon_meta']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'colcon_meta'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['ros']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ros'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['cmake', 'python']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'cmake'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'python'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['python_setup_py']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'python_setup_py'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ignore'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ignore_ament_install'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['colcon_pkg']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'colcon_pkg'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['colcon_meta']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'colcon_meta'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['ros']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ros'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['cmake', 'python']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'cmake'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'python'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['python_setup_py']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'python_setup_py'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ignore'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'colcon_meta'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['ros']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ros'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'cmake'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'python'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'python_setup_py'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ignore'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ignore_ament_install'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['colcon_pkg']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'colcon_pkg'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['colcon_meta']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'colcon_meta'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['ros']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ros'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['cmake', 'python']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'cmake'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'python'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['python_setup_py']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'python_setup_py'
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_args' from command line to 'None'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_target' from command line to 'None'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.120s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_clean_cache' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_clean_first' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'cmake_force_configure' from command line to 'False'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'ament_cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'catkin_cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'msgs_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.121s] DEBUG:colcon.colcon_core.verb:Building package 'msgs_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/msgs_car', 'symlink_install': False, 'test_result_base': None}
+[2.125s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_args' from command line to 'None'
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_target' from command line to 'None'
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_clean_cache' from command line to 'False'
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_clean_first' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'cmake_force_configure' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'ament_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'catkin_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'frenet_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.127s] DEBUG:colcon.colcon_core.verb:Building package 'frenet_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car', 'symlink_install': False, 'test_result_base': None}
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_args' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_target' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_clean_cache' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_clean_first' from command line to 'False'
+[2.132s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'cmake_force_configure' from command line to 'False'
+[2.132s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'ament_cmake_args' from command line to 'None'
+[2.132s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'catkin_cmake_args' from command line to 'None'
+[2.132s] Level 5:colcon.colcon_core.verb:set package 'highway_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.132s] DEBUG:colcon.colcon_core.verb:Building package 'highway_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car', 'symlink_install': False, 'test_result_base': None}
+[2.134s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_target' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_clean_cache' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_clean_first' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'cmake_force_configure' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'ament_cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'catkin_cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.135s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_car_acado' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado', 'symlink_install': False, 'test_result_base': None}
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_target' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_clean_cache' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_clean_first' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'cmake_force_configure' from command line to 'False'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'ament_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'catkin_cmake_args' from command line to 'None'
+[2.138s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_acado_single' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.138s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_car_acado_single' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single', 'symlink_install': False, 'test_result_base': None}
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_cache' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_first' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_force_configure' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'ament_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.141s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_car_batch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch', 'symlink_install': False, 'test_result_base': None}
+[2.142s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/msgs_car' with build type 'ament_cmake'
+[2.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/msgs_car'
+[2.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.187s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car -- -j4 -l4
+[3.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car -- -j4 -l4
+[3.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car
+[3.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs_car)
+[3.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car
+[3.667s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car' for CMake module files
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car' for CMake config files
+[3.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'cmake_prefix_path')
+[3.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.ps1'
+[3.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.dsv'
+[3.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.sh'
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib'
+[3.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'ld_library_path_lib')
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.ps1'
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.dsv'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.sh'
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/bin'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/pkgconfig/msgs_car.pc'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages'
+[3.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'pythonpath')
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.dsv'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.sh'
+[3.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.dsv'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.sh'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.bash'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.zsh'
+[3.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/colcon-core/packages/msgs_car)
+[3.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msgs_car)
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car' for CMake module files
+[3.817s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car' for CMake config files
+[3.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'cmake_prefix_path')
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.ps1'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.dsv'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/cmake_prefix_path.sh'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib'
+[3.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'ld_library_path_lib')
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.dsv'
+[3.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/ld_library_path_lib.sh'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/bin'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/pkgconfig/msgs_car.pc'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages'
+[3.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('msgs_car', 'pythonpath')
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.ps1'
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.dsv'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/hook/pythonpath.sh'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.ps1'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.dsv'
+[3.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.sh'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.bash'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.zsh'
+[3.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/colcon-core/packages/msgs_car)
+[3.831s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car' with build type 'ament_python'
+[3.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_car', 'ament_prefix_path')
+[3.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/ament_prefix_path.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/ament_prefix_path.dsv'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/ament_prefix_path.sh'
+[3.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.837s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car' with build type 'ament_python'
+[3.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('highway_car', 'ament_prefix_path')
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/ament_prefix_path.ps1'
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/ament_prefix_path.dsv'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/ament_prefix_path.sh'
+[3.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.850s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.858s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado' with build type 'ament_cmake'
+[3.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado'
+[3.860s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.860s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.867s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[3.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single' with build type 'ament_cmake'
+[3.872s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado_single'
+[3.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.878s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.255s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car'
+[4.256s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.256s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.259s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.610s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car'
+[4.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.618s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[4.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4
+[4.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single -- -j4 -l4
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed
+[4.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/python3 setup.py egg_info --egg-base ../../build/highway_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log --single-version-externally-managed
+[5.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single -- -j4 -l4
+[5.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4
+[5.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single
+[5.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_acado_single)
+[5.933s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single' for CMake module files
+[5.934s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single' for CMake config files
+[5.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_acado_single', 'cmake_prefix_path')
+[5.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.ps1'
+[5.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single
+[5.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.dsv'
+[5.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.sh'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/bin'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib/pkgconfig/mpc_car_acado_single.pc'
+[5.942s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib/python3.8/site-packages'
+[5.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.ps1'
+[5.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.dsv'
+[5.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.sh'
+[5.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.bash'
+[5.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.zsh'
+[5.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/colcon-core/packages/mpc_car_acado_single)
+[5.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado
+[6.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_acado)
+[6.013s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado' for CMake module files
+[6.013s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado' for CMake config files
+[6.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_acado', 'cmake_prefix_path')
+[6.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.ps1'
+[6.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.dsv'
+[6.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado
+[6.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.sh'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/bin'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/pkgconfig/mpc_car_acado.pc'
+[6.029s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/python3.8/site-packages'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.ps1'
+[6.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.dsv'
+[6.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.sh'
+[6.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.bash'
+[6.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.zsh'
+[6.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/colcon-core/packages/mpc_car_acado)
+[6.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_acado_single)
+[6.142s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single' for CMake module files
+[6.142s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single' for CMake config files
+[6.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_acado_single', 'cmake_prefix_path')
+[6.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.ps1'
+[6.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.dsv'
+[6.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/hook/cmake_prefix_path.sh'
+[6.161s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib'
+[6.161s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/bin'
+[6.161s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib/pkgconfig/mpc_car_acado_single.pc'
+[6.161s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib/python3.8/site-packages'
+[6.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.ps1'
+[6.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.dsv'
+[6.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.sh'
+[6.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.bash'
+[6.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.zsh'
+[6.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/colcon-core/packages/mpc_car_acado_single)
+[6.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch' with build type 'ament_cmake'
+[6.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch'
+[6.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.175s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[6.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_acado)
+[6.189s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado' for CMake module files
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado' for CMake config files
+[6.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_acado', 'cmake_prefix_path')
+[6.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.ps1'
+[6.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.dsv'
+[6.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/hook/cmake_prefix_path.sh'
+[6.204s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/bin'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/pkgconfig/mpc_car_acado.pc'
+[6.206s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/python3.8/site-packages'
+[6.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.ps1'
+[6.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.dsv'
+[6.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.sh'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.bash'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.zsh'
+[6.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/colcon-core/packages/mpc_car_acado)
+[6.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch -- -j4 -l4
+[6.374s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car' for CMake module files
+[6.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed
+[6.375s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car' for CMake config files
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/bin'
+[6.380s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/pkgconfig/frenet_car.pc'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages'
+[6.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_car', 'pythonpath')
+[6.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/pythonpath.ps1'
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/pythonpath.dsv'
+[6.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/hook/pythonpath.sh'
+[6.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frenet_car)
+[6.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/package.ps1'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/package.dsv'
+[6.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/package.sh'
+[6.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/package.bash'
+[6.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/frenet_car/package.zsh'
+[6.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/share/colcon-core/packages/frenet_car)
+[6.389s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car' for CMake module files
+[6.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/python3 setup.py egg_info --egg-base ../../build/highway_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log --single-version-externally-managed
+[6.396s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car' for CMake config files
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib'
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/bin'
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/pkgconfig/highway_car.pc'
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages'
+[6.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('highway_car', 'pythonpath')
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/pythonpath.ps1'
+[6.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/pythonpath.dsv'
+[6.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/hook/pythonpath.sh'
+[6.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(highway_car)
+[6.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/package.ps1'
+[6.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/package.dsv'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/package.sh'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/package.bash'
+[6.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/highway_car/package.zsh'
+[6.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/share/colcon-core/packages/highway_car)
+[28.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[28.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[28.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch' returned '-2': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch -- -j4 -l4
+[28.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_batch)
+[28.702s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake module files
+[28.703s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake config files
+[28.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_batch', 'cmake_prefix_path')
+[28.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.ps1'
+[28.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.dsv'
+[28.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.sh'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/bin'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/pkgconfig/mpc_car_batch.pc'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/python3.8/site-packages'
+[28.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.ps1'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.dsv'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.sh'
+[28.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.bash'
+[28.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.zsh'
+[28.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/colcon-core/packages/mpc_car_batch)
+[28.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[28.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.714s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.757s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.ps1'
+[28.759s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/_local_setup_util_ps1.py'
+[28.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.ps1'
+[28.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.sh'
+[28.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/_local_setup_util_sh.py'
+[28.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.sh'
+[28.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.bash'
+[28.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.bash'
+[28.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.zsh'
+[28.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.zsh'

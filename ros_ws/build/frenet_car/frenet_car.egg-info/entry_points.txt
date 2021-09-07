@@ -1,0 +1,3 @@
+[console_scripts]
+frenet_node = frenet_car.frenet:main
+

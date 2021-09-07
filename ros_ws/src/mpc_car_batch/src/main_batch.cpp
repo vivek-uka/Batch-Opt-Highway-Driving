@@ -163,9 +163,9 @@ class MinimalPublisher : public rclcpp::Node
         RCLCPP_INFO(this->get_logger(),"NODES ARE UP");
         // outdata.open("stats/New/Cruise/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
         // outdata.open("stats/New/RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
-        // outdata.open("stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
-        outdata.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_ngsim.txt");
-        outdata2.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_all_info.txt");
+        // outdata.open("stats/New/RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
+        // outdata.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_ngsim.txt");
+        // outdata2.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_all_info.txt");
     }
     
   private:
@@ -259,18 +259,18 @@ void MinimalPublisher :: timer_callback()
                             vx_obs, vy_obs, warm);
         end = clock();
         warm = false;
-        
+       
         get_ranks();
         min = 100000000;
         index = 5;
         // cruise = 50, 50, 0, 0
-        // righlane = 0, 70, 30, 0
+        // righlane = 0, 50, 50, 0
         // highspeed rightlane = 0, 50, 25, 25
 
         //ngsim2 hsrl 0, 60, 19, 21
         for(int i = 0; i < prob_data.num_goal; i++)
         {
-            float cost = 0.0 * meta_cost(i, 5) + 60.0 * meta_cost(i, 6) + 19.0* meta_cost(i, 7) + 21.0 * meta_cost(i, 8); 
+            float cost = 0.0 * meta_cost(i, 5) + 50 * meta_cost(i, 6) + 25.0* meta_cost(i, 7) + 25.0 * meta_cost(i, 8); 
                                 // cruise                  optimal                   rightlane             max avg velocity
             if( cost < min)
             {
@@ -292,10 +292,10 @@ void MinimalPublisher :: timer_callback()
         avg_speed = speed/loop;
         avg_time = total_time/loop;
 
-        outdata << x_init << " " << y_init << " " << psi_init << " " << message.v << " " << message.w 
-                << " " << (message.v - prev_v_send)/prob_data.t << " " << (message.w - prev_w_send)/prob_data.t
-                << " " << double(end - start) / double(CLOCKS_PER_SEC) << " " << loop << " " << index << endl;
-        outdata2 << prob_data.x << " " << prob_data.y << endl;
+        // outdata << x_init << " " << y_init << " " << psi_init << " " << message.v << " " << message.w 
+        //         << " " << (message.v - prev_v_send)/prob_data.t << " " << (message.w - prev_w_send)/prob_data.t
+        //         << " " << double(end - start) / double(CLOCKS_PER_SEC) << " " << loop << " " << index << endl;
+        // outdata2 << prob_data.x << " " << prob_data.y << endl;
         prev_v_send = message.v;
 		prev_w_send = message.w;
 
