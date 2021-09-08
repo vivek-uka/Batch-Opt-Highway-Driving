@@ -303,7 +303,7 @@ void MinimalPublisher :: timer_callback()
             }
         }
         // RCLCPP_INFO(this->get_logger(),"Time taken = %f index = %d res_obs = %f", time_taken, index, prob_data.res_obs.matrix().lpNorm<2>());
-        // RCLCPP_INFO(this->get_logger(),"Average time = %f Average speed = %f", avg_time, avg_speed);
+        RCLCPP_INFO(this->get_logger(),"Average time = %f Average speed = %f", avg_time, avg_speed);
         publisher_->publish(message);
         Gotit = false;
     }

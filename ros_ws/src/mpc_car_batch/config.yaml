@@ -1,5 +1,69 @@
-setting: RL_IDM
+setting: batch_SZ_20 #RL_IDM
 configuration:
+  batch_SZ_2:
+    goal: 2
+    x_g: [120, 120]
+    y_g: [-2, 2]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_2_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_4:
+    goal: 4
+    x_g: [120, 120, 120, 120]
+    y_g: [-4, -2, 2, 4]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_4_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_6:
+    goal: 6
+    x_g: [120, 120, 120, 120, 120, 120]
+    y_g: [-6, -4, -2, 2, 4, 6]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_6_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_8:
+    goal: 8
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-8, -6, -4, -2, 2, 4, 6, 8]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_8_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_10:
+    goal: 10
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-10, -8, -6, -4, -2, 2, 4, 6, 8, 10]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_10_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_12:
+    goal: 12
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 130, 130]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 0]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_12_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_14:
+    goal: 14
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 130, 130, 130]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 0, -2, 2]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_14_goals.txt"
+    weights: [50, 50, 0, 0]
+    
+  batch_SZ_16:
+    goal: 16
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 130, 130, 130, 130, 130]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 0, -2, 2, 4, -4]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_16_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  batch_SZ_20:
+    goal: 20
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 130, 130, 130, 130, 130, 130, 130, 130, 130]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, 0, -2, 2, 4, -4, 6, -6, -8, 8]
+    file: "stats/New/BatchSize/No-Time-Budget/mpc_car_batch_data_20_goals.txt"
+    weights: [50, 50, 0, 0]
+
+    
   cruise_IDM:
     goal: 11.0
     x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]

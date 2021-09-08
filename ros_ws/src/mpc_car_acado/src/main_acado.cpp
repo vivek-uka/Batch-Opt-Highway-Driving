@@ -313,7 +313,7 @@ void MinimalPublisher :: timer_callback()
 void MinimalPublisher :: optimize(int info)
 {
 	// float x_g = info -> x_g, y_g = info -> y_g, theta_g = info -> theta_g;
-	int id = info, NUM_STEPS = 15, first = 0;
+	int id = info, NUM_STEPS = 15+0*15, first = 0;
 	if(1 - first)
 		acado_initializeSolver();
 	while(1)

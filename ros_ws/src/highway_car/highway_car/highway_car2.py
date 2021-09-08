@@ -137,8 +137,8 @@ class MinimalSubscriber(Node):
             self.other_vehicles[:,5] = (np.pi/2 - ngsim_obs[:,3])
             self.other_vehicles[:,6] = ngsim_obs[:,4]
             self.other_vehicles[:,7] = ngsim_obs[:,5]
-            self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2)
-            # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)+0.0001)) + 1) * 10000
+            # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2)
+            self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)+0.0001)) + 1) * 10000
             self.other_vehicles = self.other_vehicles[self.other_vehicles[:, 4].argsort()]
             self.obs[1:] = self.other_vehicles[:len(self.obs)-1,:4]
             
@@ -385,8 +385,8 @@ class MinimalSubscriber(Node):
                         self.other_vehicles[:,5] = (np.pi/2 - ngsim_obs[:,3])
                         self.other_vehicles[:,6] = ngsim_obs[:,4]
                         self.other_vehicles[:,7] = ngsim_obs[:,5]
-                        self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) 
-                        # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)+0.0001)) + 1) * 10000
+                        # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) 
+                        self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)+0.0001)) + 1) * 10000
                         self.other_vehicles = self.other_vehicles[self.other_vehicles[:, 4].argsort()]
                         self.obs[1:] = self.other_vehicles[:len(self.obs)-1,:4]
 
