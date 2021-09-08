@@ -1,5 +1,0 @@
-/usr/bin/ld: cannot find -leigqn-quadprog
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/mpc_node.dir/build.make:85: mpc_node] Error 1
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

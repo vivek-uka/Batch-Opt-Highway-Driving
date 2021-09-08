@@ -1,0 +1,3 @@
+make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main_batch.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

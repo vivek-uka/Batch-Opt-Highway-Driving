@@ -80,7 +80,7 @@ ament_package()
 # set_target_properties(getting_started PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} )
 
 add_executable(mpc_node src/main_acado.cpp)
-target_link_libraries(mpc_node mpc_solver eigen-quadprog ${ACADO_ENV_SHARED_LIBRARIES})
+target_link_libraries(mpc_node mpc_solver eigen-quadprog ${ACADO_ENV_SHARED_LIBRARIES} yaml-cpp)
 ament_target_dependencies(mpc_node rclcpp std_msgs geometry_msgs nav_msgs msgs_car ${ACADO_ENV_SHARED_LIBRARIES})
 
 install(TARGETS

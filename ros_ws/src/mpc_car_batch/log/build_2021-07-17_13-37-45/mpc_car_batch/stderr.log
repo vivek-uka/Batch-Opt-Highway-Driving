@@ -1,8 +1,0 @@
-CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
-  ament_target_dependencies() the passed package name 'mpc_node_lib' was not
-  found before
-Call Stack (most recent call first):
-  CMakeLists.txt:26 (ament_target_dependencies)
-
-
-make: *** [Makefile:266: cmake_check_build_system] Error 1

@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <iomanip> 
 #include <cmath>
+#include "yaml-cpp/yaml.h"
 #include <Eigen/Dense>
 #include "mpc_car_batch/optim_batch.h"
 
@@ -33,7 +34,7 @@ class MinimalPublisher : public rclcpp::Node
         three_var PPP, PPP_up;
         probData prob_data;
         float x_init, y_init, v_init, psi_init, psidot_init, total_time, speed, avg_time, avg_speed;
-        float prev_v_send, prev_w_send;
+        float prev_v_send, prev_w_send, w0, w1, w2, w3;
 
         bool Gotit, warm;
 
@@ -123,34 +124,30 @@ class MinimalPublisher : public rclcpp::Node
         vx_obs = 0;
         vy_obs = 0.0;
 
-    
-        prob_data.num_goal = 11;
+        YAML::Node map = YAML::LoadFile("src/mpc_car_batch/config.yaml");
+        
+        string setting = map["setting"].as<string>();
+
+        prob_data.num_goal = map["configuration"][setting]["goal"].as<float>();
+        w0 = map["configuration"][setting]["weights"][0].as<float>();
+        w1 = map["configuration"][setting]["weights"][1].as<float>();
+        w2 = map["configuration"][setting]["weights"][2].as<float>();
+        w3 = map["configuration"][setting]["weights"][3].as<float>();
+        
         x_g = ArrayXXf(prob_data.num_goal, 1);
         y_g = ArrayXXf(prob_data.num_goal, 1);
 
         meta_cost = ArrayXXf(prob_data.num_goal, 9);
         meta_cost = -1;
 
-        lane = ArrayXXf(11, 1);
-		lane << -10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10;
-		// lane << -10, -9.5, -9, -6, -4, -2, 2, 4, 6, 8, 10;
-        // x_g = 120;//85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135;
-        // y_g = -10;  
-		for(int i = 0, m = -1; i < prob_data.num_goal; i++)
-		{
-			if(i%lane.rows() == 0)
-				m++;
-
-			y_g(i) = lane(i%lane.rows());
-			x_g(i) = 120;// + m*10;
-
+		for(int i = 0; i < prob_data.num_goal; i++)
+        {
+            x_g(i) = map["configuration"][setting]["x_g"][i].as<float>();
+            y_g(i) = map["configuration"][setting]["y_g"][i].as<float>();
             meta_cost(i, 0) = i+1;
-		}
-        // x_g << 110, 115, 120, 125, 130, 135, 120, 120, 120, 120, 120;
-        // x_g << 110, 115, 120, 125, 130, 135, 120, 120, 120, 120, 120;
-        // x_g += 40;
-        // y_g << -10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10; 
-		old = x_g;
+        }
+        cout << x_g;
+        old = x_g;
 
         
         subscription_ = this->create_subscription<msgs_car::msg::States>(
@@ -161,11 +158,7 @@ class MinimalPublisher : public rclcpp::Node
         cnt = 1;
 
         RCLCPP_INFO(this->get_logger(),"NODES ARE UP");
-        // outdata.open("stats/New/Cruise/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
-        // outdata.open("stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
-        // outdata.open("stats/New/RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt");
-        outdata.open("stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_ngsim.txt");
-        // outdata2.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_batch_data_11_goals_0_all_info.txt");
+        outdata.open(map["configuration"][setting]["file"].as<string>());
     }
     
   private:
@@ -270,7 +263,7 @@ void MinimalPublisher :: timer_callback()
         //ngsim2 hsrl 0, 60, 19, 21
         for(int i = 0; i < prob_data.num_goal; i++)
         {
-            float cost = 50.0 * meta_cost(i, 5) + 50 * meta_cost(i, 6) + 0.0* meta_cost(i, 7) + 0.0 * meta_cost(i, 8); 
+            float cost = w0 * meta_cost(i, 5) + w1 * meta_cost(i, 6) + w2 * meta_cost(i, 7) + w3 * meta_cost(i, 8); 
                                 // cruise                  optimal                   rightlane             max avg velocity
             if( cost < min)
             {

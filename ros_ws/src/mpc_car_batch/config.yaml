@@ -1,0 +1,42 @@
+setting: cruise_IDM
+
+configuration:
+  cruise_IDM:
+    goal: 11.0
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]
+    file: "stats/New/Cruise/No-Time-Budget/mpc_car_batch_data_11_goals.txt"
+    weights: [50, 50, 0, 0]
+
+
+  HSRL_IDM:
+    goal: 11
+    x_g: [150, 155, 160, 165, 170, 175, 160, 160, 160, 160, 160]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt"
+    weights: [0, 50, 25, 25]
+
+  RL_IDM:
+    goal: 11
+    x_g: [110, 115, 120, 125, 130, 135, 120, 120, 120, 120, 120]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/RightLane/No-Time-Budget/mpc_car_batch_data_11_goals.txt"
+    weights: [0, 50, 50, 0]
+
+  cruise_NGSIM:
+    goal: 11
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]
+    file: "stats/New/NGSIM/No-Time-Budget/cruise/mpc_car_batch_data_11_goals_0_ngsim.txt"
+    weights: [50, 50, 0, 0]
+
+
+  HSRL_NGSIM:
+    goal: 11
+    x_g: [150, 155, 160, 165, 170, 175, 160, 160, 160, 160, 160]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/NGSIM/No-Time-Budget/hrsl/mpc_car_batch_data_11_goals_0_ngsim.txt"
+    weights: [0, 50, 25, 25]
+
+
+

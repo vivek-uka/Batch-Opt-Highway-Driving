@@ -14,7 +14,7 @@ project(mpc_car_batch)
 add_compile_options(-std=c++17)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "-Ofast -mtune=corei7 -fopenmp -g ${CMAKE_CXX_FLAGS} -lstdc++fs ")
+set(CMAKE_CXX_FLAGS "-Ofast -mtune=corei7 -fopenmp -g ${CMAKE_CXX_FLAGS} -lstdc++fs")
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -35,7 +35,7 @@ add_library(mpc_node_lib src/optim_batch.cpp)
 target_link_libraries(mpc_node_lib eigen-quadprog)
 
 add_executable(mpc_node src/main_batch.cpp)
-target_link_libraries(mpc_node mpc_node_lib eigen-quadprog)
+target_link_libraries(mpc_node mpc_node_lib eigen-quadprog yaml-cpp)
 ament_target_dependencies(mpc_node rclcpp std_msgs geometry_msgs nav_msgs msgs_car)
 
 

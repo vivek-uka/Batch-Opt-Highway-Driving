@@ -55,7 +55,7 @@ class MinimalSubscriber(Node):
         self.num_goal = 10
 
         
-        self.setting = 3 # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
+        self.setting = 0 # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
 
         if self.setting == 3:
             self.NGSIM = True

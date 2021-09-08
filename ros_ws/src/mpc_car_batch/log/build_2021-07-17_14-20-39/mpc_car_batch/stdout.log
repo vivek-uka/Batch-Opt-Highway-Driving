@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target mpc_node[0m
-[35m[1mScanning dependencies of target mpc_node_lib[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node_lib.dir/src/optim.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main.cpp.o[0m

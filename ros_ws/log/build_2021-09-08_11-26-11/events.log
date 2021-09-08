@@ -1,0 +1,859 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (msgs_car) JobQueued: {'identifier': 'msgs_car', 'dependencies': OrderedDict()}
+[0.000813] (frenet_car) JobQueued: {'identifier': 'frenet_car', 'dependencies': OrderedDict([('msgs_car', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car')])}
+[0.001256] (highway_car) JobQueued: {'identifier': 'highway_car', 'dependencies': OrderedDict([('msgs_car', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car')])}
+[0.001293] (mpc_car_acado) JobQueued: {'identifier': 'mpc_car_acado', 'dependencies': OrderedDict([('msgs_car', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car')])}
+[0.001322] (mpc_car_acado_single) JobQueued: {'identifier': 'mpc_car_acado_single', 'dependencies': OrderedDict([('msgs_car', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car')])}
+[0.001354] (mpc_car_batch) JobQueued: {'identifier': 'mpc_car_batch', 'dependencies': OrderedDict([('msgs_car', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car')])}
+[0.001381] (msgs_car) JobStarted: {'identifier': 'msgs_car'}
+[0.056964] (msgs_car) JobProgress: {'identifier': 'msgs_car', 'progress': 'cmake'}
+[0.067548] (msgs_car) JobProgress: {'identifier': 'msgs_car', 'progress': 'build'}
+[0.068746] (msgs_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100138] (-) TimerEvent: {}
+[0.201622] (-) TimerEvent: {}
+[0.302324] (-) TimerEvent: {}
+[0.402939] (-) TimerEvent: {}
+[0.503540] (-) TimerEvent: {}
+[0.604153] (-) TimerEvent: {}
+[0.660011] (msgs_car) StdoutLine: {'line': b'[  2%] Built target msgs_car__cpp\n'}
+[0.704342] (-) TimerEvent: {}
+[0.804935] (-) TimerEvent: {}
+[0.812479] (msgs_car) StdoutLine: {'line': b'[ 12%] Built target msgs_car__rosidl_generator_c\n'}
+[0.817906] (msgs_car) StdoutLine: {'line': b'[ 23%] Built target msgs_car__rosidl_typesupport_cpp\n'}
+[0.821341] (msgs_car) StdoutLine: {'line': b'[ 33%] Built target msgs_car__rosidl_typesupport_fastrtps_cpp\n'}
+[0.824832] (msgs_car) StdoutLine: {'line': b'[ 43%] Built target msgs_car__rosidl_typesupport_introspection_cpp\n'}
+[0.905060] (-) TimerEvent: {}
+[0.907743] (msgs_car) StdoutLine: {'line': b'[ 53%] Built target msgs_car__rosidl_typesupport_c\n'}
+[0.924363] (msgs_car) StdoutLine: {'line': b'[ 64%] Built target msgs_car__rosidl_typesupport_introspection_c\n'}
+[0.927483] (msgs_car) StdoutLine: {'line': b'[ 74%] Built target msgs_car__rosidl_typesupport_fastrtps_c\n'}
+[0.950320] (msgs_car) StdoutLine: {'line': b'[ 74%] Built target msgs_car\n'}
+[0.974648] (msgs_car) StdoutLine: {'line': b'[ 76%] Built target msgs_car__py\n'}
+[1.005255] (-) TimerEvent: {}
+[1.046089] (msgs_car) StdoutLine: {'line': b'[ 84%] Built target msgs_car__python\n'}
+[1.105389] (-) TimerEvent: {}
+[1.127221] (msgs_car) StdoutLine: {'line': b'[ 94%] Built target msgs_car__rosidl_typesupport_c__pyext\n'}
+[1.127441] (msgs_car) StdoutLine: {'line': b'[ 94%] Built target msgs_car__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.131211] (msgs_car) StdoutLine: {'line': b'[100%] Built target msgs_car__rosidl_typesupport_introspection_c__pyext\n'}
+[1.145239] (msgs_car) CommandEnded: {'returncode': 0}
+[1.205700] (msgs_car) JobProgress: {'identifier': 'msgs_car', 'progress': 'install'}
+[1.205870] (-) TimerEvent: {}
+[1.216259] (msgs_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/msgs_car'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.228826] (msgs_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.229168] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/ament_index/resource_index/rosidl_interfaces/msgs_car\n'}
+[1.232567] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.232764] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.232856] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/controls.h\n'}
+[1.232934] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/states.h\n'}
+[1.233010] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.233087] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__functions.c\n'}
+[1.233168] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__type_support.h\n'}
+[1.238018] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__struct.h\n'}
+[1.238123] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__functions.h\n'}
+[1.238202] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__functions.c\n'}
+[1.238278] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__struct.h\n'}
+[1.238356] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__functions.h\n'}
+[1.238429] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__type_support.h\n'}
+[1.238501] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.238574] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/library_path.sh\n'}
+[1.238646] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/library_path.dsv\n'}
+[1.238720] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_generator_c.so\n'}
+[1.238792] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.238873] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.238947] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.239021] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.239094] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__rosidl_typesupport_fastrtps_c.h\n'}
+[1.239167] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__rosidl_typesupport_fastrtps_c.h\n'}
+[1.239251] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_fastrtps_c.so\n'}
+[1.239326] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.239408] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.239481] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.239556] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.239628] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/dds_fastrtps\n'}
+[1.239701] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.239778] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.239852] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.239924] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.239996] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.240067] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.240139] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.240213] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__type_support.c\n'}
+[1.240285] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__rosidl_typesupport_introspection_c.h\n'}
+[1.240360] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__rosidl_typesupport_introspection_c.h\n'}
+[1.240432] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__type_support.c\n'}
+[1.240503] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_introspection_c.so\n'}
+[1.240575] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_c.so\n'}
+[1.240647] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.240719] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.240791] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/controls.hpp\n'}
+[1.240865] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.240937] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__struct.hpp\n'}
+[1.241013] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__builder.hpp\n'}
+[1.241084] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__builder.hpp\n'}
+[1.241156] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__struct.hpp\n'}
+[1.241228] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__traits.hpp\n'}
+[1.241300] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__traits.hpp\n'}
+[1.241376] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/states.hpp\n'}
+[1.241448] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car\n'}
+[1.241519] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg\n'}
+[1.241590] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail\n'}
+[1.241661] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.241740] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__type_support.cpp\n'}
+[1.241812] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.241883] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/include/msgs_car/msg/detail/controls__type_support.cpp\n'}
+[1.241956] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_introspection_cpp.so\n'}
+[1.242028] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__rosidl_typesupport_cpp.so\n'}
+[1.242100] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/pythonpath.sh\n'}
+[1.242173] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/pythonpath.dsv\n'}
+[1.242244] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/__init__.py\n'}
+[1.272169] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg\n'}
+[1.272442] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg/_controls_s.c\n'}
+[1.272527] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg/_states_s.c\n'}
+[1.272606] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg/_states.py\n'}
+[1.272707] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg/__init__.py\n'}
+[1.272783] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msg/_controls.py\n'}
+[1.272856] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msgs_car_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.273370] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msgs_car_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.274134] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages/msgs_car/msgs_car_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.274601] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/libmsgs_car__python.so\n'}
+[1.274864] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/msg/States.idl\n'}
+[1.274966] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/msg/Controls.idl\n'}
+[1.275077] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/msg/States.msg\n'}
+[1.275191] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/msg/Controls.msg\n'}
+[1.275272] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/ament_index/resource_index/package_run_dependencies/msgs_car\n'}
+[1.275346] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/ament_index/resource_index/parent_prefix_path/msgs_car\n'}
+[1.275471] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/ament_prefix_path.sh\n'}
+[1.275577] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/ament_prefix_path.dsv\n'}
+[1.276344] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/path.sh\n'}
+[1.276594] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/environment/path.dsv\n'}
+[1.276686] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/local_setup.bash\n'}
+[1.276779] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/local_setup.sh\n'}
+[1.276856] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/local_setup.zsh\n'}
+[1.276930] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/local_setup.dsv\n'}
+[1.277004] (msgs_car) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.dsv\n'}
+[1.282690] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/ament_index/resource_index/packages/msgs_car\n'}
+[1.283117] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_generator_cExport.cmake\n'}
+[1.283293] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.284205] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.284317] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.284866] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_cExport.cmake\n'}
+[1.284999] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.285341] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_generator_cppExport.cmake\n'}
+[1.285869] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.286009] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.286258] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_cppExport.cmake\n'}
+[1.286439] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_car__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.286569] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/rosidl_cmake-extras.cmake\n'}
+[1.286725] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.286901] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.287002] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.287085] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.287162] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.287251] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.287328] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_carConfig.cmake\n'}
+[1.287403] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake/msgs_carConfig-version.cmake\n'}
+[1.287478] (msgs_car) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/package.xml\n'}
+[1.289503] (msgs_car) CommandEnded: {'returncode': 0}
+[1.306005] (-) TimerEvent: {}
+[1.406473] (-) TimerEvent: {}
+[1.437020] (msgs_car) JobEnded: {'identifier': 'msgs_car', 'rc': 0}
+[1.437840] (frenet_car) JobStarted: {'identifier': 'frenet_car'}
+[1.444122] (highway_car) JobStarted: {'identifier': 'highway_car'}
+[1.452539] (mpc_car_acado) JobStarted: {'identifier': 'mpc_car_acado'}
+[1.458735] (mpc_car_acado_single) JobStarted: {'identifier': 'mpc_car_acado_single'}
+[1.506646] (-) TimerEvent: {}
+[1.607078] (-) TimerEvent: {}
+[1.707454] (-) TimerEvent: {}
+[1.808027] (-) TimerEvent: {}
+[1.908352] (-) TimerEvent: {}
+[1.946024] (mpc_car_acado) JobProgress: {'identifier': 'mpc_car_acado', 'progress': 'cmake'}
+[1.969948] (mpc_car_acado) JobProgress: {'identifier': 'mpc_car_acado', 'progress': 'build'}
+[1.971596] (mpc_car_acado) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[1.980359] (mpc_car_acado_single) JobProgress: {'identifier': 'mpc_car_acado_single', 'progress': 'cmake'}
+[1.991119] (mpc_car_acado_single) JobProgress: {'identifier': 'mpc_car_acado_single', 'progress': 'build'}
+[1.991850] (mpc_car_acado_single) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[2.000145] (frenet_car) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/frenet_car', 'build', '--build-base', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build', 'install', '--prefix', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car', '--record', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log', '--single-version-externally-managed'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vivek', 'SSH_AGENT_PID': '1734', 'XDG_SESSION_TYPE': 'x11', 'ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS': '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib', 'ACADOS_SOURCE_DIR': '/home/vivek/acados/', 'HOME': '/home/vivek', 'OLDPWD': '/home/vivek', 'DESKTOP_SESSION': 'ubuntu', 'ACADO_ENV_SHARED_LIBRARIES': 'acado_toolkit_s', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1549', 'ACADO_ENV_LIBRARY_DIRS': '/home/vivek/ACADOtoolkit/build/lib', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ACADO_ENV_QPOASES_EMBEDDED_SOURCES': '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp', 'CARLA_ROOT': '/opt/carla-simulator', 'ACADO_ENV_EXTERNAL_PACKAGES_DIR': '/home/vivek/ACADOtoolkit/external_packages', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'vivek', 'JOURNAL_STREAM': '8:42919', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vivek', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin', 'SESSION_MANAGER': 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779', 'INVOCATION_ID': '4713355ec6c0406b810543f6c1e21e27', 'ACADO_ENV_CMAKE_DIR': '/home/vivek/ACADOtoolkit/cmake', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'ACADO_ENV_STATIC_LIBRARIES': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.610', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car', 'ACADO_ENV_INCLUDE_DIRS': '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car'}, 'shell': False}
+[2.004476] (highway_car) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/highway_car', 'build', '--build-base', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/build', 'install', '--prefix', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car', '--record', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log', '--single-version-externally-managed'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'vivek', 'SSH_AGENT_PID': '1734', 'XDG_SESSION_TYPE': 'x11', 'ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS': '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib', 'ACADOS_SOURCE_DIR': '/home/vivek/acados/', 'HOME': '/home/vivek', 'OLDPWD': '/home/vivek', 'DESKTOP_SESSION': 'ubuntu', 'ACADO_ENV_SHARED_LIBRARIES': 'acado_toolkit_s', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1549', 'ACADO_ENV_LIBRARY_DIRS': '/home/vivek/ACADOtoolkit/build/lib', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ACADO_ENV_QPOASES_EMBEDDED_SOURCES': '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp', 'CARLA_ROOT': '/opt/carla-simulator', 'ACADO_ENV_EXTERNAL_PACKAGES_DIR': '/home/vivek/ACADOtoolkit/external_packages', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'vivek', 'JOURNAL_STREAM': '8:42919', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vivek', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin', 'SESSION_MANAGER': 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779', 'INVOCATION_ID': '4713355ec6c0406b810543f6c1e21e27', 'ACADO_ENV_CMAKE_DIR': '/home/vivek/ACADOtoolkit/cmake', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'ACADO_ENV_STATIC_LIBRARIES': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.610', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car', 'ACADO_ENV_INCLUDE_DIRS': '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car'}, 'shell': False}
+[2.008460] (-) TimerEvent: {}
+[2.108885] (-) TimerEvent: {}
+[2.140135] (mpc_car_acado_single) StdoutLine: {'line': b'[ 88%] Built target mpc_solver_single\n'}
+[2.153023] (mpc_car_acado) StdoutLine: {'line': b'[ 88%] Built target mpc_solver\n'}
+[2.206100] (mpc_car_acado_single) StdoutLine: {'line': b'[100%] Built target mpc_node_single\n'}
+[2.208969] (-) TimerEvent: {}
+[2.219103] (mpc_car_acado) StdoutLine: {'line': b'[100%] Built target mpc_node\n'}
+[2.230161] (mpc_car_acado_single) CommandEnded: {'returncode': 0}
+[2.236770] (mpc_car_acado) CommandEnded: {'returncode': 0}
+[2.283163] (mpc_car_acado_single) JobProgress: {'identifier': 'mpc_car_acado_single', 'progress': 'install'}
+[2.283636] (mpc_car_acado_single) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado_single'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[2.292449] (mpc_car_acado) JobProgress: {'identifier': 'mpc_car_acado', 'progress': 'install'}
+[2.292874] (mpc_car_acado) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[2.296692] (mpc_car_acado_single) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.296961] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/include/mpc_car_acado_single/\n'}
+[2.297109] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/ament_index/resource_index/package_run_dependencies/mpc_car_acado_single\n'}
+[2.297199] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/ament_index/resource_index/parent_prefix_path/mpc_car_acado_single\n'}
+[2.297278] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/environment/ament_prefix_path.sh\n'}
+[2.297353] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/environment/ament_prefix_path.dsv\n'}
+[2.297428] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/environment/path.sh\n'}
+[2.297504] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/environment/path.dsv\n'}
+[2.297621] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/local_setup.bash\n'}
+[2.297704] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/local_setup.sh\n'}
+[2.297780] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/local_setup.zsh\n'}
+[2.297862] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/local_setup.dsv\n'}
+[2.297935] (mpc_car_acado_single) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.dsv\n'}
+[2.304703] (mpc_car_acado) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.305077] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/include/mpc_car_acado/\n'}
+[2.305315] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/package_run_dependencies/mpc_car_acado\n'}
+[2.305472] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/parent_prefix_path/mpc_car_acado\n'}
+[2.305551] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/ament_prefix_path.sh\n'}
+[2.305627] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/ament_prefix_path.dsv\n'}
+[2.305702] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/path.sh\n'}
+[2.305777] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/environment/path.dsv\n'}
+[2.305850] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.bash\n'}
+[2.305922] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.sh\n'}
+[2.305995] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.zsh\n'}
+[2.306066] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/local_setup.dsv\n'}
+[2.306137] (mpc_car_acado) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.dsv\n'}
+[2.309051] (-) TimerEvent: {}
+[2.318830] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/ament_index/resource_index/packages/mpc_car_acado\n'}
+[2.319045] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.319141] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/mpc_car_acadoConfig.cmake\n'}
+[2.319267] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/cmake/mpc_car_acadoConfig-version.cmake\n'}
+[2.319352] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/share/mpc_car_acado/package.xml\n'}
+[2.319428] (mpc_car_acado) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado/lib/mpc_car_acado/mpc_node\n'}
+[2.323448] (mpc_car_acado) CommandEnded: {'returncode': 0}
+[2.325190] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/ament_index/resource_index/packages/mpc_car_acado_single\n'}
+[2.325683] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.325822] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/cmake/mpc_car_acado_singleConfig.cmake\n'}
+[2.325944] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/cmake/mpc_car_acado_singleConfig-version.cmake\n'}
+[2.326078] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/share/mpc_car_acado_single/package.xml\n'}
+[2.326212] (mpc_car_acado_single) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single/lib/mpc_car_acado_single/mpc_node_single\n'}
+[2.336116] (mpc_car_acado_single) CommandEnded: {'returncode': 0}
+[2.402744] (mpc_car_acado) JobEnded: {'identifier': 'mpc_car_acado', 'rc': 0}
+[2.408891] (mpc_car_batch) JobStarted: {'identifier': 'mpc_car_batch'}
+[2.409346] (-) TimerEvent: {}
+[2.409532] (frenet_car) StdoutLine: {'line': b'running egg_info\n'}
+[2.411492] (frenet_car) StdoutLine: {'line': b'writing ../../build/frenet_car/frenet_car.egg-info/PKG-INFO\n'}
+[2.411698] (frenet_car) StdoutLine: {'line': b'writing dependency_links to ../../build/frenet_car/frenet_car.egg-info/dependency_links.txt\n'}
+[2.411845] (frenet_car) StdoutLine: {'line': b'writing entry points to ../../build/frenet_car/frenet_car.egg-info/entry_points.txt\n'}
+[2.411938] (frenet_car) StdoutLine: {'line': b'writing requirements to ../../build/frenet_car/frenet_car.egg-info/requires.txt\n'}
+[2.412019] (frenet_car) StdoutLine: {'line': b'writing top-level names to ../../build/frenet_car/frenet_car.egg-info/top_level.txt\n'}
+[2.412253] (highway_car) StdoutLine: {'line': b'running egg_info\n'}
+[2.421061] (highway_car) StdoutLine: {'line': b'writing ../../build/highway_car/highway_car.egg-info/PKG-INFO\n'}
+[2.421420] (highway_car) StdoutLine: {'line': b'writing dependency_links to ../../build/highway_car/highway_car.egg-info/dependency_links.txt\n'}
+[2.421549] (highway_car) StdoutLine: {'line': b'writing entry points to ../../build/highway_car/highway_car.egg-info/entry_points.txt\n'}
+[2.421845] (highway_car) StdoutLine: {'line': b'writing requirements to ../../build/highway_car/highway_car.egg-info/requires.txt\n'}
+[2.421993] (highway_car) StdoutLine: {'line': b'writing top-level names to ../../build/highway_car/highway_car.egg-info/top_level.txt\n'}
+[2.427106] (mpc_car_acado_single) JobEnded: {'identifier': 'mpc_car_acado_single', 'rc': 0}
+[2.428855] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'cmake'}
+[2.477155] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'build'}
+[2.478835] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch', '--', '-j4', '-l4'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[2.509516] (-) TimerEvent: {}
+[2.609888] (-) TimerEvent: {}
+[2.710579] (-) TimerEvent: {}
+[2.811355] (-) TimerEvent: {}
+[2.912016] (-) TimerEvent: {}
+[3.012615] (-) TimerEvent: {}
+[3.083091] (mpc_car_batch) StdoutLine: {'line': b'[ 50%] Built target mpc_node_lib\n'}
+[3.112752] (-) TimerEvent: {}
+[3.163611] (mpc_car_batch) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node\x1b[0m\n'}
+[3.209034] (mpc_car_batch) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main_batch.cpp.o\x1b[0m\n'}
+[3.212815] (-) TimerEvent: {}
+[3.257109] (highway_car) StdoutLine: {'line': b"reading manifest file '../../build/highway_car/highway_car.egg-info/SOURCES.txt'\n"}
+[3.257399] (frenet_car) StdoutLine: {'line': b"reading manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'\n"}
+[3.258000] (highway_car) StdoutLine: {'line': b"writing manifest file '../../build/highway_car/highway_car.egg-info/SOURCES.txt'\n"}
+[3.258144] (highway_car) StdoutLine: {'line': b'running build\n'}
+[3.258229] (highway_car) StdoutLine: {'line': b'running build_py\n'}
+[3.258412] (highway_car) StdoutLine: {'line': b'running install\n'}
+[3.259153] (frenet_car) StdoutLine: {'line': b"writing manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'\n"}
+[3.259304] (highway_car) StdoutLine: {'line': b'running install_lib\n'}
+[3.259618] (frenet_car) StdoutLine: {'line': b'running build\n'}
+[3.259809] (frenet_car) StdoutLine: {'line': b'running build_py\n'}
+[3.261125] (frenet_car) StdoutLine: {'line': b'running install\n'}
+[3.261956] (frenet_car) StdoutLine: {'line': b'running install_lib\n'}
+[3.290730] (highway_car) StdoutLine: {'line': b'running install_data\n'}
+[3.291367] (frenet_car) StdoutLine: {'line': b'running install_data\n'}
+[3.293131] (frenet_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.293297] (highway_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.295612] (frenet_car) StdoutLine: {'line': b"removing '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.295805] (highway_car) StdoutLine: {'line': b"removing '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages/highway_car-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.295956] (frenet_car) StdoutLine: {'line': b'Copying ../../build/frenet_car/frenet_car.egg-info to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car-0.0.0-py3.8.egg-info\n'}
+[3.296057] (highway_car) StdoutLine: {'line': b'Copying ../../build/highway_car/highway_car.egg-info to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages/highway_car-0.0.0-py3.8.egg-info\n'}
+[3.297395] (frenet_car) StdoutLine: {'line': b'running install_scripts\n'}
+[3.297565] (highway_car) StdoutLine: {'line': b'running install_scripts\n'}
+[3.312956] (-) TimerEvent: {}
+[3.410153] (frenet_car) StdoutLine: {'line': b'Installing frenet_node script to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/frenet_car\n'}
+[3.410401] (highway_car) StdoutLine: {'line': b'Installing highway_node2 script to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/highway_car\n'}
+[3.410569] (highway_car) StdoutLine: {'line': b"writing list of installed files to '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log'\n"}
+[3.413110] (-) TimerEvent: {}
+[3.413399] (frenet_car) StdoutLine: {'line': b"writing list of installed files to '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log'\n"}
+[3.442840] (highway_car) CommandEnded: {'returncode': 0}
+[3.450278] (highway_car) JobEnded: {'identifier': 'highway_car', 'rc': 0}
+[3.452380] (frenet_car) CommandEnded: {'returncode': 0}
+[3.458971] (frenet_car) JobEnded: {'identifier': 'frenet_car', 'rc': 0}
+[3.513233] (-) TimerEvent: {}
+[3.613720] (-) TimerEvent: {}
+[3.714348] (-) TimerEvent: {}
+[3.815049] (-) TimerEvent: {}
+[3.915729] (-) TimerEvent: {}
+[4.016290] (-) TimerEvent: {}
+[4.116724] (-) TimerEvent: {}
+[4.217459] (-) TimerEvent: {}
+[4.318118] (-) TimerEvent: {}
+[4.418685] (-) TimerEvent: {}
+[4.519282] (-) TimerEvent: {}
+[4.619883] (-) TimerEvent: {}
+[4.720433] (-) TimerEvent: {}
+[4.820985] (-) TimerEvent: {}
+[4.921411] (-) TimerEvent: {}
+[5.021785] (-) TimerEvent: {}
+[5.122150] (-) TimerEvent: {}
+[5.222495] (-) TimerEvent: {}
+[5.322844] (-) TimerEvent: {}
+[5.423304] (-) TimerEvent: {}
+[5.523715] (-) TimerEvent: {}
+[5.624067] (-) TimerEvent: {}
+[5.724420] (-) TimerEvent: {}
+[5.824781] (-) TimerEvent: {}
+[5.925150] (-) TimerEvent: {}
+[6.025509] (-) TimerEvent: {}
+[6.125857] (-) TimerEvent: {}
+[6.226185] (-) TimerEvent: {}
+[6.326563] (-) TimerEvent: {}
+[6.426920] (-) TimerEvent: {}
+[6.527290] (-) TimerEvent: {}
+[6.627612] (-) TimerEvent: {}
+[6.727944] (-) TimerEvent: {}
+[6.828247] (-) TimerEvent: {}
+[6.928597] (-) TimerEvent: {}
+[7.028932] (-) TimerEvent: {}
+[7.129261] (-) TimerEvent: {}
+[7.229586] (-) TimerEvent: {}
+[7.329952] (-) TimerEvent: {}
+[7.430307] (-) TimerEvent: {}
+[7.530683] (-) TimerEvent: {}
+[7.631031] (-) TimerEvent: {}
+[7.731382] (-) TimerEvent: {}
+[7.831729] (-) TimerEvent: {}
+[7.932066] (-) TimerEvent: {}
+[8.032446] (-) TimerEvent: {}
+[8.132803] (-) TimerEvent: {}
+[8.233157] (-) TimerEvent: {}
+[8.333519] (-) TimerEvent: {}
+[8.433869] (-) TimerEvent: {}
+[8.534234] (-) TimerEvent: {}
+[8.634634] (-) TimerEvent: {}
+[8.735006] (-) TimerEvent: {}
+[8.835347] (-) TimerEvent: {}
+[8.935687] (-) TimerEvent: {}
+[9.035986] (-) TimerEvent: {}
+[9.136346] (-) TimerEvent: {}
+[9.236686] (-) TimerEvent: {}
+[9.337171] (-) TimerEvent: {}
+[9.437640] (-) TimerEvent: {}
+[9.538163] (-) TimerEvent: {}
+[9.638523] (-) TimerEvent: {}
+[9.738914] (-) TimerEvent: {}
+[9.839282] (-) TimerEvent: {}
+[9.939673] (-) TimerEvent: {}
+[10.040071] (-) TimerEvent: {}
+[10.140436] (-) TimerEvent: {}
+[10.240748] (-) TimerEvent: {}
+[10.341102] (-) TimerEvent: {}
+[10.441459] (-) TimerEvent: {}
+[10.541779] (-) TimerEvent: {}
+[10.642126] (-) TimerEvent: {}
+[10.742496] (-) TimerEvent: {}
+[10.842845] (-) TimerEvent: {}
+[10.943238] (-) TimerEvent: {}
+[11.043593] (-) TimerEvent: {}
+[11.143942] (-) TimerEvent: {}
+[11.244291] (-) TimerEvent: {}
+[11.344636] (-) TimerEvent: {}
+[11.444986] (-) TimerEvent: {}
+[11.545336] (-) TimerEvent: {}
+[11.645691] (-) TimerEvent: {}
+[11.746045] (-) TimerEvent: {}
+[11.846495] (-) TimerEvent: {}
+[11.947035] (-) TimerEvent: {}
+[12.047414] (-) TimerEvent: {}
+[12.147742] (-) TimerEvent: {}
+[12.248080] (-) TimerEvent: {}
+[12.348408] (-) TimerEvent: {}
+[12.448752] (-) TimerEvent: {}
+[12.549116] (-) TimerEvent: {}
+[12.649497] (-) TimerEvent: {}
+[12.749882] (-) TimerEvent: {}
+[12.850196] (-) TimerEvent: {}
+[12.950529] (-) TimerEvent: {}
+[13.050901] (-) TimerEvent: {}
+[13.151279] (-) TimerEvent: {}
+[13.251634] (-) TimerEvent: {}
+[13.351980] (-) TimerEvent: {}
+[13.452323] (-) TimerEvent: {}
+[13.552675] (-) TimerEvent: {}
+[13.653003] (-) TimerEvent: {}
+[13.753360] (-) TimerEvent: {}
+[13.853738] (-) TimerEvent: {}
+[13.954087] (-) TimerEvent: {}
+[14.054438] (-) TimerEvent: {}
+[14.154796] (-) TimerEvent: {}
+[14.255129] (-) TimerEvent: {}
+[14.355520] (-) TimerEvent: {}
+[14.455894] (-) TimerEvent: {}
+[14.556273] (-) TimerEvent: {}
+[14.656626] (-) TimerEvent: {}
+[14.756974] (-) TimerEvent: {}
+[14.857322] (-) TimerEvent: {}
+[14.957676] (-) TimerEvent: {}
+[15.058029] (-) TimerEvent: {}
+[15.158382] (-) TimerEvent: {}
+[15.258773] (-) TimerEvent: {}
+[15.359128] (-) TimerEvent: {}
+[15.459497] (-) TimerEvent: {}
+[15.559852] (-) TimerEvent: {}
+[15.660220] (-) TimerEvent: {}
+[15.760573] (-) TimerEvent: {}
+[15.860918] (-) TimerEvent: {}
+[15.961282] (-) TimerEvent: {}
+[16.061653] (-) TimerEvent: {}
+[16.162010] (-) TimerEvent: {}
+[16.262371] (-) TimerEvent: {}
+[16.362730] (-) TimerEvent: {}
+[16.463092] (-) TimerEvent: {}
+[16.563509] (-) TimerEvent: {}
+[16.663855] (-) TimerEvent: {}
+[16.764199] (-) TimerEvent: {}
+[16.864552] (-) TimerEvent: {}
+[16.964900] (-) TimerEvent: {}
+[17.065247] (-) TimerEvent: {}
+[17.165580] (-) TimerEvent: {}
+[17.265903] (-) TimerEvent: {}
+[17.366257] (-) TimerEvent: {}
+[17.466608] (-) TimerEvent: {}
+[17.566995] (-) TimerEvent: {}
+[17.667327] (-) TimerEvent: {}
+[17.767634] (-) TimerEvent: {}
+[17.867972] (-) TimerEvent: {}
+[17.968318] (-) TimerEvent: {}
+[18.068668] (-) TimerEvent: {}
+[18.169089] (-) TimerEvent: {}
+[18.269445] (-) TimerEvent: {}
+[18.369851] (-) TimerEvent: {}
+[18.470217] (-) TimerEvent: {}
+[18.570592] (-) TimerEvent: {}
+[18.670942] (-) TimerEvent: {}
+[18.771322] (-) TimerEvent: {}
+[18.871629] (-) TimerEvent: {}
+[18.971977] (-) TimerEvent: {}
+[19.072336] (-) TimerEvent: {}
+[19.172657] (-) TimerEvent: {}
+[19.272991] (-) TimerEvent: {}
+[19.373315] (-) TimerEvent: {}
+[19.473657] (-) TimerEvent: {}
+[19.573985] (-) TimerEvent: {}
+[19.674489] (-) TimerEvent: {}
+[19.775055] (-) TimerEvent: {}
+[19.875675] (-) TimerEvent: {}
+[19.976055] (-) TimerEvent: {}
+[20.076749] (-) TimerEvent: {}
+[20.177410] (-) TimerEvent: {}
+[20.278038] (-) TimerEvent: {}
+[20.378688] (-) TimerEvent: {}
+[20.479331] (-) TimerEvent: {}
+[20.579923] (-) TimerEvent: {}
+[20.680657] (-) TimerEvent: {}
+[20.781255] (-) TimerEvent: {}
+[20.881861] (-) TimerEvent: {}
+[20.982548] (-) TimerEvent: {}
+[21.083286] (-) TimerEvent: {}
+[21.183917] (-) TimerEvent: {}
+[21.284505] (-) TimerEvent: {}
+[21.385131] (-) TimerEvent: {}
+[21.485726] (-) TimerEvent: {}
+[21.586314] (-) TimerEvent: {}
+[21.687029] (-) TimerEvent: {}
+[21.787655] (-) TimerEvent: {}
+[21.888353] (-) TimerEvent: {}
+[21.988992] (-) TimerEvent: {}
+[22.089618] (-) TimerEvent: {}
+[22.190199] (-) TimerEvent: {}
+[22.290854] (-) TimerEvent: {}
+[22.391435] (-) TimerEvent: {}
+[22.492088] (-) TimerEvent: {}
+[22.592737] (-) TimerEvent: {}
+[22.693445] (-) TimerEvent: {}
+[22.794067] (-) TimerEvent: {}
+[22.894637] (-) TimerEvent: {}
+[22.995307] (-) TimerEvent: {}
+[23.095997] (-) TimerEvent: {}
+[23.196652] (-) TimerEvent: {}
+[23.297396] (-) TimerEvent: {}
+[23.398060] (-) TimerEvent: {}
+[23.498806] (-) TimerEvent: {}
+[23.599433] (-) TimerEvent: {}
+[23.700119] (-) TimerEvent: {}
+[23.800765] (-) TimerEvent: {}
+[23.901403] (-) TimerEvent: {}
+[24.002132] (-) TimerEvent: {}
+[24.102869] (-) TimerEvent: {}
+[24.203488] (-) TimerEvent: {}
+[24.304060] (-) TimerEvent: {}
+[24.404433] (-) TimerEvent: {}
+[24.504780] (-) TimerEvent: {}
+[24.605126] (-) TimerEvent: {}
+[24.705484] (-) TimerEvent: {}
+[24.805826] (-) TimerEvent: {}
+[24.906176] (-) TimerEvent: {}
+[25.006526] (-) TimerEvent: {}
+[25.106861] (-) TimerEvent: {}
+[25.207253] (-) TimerEvent: {}
+[25.307600] (-) TimerEvent: {}
+[25.407981] (-) TimerEvent: {}
+[25.508333] (-) TimerEvent: {}
+[25.608699] (-) TimerEvent: {}
+[25.709120] (-) TimerEvent: {}
+[25.809494] (-) TimerEvent: {}
+[25.909876] (-) TimerEvent: {}
+[25.926026] (mpc_car_batch) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_node\x1b[0m\n'}
+[26.010178] (-) TimerEvent: {}
+[26.110881] (-) TimerEvent: {}
+[26.211545] (-) TimerEvent: {}
+[26.312147] (-) TimerEvent: {}
+[26.412844] (-) TimerEvent: {}
+[26.513570] (-) TimerEvent: {}
+[26.614295] (-) TimerEvent: {}
+[26.715030] (-) TimerEvent: {}
+[26.815802] (-) TimerEvent: {}
+[26.916566] (-) TimerEvent: {}
+[27.017309] (-) TimerEvent: {}
+[27.118043] (-) TimerEvent: {}
+[27.218792] (-) TimerEvent: {}
+[27.319411] (-) TimerEvent: {}
+[27.419812] (-) TimerEvent: {}
+[27.520211] (-) TimerEvent: {}
+[27.620618] (-) TimerEvent: {}
+[27.721231] (-) TimerEvent: {}
+[27.821801] (-) TimerEvent: {}
+[27.922133] (-) TimerEvent: {}
+[28.022499] (-) TimerEvent: {}
+[28.122883] (-) TimerEvent: {}
+[28.223241] (-) TimerEvent: {}
+[28.323583] (-) TimerEvent: {}
+[28.423944] (-) TimerEvent: {}
+[28.524459] (-) TimerEvent: {}
+[28.624818] (-) TimerEvent: {}
+[28.725181] (-) TimerEvent: {}
+[28.825504] (-) TimerEvent: {}
+[28.925904] (-) TimerEvent: {}
+[29.026589] (-) TimerEvent: {}
+[29.127202] (-) TimerEvent: {}
+[29.227843] (-) TimerEvent: {}
+[29.328412] (-) TimerEvent: {}
+[29.429013] (-) TimerEvent: {}
+[29.529619] (-) TimerEvent: {}
+[29.630242] (-) TimerEvent: {}
+[29.731112] (-) TimerEvent: {}
+[29.831923] (-) TimerEvent: {}
+[29.932651] (-) TimerEvent: {}
+[30.033458] (-) TimerEvent: {}
+[30.134047] (-) TimerEvent: {}
+[30.234679] (-) TimerEvent: {}
+[30.335420] (-) TimerEvent: {}
+[30.436109] (-) TimerEvent: {}
+[30.536482] (-) TimerEvent: {}
+[30.637514] (-) TimerEvent: {}
+[30.738149] (-) TimerEvent: {}
+[30.838887] (-) TimerEvent: {}
+[30.939519] (-) TimerEvent: {}
+[31.040077] (-) TimerEvent: {}
+[31.140436] (-) TimerEvent: {}
+[31.240988] (-) TimerEvent: {}
+[31.341610] (-) TimerEvent: {}
+[31.442243] (-) TimerEvent: {}
+[31.542895] (-) TimerEvent: {}
+[31.643548] (-) TimerEvent: {}
+[31.744190] (-) TimerEvent: {}
+[31.844808] (-) TimerEvent: {}
+[31.945485] (-) TimerEvent: {}
+[32.046124] (-) TimerEvent: {}
+[32.146824] (-) TimerEvent: {}
+[32.247571] (-) TimerEvent: {}
+[32.348482] (-) TimerEvent: {}
+[32.449210] (-) TimerEvent: {}
+[32.549947] (-) TimerEvent: {}
+[32.650601] (-) TimerEvent: {}
+[32.751338] (-) TimerEvent: {}
+[32.851960] (-) TimerEvent: {}
+[32.952659] (-) TimerEvent: {}
+[33.053387] (-) TimerEvent: {}
+[33.154113] (-) TimerEvent: {}
+[33.254761] (-) TimerEvent: {}
+[33.355438] (-) TimerEvent: {}
+[33.456094] (-) TimerEvent: {}
+[33.556814] (-) TimerEvent: {}
+[33.657445] (-) TimerEvent: {}
+[33.758166] (-) TimerEvent: {}
+[33.858834] (-) TimerEvent: {}
+[33.959488] (-) TimerEvent: {}
+[34.060203] (-) TimerEvent: {}
+[34.160921] (-) TimerEvent: {}
+[34.261511] (-) TimerEvent: {}
+[34.362171] (-) TimerEvent: {}
+[34.462883] (-) TimerEvent: {}
+[34.563670] (-) TimerEvent: {}
+[34.664283] (-) TimerEvent: {}
+[34.764888] (-) TimerEvent: {}
+[34.865551] (-) TimerEvent: {}
+[34.966280] (-) TimerEvent: {}
+[35.066902] (-) TimerEvent: {}
+[35.167382] (-) TimerEvent: {}
+[35.268004] (-) TimerEvent: {}
+[35.368612] (-) TimerEvent: {}
+[35.469211] (-) TimerEvent: {}
+[35.569837] (-) TimerEvent: {}
+[35.670549] (-) TimerEvent: {}
+[35.771213] (-) TimerEvent: {}
+[35.871824] (-) TimerEvent: {}
+[35.972442] (-) TimerEvent: {}
+[36.073020] (-) TimerEvent: {}
+[36.173619] (-) TimerEvent: {}
+[36.274128] (-) TimerEvent: {}
+[36.374552] (-) TimerEvent: {}
+[36.475193] (-) TimerEvent: {}
+[36.575786] (-) TimerEvent: {}
+[36.676335] (-) TimerEvent: {}
+[36.776992] (-) TimerEvent: {}
+[36.877554] (-) TimerEvent: {}
+[36.978111] (-) TimerEvent: {}
+[37.078500] (-) TimerEvent: {}
+[37.179110] (-) TimerEvent: {}
+[37.280015] (-) TimerEvent: {}
+[37.380850] (-) TimerEvent: {}
+[37.481472] (-) TimerEvent: {}
+[37.582133] (-) TimerEvent: {}
+[37.682687] (-) TimerEvent: {}
+[37.783306] (-) TimerEvent: {}
+[37.883745] (-) TimerEvent: {}
+[37.984255] (-) TimerEvent: {}
+[38.084768] (-) TimerEvent: {}
+[38.185297] (-) TimerEvent: {}
+[38.285678] (-) TimerEvent: {}
+[38.386317] (-) TimerEvent: {}
+[38.486852] (-) TimerEvent: {}
+[38.587920] (-) TimerEvent: {}
+[38.688520] (-) TimerEvent: {}
+[38.789141] (-) TimerEvent: {}
+[38.889747] (-) TimerEvent: {}
+[38.990477] (-) TimerEvent: {}
+[39.091137] (-) TimerEvent: {}
+[39.191743] (-) TimerEvent: {}
+[39.292339] (-) TimerEvent: {}
+[39.392952] (-) TimerEvent: {}
+[39.493511] (-) TimerEvent: {}
+[39.593840] (-) TimerEvent: {}
+[39.694171] (-) TimerEvent: {}
+[39.794467] (-) TimerEvent: {}
+[39.894976] (-) TimerEvent: {}
+[39.995716] (-) TimerEvent: {}
+[40.096323] (-) TimerEvent: {}
+[40.196879] (-) TimerEvent: {}
+[40.297379] (-) TimerEvent: {}
+[40.397763] (-) TimerEvent: {}
+[40.498288] (-) TimerEvent: {}
+[40.598660] (-) TimerEvent: {}
+[40.699421] (-) TimerEvent: {}
+[40.800115] (-) TimerEvent: {}
+[40.900750] (-) TimerEvent: {}
+[41.001412] (-) TimerEvent: {}
+[41.102147] (-) TimerEvent: {}
+[41.202708] (-) TimerEvent: {}
+[41.303016] (-) TimerEvent: {}
+[41.403362] (-) TimerEvent: {}
+[41.503916] (-) TimerEvent: {}
+[41.604388] (-) TimerEvent: {}
+[41.704991] (-) TimerEvent: {}
+[41.805547] (-) TimerEvent: {}
+[41.906222] (-) TimerEvent: {}
+[42.006952] (-) TimerEvent: {}
+[42.107544] (-) TimerEvent: {}
+[42.207882] (-) TimerEvent: {}
+[42.308399] (-) TimerEvent: {}
+[42.408948] (-) TimerEvent: {}
+[42.509568] (-) TimerEvent: {}
+[42.610169] (-) TimerEvent: {}
+[42.710778] (-) TimerEvent: {}
+[42.811344] (-) TimerEvent: {}
+[42.911936] (-) TimerEvent: {}
+[43.012452] (-) TimerEvent: {}
+[43.113009] (-) TimerEvent: {}
+[43.213587] (-) TimerEvent: {}
+[43.314195] (-) TimerEvent: {}
+[43.414914] (-) TimerEvent: {}
+[43.515577] (-) TimerEvent: {}
+[43.616156] (-) TimerEvent: {}
+[43.716731] (-) TimerEvent: {}
+[43.817455] (-) TimerEvent: {}
+[43.918187] (-) TimerEvent: {}
+[44.018794] (-) TimerEvent: {}
+[44.119336] (-) TimerEvent: {}
+[44.219975] (-) TimerEvent: {}
+[44.320640] (-) TimerEvent: {}
+[44.421382] (-) TimerEvent: {}
+[44.522121] (-) TimerEvent: {}
+[44.622843] (-) TimerEvent: {}
+[44.723515] (-) TimerEvent: {}
+[44.824120] (-) TimerEvent: {}
+[44.924734] (-) TimerEvent: {}
+[45.025464] (-) TimerEvent: {}
+[45.126114] (-) TimerEvent: {}
+[45.226835] (-) TimerEvent: {}
+[45.327607] (-) TimerEvent: {}
+[45.428247] (-) TimerEvent: {}
+[45.528970] (-) TimerEvent: {}
+[45.629788] (-) TimerEvent: {}
+[45.730531] (-) TimerEvent: {}
+[45.831288] (-) TimerEvent: {}
+[45.932025] (-) TimerEvent: {}
+[46.032748] (-) TimerEvent: {}
+[46.133503] (-) TimerEvent: {}
+[46.234273] (-) TimerEvent: {}
+[46.334913] (-) TimerEvent: {}
+[46.435560] (-) TimerEvent: {}
+[46.536132] (-) TimerEvent: {}
+[46.636659] (-) TimerEvent: {}
+[46.737401] (-) TimerEvent: {}
+[46.838159] (-) TimerEvent: {}
+[46.938867] (-) TimerEvent: {}
+[47.039250] (-) TimerEvent: {}
+[47.139543] (-) TimerEvent: {}
+[47.239952] (-) TimerEvent: {}
+[47.340544] (-) TimerEvent: {}
+[47.441139] (-) TimerEvent: {}
+[47.541889] (-) TimerEvent: {}
+[47.642627] (-) TimerEvent: {}
+[47.743376] (-) TimerEvent: {}
+[47.844143] (-) TimerEvent: {}
+[47.944790] (-) TimerEvent: {}
+[48.045534] (-) TimerEvent: {}
+[48.146186] (-) TimerEvent: {}
+[48.246836] (-) TimerEvent: {}
+[48.347465] (-) TimerEvent: {}
+[48.448132] (-) TimerEvent: {}
+[48.548874] (-) TimerEvent: {}
+[48.649616] (-) TimerEvent: {}
+[48.750357] (-) TimerEvent: {}
+[48.850953] (-) TimerEvent: {}
+[48.951716] (-) TimerEvent: {}
+[49.052357] (-) TimerEvent: {}
+[49.153006] (-) TimerEvent: {}
+[49.253427] (-) TimerEvent: {}
+[49.353946] (-) TimerEvent: {}
+[49.454295] (-) TimerEvent: {}
+[49.554670] (-) TimerEvent: {}
+[49.655297] (-) TimerEvent: {}
+[49.755877] (-) TimerEvent: {}
+[49.856268] (-) TimerEvent: {}
+[49.956979] (-) TimerEvent: {}
+[50.057667] (-) TimerEvent: {}
+[50.158157] (-) TimerEvent: {}
+[50.258793] (-) TimerEvent: {}
+[50.359442] (-) TimerEvent: {}
+[50.460094] (-) TimerEvent: {}
+[50.560712] (-) TimerEvent: {}
+[50.661308] (-) TimerEvent: {}
+[50.761954] (-) TimerEvent: {}
+[50.862706] (-) TimerEvent: {}
+[50.963356] (-) TimerEvent: {}
+[51.063910] (-) TimerEvent: {}
+[51.164408] (-) TimerEvent: {}
+[51.265153] (-) TimerEvent: {}
+[51.365947] (-) TimerEvent: {}
+[51.466685] (-) TimerEvent: {}
+[51.567488] (-) TimerEvent: {}
+[51.668133] (-) TimerEvent: {}
+[51.768836] (-) TimerEvent: {}
+[51.869422] (-) TimerEvent: {}
+[51.970099] (-) TimerEvent: {}
+[52.070781] (-) TimerEvent: {}
+[52.171287] (-) TimerEvent: {}
+[52.271897] (-) TimerEvent: {}
+[52.372407] (-) TimerEvent: {}
+[52.472804] (-) TimerEvent: {}
+[52.573397] (-) TimerEvent: {}
+[52.674015] (-) TimerEvent: {}
+[52.774689] (-) TimerEvent: {}
+[52.875278] (-) TimerEvent: {}
+[52.975851] (-) TimerEvent: {}
+[53.076453] (-) TimerEvent: {}
+[53.176965] (-) TimerEvent: {}
+[53.277306] (-) TimerEvent: {}
+[53.377841] (-) TimerEvent: {}
+[53.478582] (-) TimerEvent: {}
+[53.579311] (-) TimerEvent: {}
+[53.680044] (-) TimerEvent: {}
+[53.780688] (-) TimerEvent: {}
+[53.881432] (-) TimerEvent: {}
+[53.982178] (-) TimerEvent: {}
+[54.082922] (-) TimerEvent: {}
+[54.183546] (-) TimerEvent: {}
+[54.284301] (-) TimerEvent: {}
+[54.384953] (-) TimerEvent: {}
+[54.485690] (-) TimerEvent: {}
+[54.586458] (-) TimerEvent: {}
+[54.687244] (-) TimerEvent: {}
+[54.787989] (-) TimerEvent: {}
+[54.888571] (-) TimerEvent: {}
+[54.989113] (-) TimerEvent: {}
+[55.089803] (-) TimerEvent: {}
+[55.190316] (-) TimerEvent: {}
+[55.291353] (-) TimerEvent: {}
+[55.392011] (-) TimerEvent: {}
+[55.492754] (-) TimerEvent: {}
+[55.593498] (-) TimerEvent: {}
+[55.694250] (-) TimerEvent: {}
+[55.795005] (-) TimerEvent: {}
+[55.895806] (-) TimerEvent: {}
+[55.996256] (-) TimerEvent: {}
+[56.096643] (-) TimerEvent: {}
+[56.197357] (-) TimerEvent: {}
+[56.298046] (-) TimerEvent: {}
+[56.398859] (-) TimerEvent: {}
+[56.499682] (-) TimerEvent: {}
+[56.600294] (-) TimerEvent: {}
+[56.700623] (-) TimerEvent: {}
+[56.759871] (mpc_car_batch) StdoutLine: {'line': b'[100%] Built target mpc_node\n'}
+[56.771505] (mpc_car_batch) CommandEnded: {'returncode': 0}
+[56.796454] (mpc_car_batch) JobProgress: {'identifier': 'mpc_car_batch', 'progress': 'install'}
+[56.797023] (mpc_car_batch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch'], 'cwd': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vivek'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('ACADO_ENV_QPOASES_EMBEDDED_INC_DIRS', '/home/vivek/ACADOtoolkit/external_packages/qpoases/;/home/vivek/ACADOtoolkit/external_packages/qpoases/INCLUDE;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/vivek/acados/lib'), ('ACADOS_SOURCE_DIR', '/home/vivek/acados/'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek'), ('DESKTOP_SESSION', 'ubuntu'), ('ACADO_ENV_SHARED_LIBRARIES', 'acado_toolkit_s'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1549'), ('ACADO_ENV_LIBRARY_DIRS', '/home/vivek/ACADOtoolkit/build/lib'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ACADO_ENV_QPOASES_EMBEDDED_SOURCES', '/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Bounds.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/CyclingManager.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/MessageHandling.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblem.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Utils.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Constraints.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/Indexlist.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/QProblemB.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/SubjectTo.cpp;/home/vivek/ACADOtoolkit/external_packages/qpoases/SRC/EXTRAS/SolutionAnalysis.cpp'), ('CARLA_ROOT', '/opt/carla-simulator'), ('ACADO_ENV_EXTERNAL_PACKAGES_DIR', '/home/vivek/ACADOtoolkit/external_packages'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vivek'), ('JOURNAL_STREAM', '8:42919'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vivek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/vivek/.cache/activestate/bin:/opt/ros/foxy/bin:/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/vivek/.local/bin'), ('SESSION_MANAGER', 'local/vivek-Inspiron-5577:@/tmp/.ICE-unix/1779,unix/vivek-Inspiron-5577:/tmp/.ICE-unix/1779'), ('INVOCATION_ID', '4713355ec6c0406b810543f6c1e21e27'), ('ACADO_ENV_CMAKE_DIR', '/home/vivek/ACADOtoolkit/cmake'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/42b37af9_19d7_4594_859f_e269361a3f7c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ACADO_ENV_STATIC_LIBRARIES', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.610'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch'), ('ACADO_ENV_INCLUDE_DIRS', '/home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/opt/ros/foxy')]), 'shell': False}
+[56.800782] (-) TimerEvent: {}
+[56.901297] (-) TimerEvent: {}
+[57.002179] (-) TimerEvent: {}
+[57.102759] (-) TimerEvent: {}
+[57.119323] (mpc_car_batch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[57.202937] (-) TimerEvent: {}
+[57.303475] (-) TimerEvent: {}
+[57.404026] (-) TimerEvent: {}
+[57.455772] (mpc_car_batch) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/mpc_car_batch/mpc_node\n'}
+[57.504131] (-) TimerEvent: {}
+[57.546128] (mpc_car_batch) StdoutLine: {'line': b'-- Set runtime path of "/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/mpc_car_batch/mpc_node" to ""\n'}
+[57.546729] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/package_run_dependencies/mpc_car_batch\n'}
+[57.546969] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/parent_prefix_path/mpc_car_batch\n'}
+[57.547069] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.sh\n'}
+[57.547156] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.dsv\n'}
+[57.547281] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/path.sh\n'}
+[57.547364] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/path.dsv\n'}
+[57.547442] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.bash\n'}
+[57.547529] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.sh\n'}
+[57.547644] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.zsh\n'}
+[57.547720] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.dsv\n'}
+[57.547798] (mpc_car_batch) StdoutLine: {'line': b'-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.dsv\n'}
+[57.604267] (-) TimerEvent: {}
+[57.683553] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/packages/mpc_car_batch\n'}
+[57.684234] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig.cmake\n'}
+[57.684541] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig-version.cmake\n'}
+[57.685390] (mpc_car_batch) StdoutLine: {'line': b'-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.xml\n'}
+[57.695330] (mpc_car_batch) CommandEnded: {'returncode': 0}
+[57.704418] (-) TimerEvent: {}
+[57.805160] (-) TimerEvent: {}
+[57.905708] (-) TimerEvent: {}
+[57.931856] (mpc_car_batch) JobEnded: {'identifier': 'mpc_car_batch', 'rc': 0}
+[57.934264] (-) EventReactorShutdown: {}

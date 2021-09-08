@@ -1,0 +1,21 @@
+[0.509s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed
+[0.784s] running egg_info
+[0.791s] writing ../../build/frenet_car/frenet_car.egg-info/PKG-INFO
+[0.791s] writing dependency_links to ../../build/frenet_car/frenet_car.egg-info/dependency_links.txt
+[0.791s] writing entry points to ../../build/frenet_car/frenet_car.egg-info/entry_points.txt
+[0.791s] writing requirements to ../../build/frenet_car/frenet_car.egg-info/requires.txt
+[0.791s] writing top-level names to ../../build/frenet_car/frenet_car.egg-info/top_level.txt
+[0.827s] reading manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'
+[0.833s] writing manifest file '../../build/frenet_car/frenet_car.egg-info/SOURCES.txt'
+[0.833s] running build
+[0.833s] running build_py
+[0.833s] running install
+[0.833s] running install_lib
+[0.833s] running install_data
+[0.833s] running install_egg_info
+[0.837s] removing '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car-0.0.0-py3.8.egg-info' (and everything under it)
+[0.837s] Copying ../../build/frenet_car/frenet_car.egg-info to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages/frenet_car-0.0.0-py3.8.egg-info
+[0.837s] running install_scripts
+[0.855s] Installing frenet_node script to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/frenet_car
+[0.857s] writing list of installed files to '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log'
+[0.903s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/frenet_car' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/frenet_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/frenet_car/install.log --single-version-externally-managed

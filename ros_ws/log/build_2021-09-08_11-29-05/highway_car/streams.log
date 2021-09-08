@@ -1,0 +1,21 @@
+[0.534s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/highway_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log --single-version-externally-managed
+[0.824s] running egg_info
+[0.825s] writing ../../build/highway_car/highway_car.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/highway_car/highway_car.egg-info/dependency_links.txt
+[0.825s] writing entry points to ../../build/highway_car/highway_car.egg-info/entry_points.txt
+[0.825s] writing requirements to ../../build/highway_car/highway_car.egg-info/requires.txt
+[0.825s] writing top-level names to ../../build/highway_car/highway_car.egg-info/top_level.txt
+[0.865s] reading manifest file '../../build/highway_car/highway_car.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/highway_car/highway_car.egg-info/SOURCES.txt'
+[0.866s] running build
+[0.866s] running build_py
+[0.866s] running install
+[0.866s] running install_lib
+[0.867s] running install_data
+[0.868s] running install_egg_info
+[0.873s] removing '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages/highway_car-0.0.0-py3.8.egg-info' (and everything under it)
+[0.873s] Copying ../../build/highway_car/highway_car.egg-info to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages/highway_car-0.0.0-py3.8.egg-info
+[0.873s] running install_scripts
+[0.891s] Installing highway_node2 script to /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/highway_car
+[0.892s] writing list of installed files to '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log'
+[0.944s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/highway_car' returned '0': AMENT_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car LD_LIBRARY_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/highway_car build --build-base /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/build install --prefix /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car --record /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/highway_car/install.log --single-version-externally-managed

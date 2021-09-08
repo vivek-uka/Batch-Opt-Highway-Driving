@@ -1,0 +1,442 @@
+[0.321s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mpc_car_batch']
+[0.321s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0759b8a760>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['mpc_car_batch'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0759b8a760>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0759b8acd0>)
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_car) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frenet_car' with type 'ros.ament_python' and name 'frenet_car'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/highway_car) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/highway_car' with type 'ros.ament_python' and name 'highway_car'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_acado' with type 'ros.ament_cmake' and name 'mpc_car_acado'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_acado_single) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_acado_single' with type 'ros.ament_cmake' and name 'mpc_car_acado_single'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpc_car_batch) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpc_car_batch' with type 'ros.ament_cmake' and name 'mpc_car_batch'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/msgs_car) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msgs_car' with type 'ros.ament_cmake' and name 'msgs_car'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(stats) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/Cruise/No-Time-Budget/Copy) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/HighSpeed_RightLane/No-Time-Budget/Copy) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget) by extension 'python_setup_py'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/cruise/Copy) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/NGSIM/No-Time-Budget/hsrl/Copy) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/No-Time-Budget/Copy) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(stats/New/RightLane/Time-Budget) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'msgs_car' in 'src/msgs_car'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'frenet_car' in 'src/frenet_car'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'highway_car' in 'src/highway_car'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mpc_car_acado' in 'src/mpc_car_acado'
+[0.389s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mpc_car_acado_single' in 'src/mpc_car_acado_single'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'mpc_car_batch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_car_batch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch', 'merge_install': False, 'path': '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch', 'symlink_install': False, 'test_result_base': None}
+[0.393s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.395s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch'
+[0.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch -- -j4 -l4
+[20.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch -- -j4 -l4
+[20.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch
+[20.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_batch)
+[20.686s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake module files
+[20.686s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake config files
+[20.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_batch', 'cmake_prefix_path')
+[20.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.ps1'
+[20.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch' returned '0': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --install /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_batch
+[21.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.dsv'
+[21.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.sh'
+[21.386s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib'
+[21.387s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/bin'
+[21.387s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/pkgconfig/mpc_car_batch.pc'
+[21.387s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/python3.8/site-packages'
+[21.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.ps1'
+[21.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.dsv'
+[21.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.sh'
+[21.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.bash'
+[21.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.zsh'
+[21.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/colcon-core/packages/mpc_car_batch)
+[21.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_car_batch)
+[21.889s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake module files
+[21.890s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch' for CMake config files
+[21.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_car_batch', 'cmake_prefix_path')
+[21.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.ps1'
+[21.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.dsv'
+[21.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/hook/cmake_prefix_path.sh'
+[21.929s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib'
+[21.929s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/bin'
+[21.929s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/pkgconfig/mpc_car_batch.pc'
+[21.930s] Level 1:colcon.colcon_core.environment:checking '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/python3.8/site-packages'
+[21.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.ps1'
+[21.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.dsv'
+[21.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.sh'
+[21.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.bash'
+[21.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.zsh'
+[21.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/colcon-core/packages/mpc_car_batch)
+[21.997s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.999s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.077s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.101s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.ps1'
+[22.353s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/_local_setup_util_ps1.py'
+[22.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.ps1'
+[22.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.sh'
+[22.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/_local_setup_util_sh.py'
+[22.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.sh'
+[23.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.bash'
+[23.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.bash'
+[23.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/local_setup.zsh'
+[23.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/setup.zsh'

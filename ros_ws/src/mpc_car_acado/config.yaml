@@ -1,0 +1,76 @@
+setting: cruise_IDM_11
+
+configuration:
+  cruise_IDM_11:
+    goal: 11.0
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]
+    file: "stats/New/Cruise/No-Time-Budget/mpc_car_acado_data_11_goals.txt"
+    weights: [50, 50, 0, 0]
+
+  cruise_IDM_6:
+    goal: 6.0
+    x_g: [120, 120, 120, 120, 120, 120]
+    y_g: [-10, -6, -2, 0, 2, 6, 10]
+    file: "stats/New/Cruise/No-Time-Budget/mpc_car_acado_data_6_goals.txt"
+    weights: [50, 50, 0, 0]
+  
+  HSRL_IDM_11:
+    goal: 11
+    x_g: [150, 155, 160, 165, 170, 175, 160, 160, 160, 160, 160]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_acado_data_11_goals.txt"
+    weights: [0, 50, 5, 1]
+
+  HSRL_IDM_6:
+    goal: 6
+    x_g: [140, 160, 170, 160, 160, 160]
+    y_g: [-10, -10, -10, -2, 4, 10] 
+    file: "stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_acado_data_6_goals.txt"
+    weights: [0, 50, 5, 1]
+  
+  RL_IDM_11:
+    goal: 11
+    x_g: [110, 115, 120, 125, 130, 135, 120, 120, 120, 120, 120]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_11_goals.txt"
+    weights: [0, 50, 50, 0]
+
+  RL_IDM_6:
+    goal: 6
+    x_g: [100, 120, 130, 120, 120, 120]
+    y_g: [-10, -10, -10, -2, 4, 10] 
+    file: "stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_11_goals.txt"
+    weights: [0, 50, 50, 0]
+  
+  
+  cruise_NGSIM_11:
+    goal: 11.0
+    x_g: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+    y_g: [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]
+    file: "stats/New/NGSIM/No-Time-Budget/cruise/mpc_car_acado_data_11_goals_0_ngsim.txt"
+    weights: [50, 50, 0, 0]
+
+  cruise_NGSIM_6:
+    goal: 6.0
+    x_g: [120, 120, 120, 120, 120, 120]
+    y_g: [-10, -6, -2, 0, 2, 6, 10]
+    file: "stats/New/NGSIM/No-Time-Budget/cruise/mpc_car_acado_data_6_goals_0_ngsim.txt"
+    weights: [50, 50, 0, 0]
+  
+  HSRL_NGSIM_11:
+    goal: 11
+    x_g: [150, 155, 160, 165, 170, 175, 160, 160, 160, 160, 160]
+    y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
+    file: "stats/New/NGSIM/No-Time-Budget/hrsl/mpc_car_acado_data_11_goals_0_ngsim.txt"
+    weights: [0, 50, 5, 1]
+
+  HSRL_NGSIM_6:
+    goal: 6
+    x_g: [140, 160, 170, 160, 160, 160]
+    y_g: [-10, -10, -10, -2, 4, 10] 
+    file: "stats/New/NGSIM/No-Time-Budget/hsrl/mpc_car_acado_data_6_goals_0_ngsim.txt"
+    weights: [0, 50, 5, 1]
+
+
+

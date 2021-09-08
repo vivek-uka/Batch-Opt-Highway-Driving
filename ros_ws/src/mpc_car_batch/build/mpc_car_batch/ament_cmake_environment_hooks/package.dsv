@@ -1,4 +1,0 @@
-source;share/mpc_car_batch/local_setup.bash
-source;share/mpc_car_batch/local_setup.dsv
-source;share/mpc_car_batch/local_setup.sh
-source;share/mpc_car_batch/local_setup.zsh
