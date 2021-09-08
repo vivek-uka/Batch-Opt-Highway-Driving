@@ -20,8 +20,14 @@ colcon build
 source ./install/setup.bash  
 ``` 
 #### Setting a high-level driving mission  
-* In each approach folder, you will find ```config.yaml```, change ```setting``` to:
-|Obstacles||Mission|Name|
+* In each approach folder, you will find ```config.yaml```, change ```setting``` to:  
+|Obstacles||Mission|Name|  
+|IDM|Cruise|cruise_IDM|  
+|IDM|High Speed and Close to Right Lane|HSRL_IDM| 
+|IDM|Merge to Right Lane|RL_IDM| 
+|NGSIM|Cruise|cruise_NGSIM|  
+|NGSIM|High Speed and Close to Right Lane|HSRL_NGSIM| 
+
 
 #### In the first terminal:
 * Running our proposed batch optimization  
