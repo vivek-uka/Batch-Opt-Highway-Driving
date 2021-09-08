@@ -4,6 +4,8 @@ import random
 import numpy as np
 from time import time
 import matplotlib.pyplot as plt
+import yaml
+from yaml.loader import SafeLoader
 
 from matplotlib.patches import Ellipse, Rectangle
 from shapely.geometry import Point
@@ -54,8 +56,20 @@ class MinimalSubscriber(Node):
         self.psi_constrols = np.array([])
         self.num_goal = 10
 
+        with open('src/frenet_car/config.yaml') as f:
+            data = yaml.load(f, Loader=SafeLoader)
+            setting = str(data["setting"])
         
-        self.setting = 0 # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
+        # cruise = 0, Right Lane = 1, High Speed RightLane = 2, NGSIM = 3
+        if setting == "cruise_IDM":
+            self.setting = 0 
+
+        elif setting == "RL_IDM":
+            self.setting = 1
+        elif setting == "HSRL_IDM":
+            self.setting = 2
+        else:
+            self.setting = 3
 
         if self.setting == 3:
             self.NGSIM = True
@@ -100,17 +114,19 @@ class MinimalSubscriber(Node):
             for i in range(self.num_obs):
                 self.obs[i+1] = self.other_vehicles[i,:4] 
         else:
-            file = "ngsim_data0.csv"
-            if file == "ngsim_data0.csv":
+            if setting == "cruise_NGSIM":
+                file = "ngsim_data0.csv"
                 self.time_shift = 250.0
                 self.y_shift = 10.7
             else:
+                file = "ngsim_data1.csv"
                 self.time_shift = 511.12
                 self.y_shift = 11.7
                 self.obs[0] =[-10, 2, 14.0, 0.0]
 
+
             print("READING DATA........")
-            self.ngsim_obs = np.genfromtxt('/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/src/highway_car/highway_car/'+file,delimiter=',') # id x y psi length width vx vy  time
+            self.ngsim_obs = np.genfromtxt('src/highway_car/highway_car/'+file,delimiter=',') # id x y psi length width vx vy  time
             mask = self.ngsim_obs[:,8] == np.round(self.time_shift, 2) # 2 for data0
             ngsim_obs = self.ngsim_obs[mask,:]
             
@@ -122,8 +138,8 @@ class MinimalSubscriber(Node):
             self.other_vehicles[:,5] = (np.pi/2 - ngsim_obs[:,3])
             self.other_vehicles[:,6] = ngsim_obs[:,4]
             self.other_vehicles[:,7] = ngsim_obs[:,5]
-            # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2)
-            self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)+0.0001)) + 1) * 10000
+            self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2)
+            # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0] - self.a_ell/2)+0.0001)) + 1) * 10000
             self.other_vehicles = self.other_vehicles[self.other_vehicles[:, 4].argsort()]
             self.obs[1:] = self.other_vehicles[:len(self.obs)-1,:4]
             
@@ -371,8 +387,8 @@ class MinimalSubscriber(Node):
                         self.other_vehicles[:,5] = (np.pi/2 - ngsim_obs[:,3])
                         self.other_vehicles[:,6] = ngsim_obs[:,4]
                         self.other_vehicles[:,7] = ngsim_obs[:,5]
-                        # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) 
-                        self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)+0.0001)) + 1) * 10000
+                        self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) 
+                        # self.other_vehicles[:,4] = np.sqrt((self.other_vehicles[:,0] - self.obs[0][0])**2 + (self.other_vehicles[:,1] - self.obs[0][1])**2) + (((-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)/(abs(-self.other_vehicles[:,0] + self.obs[0][0]-self.a_ell/2)+0.0001)) + 1) * 10000
                         self.other_vehicles = self.other_vehicles[self.other_vehicles[:, 4].argsort()]
                         self.obs[1:] = self.other_vehicles[:len(self.obs)-1,:4]
 

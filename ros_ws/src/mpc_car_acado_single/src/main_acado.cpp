@@ -4,6 +4,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <fstream>
+#include "yaml-cpp/yaml.h"
 
 #include "acado_common.h"
 #include "acado_auxiliary_functions.h"
@@ -49,7 +50,7 @@ class MinimalPublisher : public rclcpp::Node
 
 	int num_goal, num_obs, num;
 	float dt, x_init, y_init, v_init, theta_init, thetadot_init, total_time, speed, avg_time, avg_speed;
-	float prev_v_send, prev_w_send, a_obs, b_obs;
+	float prev_v_send, prev_w_send, a_obs, b_obs, w0, w1, v_des;
 
 	int cnt = 1, loop = -1, setting;
 	ofstream outdata, outdata2;
@@ -116,6 +117,7 @@ class MinimalPublisher : public rclcpp::Node
         meta_cost = -1;
 
 		
+
 		x_g = 120;
 		y_g = -10;
 		old = x_g;
@@ -125,13 +127,13 @@ class MinimalPublisher : public rclcpp::Node
         publisher_ = this->create_publisher<msgs_car::msg::Controls>("ego_vehicle_cmds", 10);
         timer_ = this->create_wall_timer(10ms, bind(&MinimalPublisher::timer_callback, this));
 
-		// string file ="stats/New/NGSIM/No-Time-Budget/mpc_car_acado_data_11_goals_1.txt";//"stats/HighSpeed_RightLane/No-Time-Budget/mpc_car_acado_data_11_goals.txt";//"stats/Cruisie/Time-Budget/mpc_car_acado_data_6_goals.txt";
-		// outdata.open("stats/New/Cruise/No-Time-Budget/mpc_car_acado_data_6_goals.txt");
-		// outdata.open("stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_6_goals.txt");
-		// outdata.open("stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_acado_data_6_goals.txt");
-		// outdata.open("stats/New/NGSIM/No-Time-Budget/mpc_car_acado_data_6_goals_1.txt");
-		outdata.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/mpc_car_acado_data_1_goals_0_ngsim.txt");
-		// outdata.open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_1_goals.txt");
+		YAML::Node map = YAML::LoadFile("src/mpc_car_acado_single/config.yaml");
+		string setting = map["setting"].as<string>();
+		w0 = map["configuration"][setting]["weights"][0].as<float>();
+        w1 = map["configuration"][setting]["weights"][1].as<float>();
+		v_des = map["configuration"][setting]["v_des"].as<float>();
+
+		outdata.open(map["configuration"][setting]["file"].as<string>());
 		thread Thread[num_goal];	
 		for(int i = 0; i < num_goal; i++)
 			Thread[i] = thread(&MinimalPublisher::optimize, this, i);
@@ -262,7 +264,7 @@ void MinimalPublisher :: optimize(int info)
 		{
 			acadoVariables.y[ i*NY + 0 ] = x_g(id);
 			acadoVariables.y[ i*NY + 1 ] = y_g(id);
-			acadoVariables.y[ i*NY + 2 ] = 15.0;//20.0;
+			acadoVariables.y[ i*NY + 2 ] = v_des;
 
 			acadoVariables.y[ i*NY + 3 ] = 0.0;		
 			acadoVariables.y[ i*NY + 4 ] = 0.0;
@@ -314,8 +316,8 @@ void MinimalPublisher :: optimize(int info)
 		for (int i = 0; i < N * (1 - first); i++)
 		{
 			acadoVariables.W[NY*NY*i + (NY+1)*0] = 0.0;
-			acadoVariables.W[NY*NY*i + (NY+1)*1] = 5*1e1;
-			acadoVariables.W[NY*NY*i + (NY+1)*2] = 0*6.5*1e3+1*1e3;				// cruise 6.5*1e3, hsrl=5e1,1e2, rl 5e1 pn sythetic
+			acadoVariables.W[NY*NY*i + (NY+1)*1] = w0;
+			acadoVariables.W[NY*NY*i + (NY+1)*2] = w1;				// cruise 6.5*1e3, hsrl=5e1,1e2, rl 5e1 pn sythetic
 																				// ngsim hrsl 5e1, 1e3 for ngsim2
 
 			acadoVariables.W[NY*NY*i + (NY+1)*3] = 7*1e3;	// a
