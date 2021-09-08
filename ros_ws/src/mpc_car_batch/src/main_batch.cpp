@@ -146,7 +146,7 @@ class MinimalPublisher : public rclcpp::Node
             y_g(i) = map["configuration"][setting]["y_g"][i].as<float>();
             meta_cost(i, 0) = i+1;
         }
-        cout << x_g;
+        // cout << x_g;
         old = x_g;
 
         
