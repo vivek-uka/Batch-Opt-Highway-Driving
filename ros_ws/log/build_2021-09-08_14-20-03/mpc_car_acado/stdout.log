@@ -1,0 +1,3 @@
+[ 88%] Built target mpc_solver
+[35m[1mScanning dependencies of target mpc_node[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main_acado.cpp.o[0m

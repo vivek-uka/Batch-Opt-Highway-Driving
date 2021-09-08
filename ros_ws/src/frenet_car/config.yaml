@@ -1,0 +1,27 @@
+setting: cruise_IDM
+
+configuration:
+  cruise_IDM:
+    file: "stats/New/Cruise/No-Time-Budget/car_frenet_data.txt"
+    weights: [1, 0, 0]
+
+  HSRL_IDM:
+    file: "stats/New/HighSpeed_RightLane/No-Time-Budget/car_frenet_data.txt"
+    weights: [0, 1, 10]
+  
+
+  RL_IDM:
+    file: "stats/New/RightLane/No-Time-Budget/car_frenet_data.txt"
+    weights: [0, 1, 0]
+  
+  
+  cruise_NGSIM:
+    file: "stats/New/NGSIM/No-Time-Budget/cruise/car_frenet_data_0_ngsim.txt"
+    weights: [1, 0, 0]
+
+  HSRL_NGSIM:
+    file: "stats/New/NGSIM/No-Time-Budget/hsrl/car_frenet_data_0_ngsim.txt"
+    weights: [0, 1, 10]
+
+
+

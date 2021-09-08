@@ -4,7 +4,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <fstream>
-
+#include "yaml-cpp/yaml.h"
 #include "acado_common.h"
 #include "acado_auxiliary_functions.h"
 #include <thread>
@@ -124,7 +124,7 @@ class MinimalPublisher : public rclcpp::Node
 		meta_cost = ArrayXXf(num_goal, 9);
         meta_cost = -1;
 
-		for(int i = 0; i < prob_data.num_goal; i++)
+		for(int i = 0; i < num_goal; i++)
         {
             x_g(i) = map["configuration"][setting]["x_g"][i].as<float>();
             y_g(i) = map["configuration"][setting]["y_g"][i].as<float>();

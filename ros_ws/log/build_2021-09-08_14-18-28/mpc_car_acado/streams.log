@@ -1,0 +1,113 @@
+[0.592s] Invoking command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4
+[0.710s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.788s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.079s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.125s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.352s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.509s] -- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.797s] -- ********************************************************************************
+[1.797s] -- ---> Looking for ACADO toolkit:
+[1.797s] -- Found ACADO toolkit include directories: /home/vivek/ACADOtoolkit;/home/vivek/ACADOtoolkit/acado;/home/vivek/ACADOtoolkit/external_packages;/home/vivek/ACADOtoolkit/external_packages/qpOASES-3.2.0/include;/home/vivek/ACADOtoolkit/build
+[1.797s] -- Found ACADO toolkit library directories: /home/vivek/ACADOtoolkit/build/lib
+[1.798s] -- Could not find ACADO static library.
+[1.798s] -- Found ACADO shared library: acado_toolkit_s
+[1.798s] -- ********************************************************************************
+[1.798s] -- Found msgs_car: 0.0.0 (/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/share/msgs_car/cmake)
+[1.870s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.128s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.128s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.128s] -- Configured cppcheck include dirs: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/.;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/include;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/model/codegen/;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/INCLUDE;/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/externals/qpoases/SRC
+[2.128s] -- Configured cppcheck exclude dirs and/or files: 
+[2.131s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.132s] -- Configured cpplint exclude dirs and/or files: 
+[2.136s] -- Added test 'lint_cmake' to check CMake code style
+[2.140s] -- Added test 'uncrustify' to check C / C++ code style
+[2.140s] -- Configured uncrustify additional arguments: 
+[2.141s] -- Added test 'xmllint' to check XML markup files
+[2.367s] -- Configuring done
+[2.602s] -- Generating done
+[2.605s] -- Build files have been written to: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado
+[2.994s] [ 88%] Built target mpc_solver
+[3.025s] [35m[1mScanning dependencies of target mpc_node[0m
+[3.077s] [ 94%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/main_acado.cpp.o[0m
+[5.161s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[5.161s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:72:3:[m[K [01;31m[Kerror: [m[K‘[01m[KYAML[m[K’ has not been declared
+[5.161s]    72 |   [01;31m[KYAML[m[K::Node map = YAML::LoadFile("src/mpc_car_acado/config.yaml");
+[5.161s]       |   [01;31m[K^~~~[m[K
+[5.162s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:74:29:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.162s]    74 |         string setting = map[01;31m[K[[m[K"setting"].as<string>();
+[5.162s]       |                             [01;31m[K^[m[K
+[5.162s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:74:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.162s]    74 |         string setting = map["setting"].as<string[01;31m[K>[m[K();
+[5.162s]       |                                                  [01;31m[K^[m[K
+[5.162s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:74:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.162s]    74 |         string setting = map["setting"].as<string>([01;31m[K)[m[K;
+[5.162s]       |                                                    [01;31m[K^[m[K
+[5.162s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:76:23:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.162s]    76 |         num_goal = map[01;31m[K[[m[K"configuration"][setting]["goal"].as<float>();
+[5.163s]       |                       [01;31m[K^[m[K
+[5.163s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:76:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.163s]    76 |         num_goal = map["configuration"][setting]["goal"].as<[01;31m[Kfloat[m[K>();
+[5.163s]       |                                                             [01;31m[K^~~~~[m[K
+[5.163s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:77:17:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.163s]    77 |         w0 = map[01;31m[K[[m[K"configuration"][setting]["weights"][0].as<float>();
+[5.163s]       |                 [01;31m[K^[m[K
+[5.163s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:77:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.163s]    77 |         w0 = map["configuration"][setting]["weights"][0].as<[01;31m[Kfloat[m[K>();
+[5.163s]       |                                                             [01;31m[K^~~~~[m[K
+[5.163s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:78:17:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.163s]    78 |         w1 = map[01;31m[K[[m[K"configuration"][setting]["weights"][1].as<float>();
+[5.163s]       |                 [01;31m[K^[m[K
+[5.164s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:78:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.164s]    78 |         w1 = map["configuration"][setting]["weights"][1].as<[01;31m[Kfloat[m[K>();
+[5.164s]       |                                                             [01;31m[K^~~~~[m[K
+[5.164s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:79:17:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.164s]    79 |         w2 = map[01;31m[K[[m[K"configuration"][setting]["weights"][2].as<float>();
+[5.164s]       |                 [01;31m[K^[m[K
+[5.164s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:79:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.164s]    79 |         w2 = map["configuration"][setting]["weights"][2].as<[01;31m[Kfloat[m[K>();
+[5.164s]       |                                                             [01;31m[K^~~~~[m[K
+[5.164s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:80:17:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.164s]    80 |         w3 = map[01;31m[K[[m[K"configuration"][setting]["weights"][3].as<float>();
+[5.164s]       |                 [01;31m[K^[m[K
+[5.164s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:80:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.164s]    80 |         w3 = map["configuration"][setting]["weights"][3].as<[01;31m[Kfloat[m[K>();
+[5.165s]       |                                                             [01;31m[K^~~~~[m[K
+[5.170s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:127:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kprob_data[m[K’ was not declared in this scope
+[5.171s]   127 |   for(int i = 0; i < [01;31m[Kprob_data[m[K.num_goal; i++)
+[5.171s]       |                      [01;31m[K^~~~~~~~~[m[K
+[5.171s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:129:25:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.171s]   129 |             x_g(i) = map[01;31m[K[[m[K"configuration"][setting]["x_g"][i].as<float>();
+[5.171s]       |                         [01;31m[K^[m[K
+[5.171s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:129:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.171s]   129 |             x_g(i) = map["configuration"][setting]["x_g"][i].as<[01;31m[Kfloat[m[K>();
+[5.171s]       |                                                                 [01;31m[K^~~~~[m[K
+[5.171s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:130:25:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.171s]   130 |             y_g(i) = map[01;31m[K[[m[K"configuration"][setting]["y_g"][i].as<float>();
+[5.171s]       |                         [01;31m[K^[m[K
+[5.171s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:130:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[5.172s]   130 |             y_g(i) = map["configuration"][setting]["y_g"][i].as<[01;31m[Kfloat[m[K>();
+[5.172s]       |                                                                 [01;31m[K^~~~~[m[K
+[5.192s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:141:19:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K[[m[K’ token
+[5.192s]   141 |   outdata.open(map[01;31m[K[[m[K"configuration"][setting]["file"].as<string>());
+[5.192s]       |                   [01;31m[K^[m[K
+[5.192s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:141:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[5.192s]   141 |   outdata.open(map["configuration"][setting]["file"].as<string[01;31m[K>[m[K());
+[5.192s]       |                                                               [01;31m[K^[m[K
+[5.192s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:141:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[5.192s]   141 |   outdata.open(map["configuration"][setting]["file"].as<string>([01;31m[K)[m[K);
+[5.192s]       |                                                                 [01;31m[K^[m[K
+[5.259s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:142:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KThread[m[K’ [[01;35m[K-Wvla[m[K]
+[5.259s]   142 |   thread [01;35m[KThread[m[K[num_goal];
+[5.259s]       |          [01;35m[K^~~~~~[m[K
+[5.624s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::optimize(int)[m[K’:
+[5.624s] [01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:325:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.624s]   325 |   acado_timer t, [01;35m[Kt2[m[K;
+[5.624s]       |                  [01;35m[K^~[m[K
+[7.165s] make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main_acado.cpp.o] Error 1
+[7.165s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
+[7.166s] make: *** [Makefile:141: all] Error 2
+[7.283s] Invoked command in '/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado' returned '2': CMAKE_PREFIX_PATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado_single:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_acado:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car:/opt/ros/foxy PYTHONPATH=/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/msgs_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/highway_car/lib/python3.8/site-packages:/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/frenet_car/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg:/opt/carla-simulator/PythonAPI/carla /usr/bin/cmake --build /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/build/mpc_car_acado -- -j4 -l4

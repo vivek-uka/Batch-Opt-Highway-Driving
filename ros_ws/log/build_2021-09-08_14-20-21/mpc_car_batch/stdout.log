@@ -1,0 +1,19 @@
+[ 50%] Built target mpc_node_lib
+[100%] Built target mpc_node
+-- Install configuration: ""
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/lib/mpc_car_batch/mpc_node
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/package_run_dependencies/mpc_car_batch
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/parent_prefix_path/mpc_car_batch
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/path.sh
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/environment/path.dsv
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.bash
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.sh
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.zsh
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/local_setup.dsv
+-- Installing: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.dsv
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/ament_index/resource_index/packages/mpc_car_batch
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig.cmake
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/cmake/mpc_car_batchConfig-version.cmake
+-- Up-to-date: /home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/install/mpc_car_batch/share/mpc_car_batch/package.xml

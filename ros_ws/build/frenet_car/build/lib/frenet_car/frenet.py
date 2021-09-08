@@ -3,6 +3,8 @@ import math
 # import frenet_car.frenet_optimal_trajectory
 from frenet_car import frenet_optimal_trajectory
 from time import time
+import yaml
+from yaml.loader import SafeLoader
 
 import rclpy
 from rclpy.node import Node
@@ -64,10 +66,18 @@ class MinimalSubscriber(Node):
 		self.Gotit = 0
 		self.first = 1
 		self.loop = 0
-		# self.file = open("stats/New/Cruise/No-Time-Budget/car_frenet_data.txt", "w")
-		# self.file = open("stats/New/HighSpeed_RightLane/No-Time-Budget/car_frenet_data.txt", "w")
-		self.file = open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/car_frenet_data_0_ngsim.txt", "w")
-		self.file2 = open("/home/vivek/On-Codes/Backup/Batch_traj_opt/ros_ws/stats/New/NGSIM/No-Time-Budget/car_frenet_data_0_ngsim_all_info.txt", "w")
+		
+		with open('src/frenet_car/config.yaml') as f:
+			data = yaml.load(f, Loader=SafeLoader)
+			setting = str(data["setting"])
+			w0 = float(data['configuration'][setting]['weights'][0])
+			w1 = float(data['configuration'][setting]['weights'][1])
+			w2 = float(data['configuration'][setting]['weights'][2])
+			self.weights = [w0, w1, w2]
+		
+
+		self.file = open(str(data['configuration'][setting]['file']), "w")
+		
 		print("NODES ARE UP")
 
 	def timer_callback(self):
@@ -80,11 +90,11 @@ class MinimalSubscriber(Node):
 			t1 = time()
 			path, fplist, index= frenet_optimal_trajectory.frenet_optimal_planning(csp, self.s0, self.c_speed, self.c_d, self.c_d_d, self.c_d_dd, 
 					self.obs_p, self.obs_v, self.prev_vec, self.MAX_SPEED, self.MAX_ACCEL, self.MAX_CURVATURE, self.MAX_ROAD_WIDTH, 
-					self.D_ROAD_W, self.dt, self.MAXT, self.MINT, self.TARGET_SPEED, self.D_T_S , self.N_S_SAMPLE, self.agent_r, self.obs_r)
+					self.D_ROAD_W, self.dt, self.MAXT, self.MINT, self.TARGET_SPEED, self.D_T_S , self.N_S_SAMPLE, self.agent_r, self.obs_r, self.weights)
 			comp_time = time() - t1
 			
 			for i in range(len(fplist)):
-				np.savetxt(self.file2, np.asarray([fplist[i].x, fplist[i].y]), delimiter='\n')
+				# np.savetxt(self.file2, np.asarray([fplist[i].x, fplist[i].y]), delimiter='\n')
 				for j in range(len(fplist[i].x)):
 					pose = Pose()
 					pose.position.x = fplist[i].x[j]

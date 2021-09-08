@@ -1,0 +1,8 @@
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:142:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KThread[m[K’ [[01;35m[K-Wvla[m[K]
+  142 |   thread [01;35m[KThread[m[K[num_goal];
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::optimize(int)[m[K’:
+[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_acado/src/main_acado.cpp:325:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  325 |   acado_timer t, [01;35m[Kt2[m[K;
+      |                  [01;35m[K^~[m[K

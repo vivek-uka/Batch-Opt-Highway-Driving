@@ -303,7 +303,7 @@ def check_paths(fplist, ob, ob_v,MAX_SPEED, MAX_ACCEL, MAX_CURVATURE, MAX_ROAD_W
     return [fplist[i] for i in okind]
 
 
-def frenet_optimal_planning(csp, s0, c_speed, c_d, c_d_d, c_d_dd, ob,ob_v, prev_vec, MAX_SPEED, MAX_ACCEL, MAX_CURVATURE, MAX_ROAD_WIDTH, D_ROAD_W, DT, MAXT, MINT, TARGET_SPEED, D_T_S, N_S_SAMPLE, ROBOT_RADIUS, obs_r):
+def frenet_optimal_planning(csp, s0, c_speed, c_d, c_d_d, c_d_dd, ob,ob_v, prev_vec, MAX_SPEED, MAX_ACCEL, MAX_CURVATURE, MAX_ROAD_WIDTH, D_ROAD_W, DT, MAXT, MINT, TARGET_SPEED, D_T_S, N_S_SAMPLE, ROBOT_RADIUS, obs_r, WT):
 
     fplist = calc_frenet_paths(c_speed, c_d, c_d_d, c_d_dd, s0, MAX_SPEED, MAX_ACCEL, MAX_CURVATURE, MAX_ROAD_WIDTH, D_ROAD_W, DT, MAXT, MINT, TARGET_SPEED,D_T_S ,N_S_SAMPLE,ROBOT_RADIUS)
     fplist = calc_global_paths(fplist, csp,prev_vec, MAX_SPEED, MAX_ACCEL, MAX_CURVATURE, MAX_ROAD_WIDTH, D_ROAD_W, DT, MAXT, MINT, TARGET_SPEED,D_T_S ,N_S_SAMPLE,ROBOT_RADIUS)
@@ -317,7 +317,7 @@ def frenet_optimal_planning(csp, s0, c_speed, c_d, c_d_d, c_d_dd, ob,ob_v, prev_
     index = 0
     for fp in fplist:
         vel = (np.sqrt(np.diff(fp.x)**2 + np.diff(fp.y)**2)/DT)
-        cost = 0*1*np.linalg.norm(vel - TARGET_SPEED) + 1 * np.linalg.norm(np.array([fp.y]) - (-10.0)) + 10.0*np.linalg.norm(vel-24)
+        cost = WT[0]*np.linalg.norm(vel - TARGET_SPEED) + WT[1] * np.linalg.norm(np.array([fp.y]) - (-10.0)) + WT[2]*np.linalg.norm(vel-24)
 
         if mincost >= cost:
             mincost = cost
