@@ -1,4 +1,0 @@
-source;share/mpc_car_acado_single/local_setup.bash
-source;share/mpc_car_acado_single/local_setup.dsv
-source;share/mpc_car_acado_single/local_setup.sh
-source;share/mpc_car_acado_single/local_setup.zsh
