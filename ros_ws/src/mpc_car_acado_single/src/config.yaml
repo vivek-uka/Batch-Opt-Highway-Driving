@@ -1,0 +1,27 @@
+setting: cruise_IDM
+
+configuration:
+  cruise_IDM:
+    file: "stats/New/Cruise/No-Time-Budget/mpc_car_acado_data_1_goals.txt"
+    weights: [1, 0, 0]
+
+  HSRL_IDM:
+    file: "stats/New/HighSpeed_RightLane/No-Time-Budget/mpc_car_acado_data_1_goals.txt"
+    weights: [0, 1, 10]
+  
+
+  RL_IDM:
+    file: "stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_1_goals.txt"
+    weights: [0, 1, 0]
+  
+  
+  cruise_NGSIM:
+    file: "stats/New/NGSIM/No-Time-Budget/cruise/mpc_car_acado_data_1_goals.txt"
+    weights: [1, 0, 0]
+
+  HSRL_NGSIM:
+    file: "stats/New/NGSIM/No-Time-Budget/hsrl/mpc_car_acado_data_1_goals.txt"
+    weights: [0, 1, 10]
+
+
+
