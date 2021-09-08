@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmpc_node_lib.a  CMakeFiles/mpc_node_lib.dir/src/optim_batch.cpp.o
-/usr/bin/ranlib libmpc_node_lib.a

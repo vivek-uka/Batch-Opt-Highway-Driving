@@ -1,8 +1,0 @@
-source;share/mpc_car_acado/hook/cmake_prefix_path.ps1
-source;share/mpc_car_acado/hook/cmake_prefix_path.dsv
-source;share/mpc_car_acado/hook/cmake_prefix_path.sh
-source;share/mpc_car_acado/local_setup.bash
-source;share/mpc_car_acado/local_setup.dsv
-source;share/mpc_car_acado/local_setup.ps1
-source;share/mpc_car_acado/local_setup.sh
-source;share/mpc_car_acado/local_setup.zsh

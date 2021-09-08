@@ -1,6 +1,0 @@
-source;share/highway_car/hook/pythonpath.ps1
-source;share/highway_car/hook/pythonpath.dsv
-source;share/highway_car/hook/pythonpath.sh
-source;share/highway_car/hook/ament_prefix_path.ps1
-source;share/highway_car/hook/ament_prefix_path.dsv
-source;share/highway_car/hook/ament_prefix_path.sh

@@ -1,7 +1,0 @@
-{
-  "package_name": "msgs_car",
-  "non_idl_tuples": [
-    "/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/msgs_car:msg/States.msg",
-    "/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/msgs_car:msg/Controls.msg"
-  ]
-}

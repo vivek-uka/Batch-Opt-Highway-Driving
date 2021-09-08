@@ -1,3 +1,0 @@
-[console_scripts]
-highway_node2 = highway_car.highway_car2:main
-

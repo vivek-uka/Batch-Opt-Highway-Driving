@@ -1,8 +1,0 @@
-[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch/src/main_batch.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
-[01m[K/home/vivek/On-Codes/Batch-Opt-Highway-Driving/ros_ws/src/mpc_car_batch/src/main_batch.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kw4[m[K’ was not declared in this scope; did you mean ‘[01m[Kw0[m[K’?
-  132 |         [01;31m[Kw4[m[K = map["configuration"]["weights"][3].as<float>();
-      |         [01;31m[K^~[m[K
-      |         [32m[Kw0[m[K
-make[2]: *** [CMakeFiles/mpc_node.dir/build.make:63: CMakeFiles/mpc_node.dir/src/main_batch.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/mpc_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
