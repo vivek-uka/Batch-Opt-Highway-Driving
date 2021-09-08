@@ -18,11 +18,11 @@ git clone https://github.com/dv367/Batch-Opt-Highway-Driving
 cd your_ws/src/ros_ws/src  
 colcon build  
 source ./install/setup.bash  
-
+``` 
 #### Setting a high-level driving mission  
 * In each approach folder, you will find ```config.yaml```, change ```setting``` to:
 |Obstacles||Mission|Name|
-``` 
+
 #### In the first terminal:
 * Running our proposed batch optimization  
 ```
