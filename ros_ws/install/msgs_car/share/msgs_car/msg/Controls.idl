@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msgs_car/msg/Controls.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+
+module msgs_car {
+  module msg {
+    struct Controls {
+      double v;
+
+      double w;
+
+      geometry_msgs::msg::PoseArray batch;
+
+      int64 index;
+
+      int64 goals;
+    };
+  };
+};

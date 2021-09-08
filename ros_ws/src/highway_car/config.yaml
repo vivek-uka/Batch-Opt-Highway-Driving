@@ -1,5 +1,7 @@
-setting: cruise_IDM 
-# HSRL_IDM 
+setting: RL_IDM
+# cruise_IDM 
+# HSRL_IDM
+
 # RL_IDM
 
 # cruise_NGSIM

@@ -1,4 +1,4 @@
-setting: cruise_IDM_11
+setting: RL_IDM_6
 
 configuration:
   cruise_IDM_11:
@@ -34,7 +34,7 @@ configuration:
     x_g: [110, 115, 120, 125, 130, 135, 120, 120, 120, 120, 120]
     y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
     file: "stats/New/RightLane/No-Time-Budget/mpc_car_acado_data_11_goals.txt"
-    weights: [0, 50, 50, 0]
+    weights: [0, 45, 55, 0]
 
   RL_IDM_6:
     goal: 6
@@ -62,7 +62,7 @@ configuration:
     goal: 11
     x_g: [150, 155, 160, 165, 170, 175, 160, 160, 160, 160, 160]
     y_g: [-10, -10, -10, -10, -10, -10, -6, -2, 2 ,6, 10] 
-    file: "stats/New/NGSIM/No-Time-Budget/hrsl/mpc_car_acado_data_11_goals_0_ngsim.txt"
+    file: "stats/New/NGSIM/No-Time-Budget/hsrl/mpc_car_acado_data_11_goals_0_ngsim.txt"
     weights: [0, 50, 5, 1]
 
   HSRL_NGSIM_6:

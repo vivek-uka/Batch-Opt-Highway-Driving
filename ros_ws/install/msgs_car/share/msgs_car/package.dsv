@@ -1,0 +1,14 @@
+source;share/msgs_car/hook/cmake_prefix_path.ps1
+source;share/msgs_car/hook/cmake_prefix_path.dsv
+source;share/msgs_car/hook/cmake_prefix_path.sh
+source;share/msgs_car/hook/ld_library_path_lib.ps1
+source;share/msgs_car/hook/ld_library_path_lib.dsv
+source;share/msgs_car/hook/ld_library_path_lib.sh
+source;share/msgs_car/hook/pythonpath.ps1
+source;share/msgs_car/hook/pythonpath.dsv
+source;share/msgs_car/hook/pythonpath.sh
+source;share/msgs_car/local_setup.bash
+source;share/msgs_car/local_setup.dsv
+source;share/msgs_car/local_setup.ps1
+source;share/msgs_car/local_setup.sh
+source;share/msgs_car/local_setup.zsh
