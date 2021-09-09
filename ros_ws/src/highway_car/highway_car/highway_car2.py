@@ -78,10 +78,10 @@ class MinimalSubscriber(Node):
         self.num_obs = 6
         self.obs = np.zeros([self.num_obs+1, 4])
 
-        if self.NGSIM == False:
-            self.obs[0] = [0, 10, 14.0, 0.0]
-        else:
-            self.obs[0] =[-10, -2, 14.0, 0.0]
+        # if self.NGSIM == False:
+        #     self.obs[0] = [0, -10, 14.0, 0.0]
+        # else:
+        #     self.obs[0] =[-10, -2, 14.0, 0.0]
 
         self.obs[0] = [0, 10, 14.0, 0.0]
         self.other_vehicles = np.array([])
@@ -142,7 +142,8 @@ class MinimalSubscriber(Node):
             self.other_vehicles = self.other_vehicles[self.other_vehicles[:, 4].argsort()]
             self.obs[1:] = self.other_vehicles[:len(self.obs)-1,:4]
             
-
+        self.ours_x = []
+        self.ours_y = []
 
 
 
@@ -266,6 +267,7 @@ class MinimalSubscriber(Node):
         self.num_goal = msg.goals
         self.index = msg.index
         self.v_controls = np.append(self.v_controls, self.v)
+        
      
 #
     def timer_callback(self):
@@ -276,7 +278,9 @@ class MinimalSubscriber(Node):
                 t1 = time()
                 dt = self.dt
                 
-                
+                self.ours_x.append(self.obs[0][0])
+                self.ours_y.append(self.obs[0][1])
+
                 self.loop += 1
                 self.sim_time = np.append(self.sim_time, self.loop * dt)
                 if self.flag == 0:
@@ -325,7 +329,7 @@ class MinimalSubscriber(Node):
                         # e.set_facecolor([0, 100/255, 0]) #green
                         plt.text(self.obs[0][0]-2, self.obs[0][1]-0.3, '%s'%(round(self.obs[0][2],2)), fontsize=10, zorder = 20)
                     
-                    
+                    plt.plot(self.ours_x, self.ours_y, color=[1, 0.5, 0.5])
 
                     plt.xlabel('Y in m')
                     plt.ylabel('X in m')

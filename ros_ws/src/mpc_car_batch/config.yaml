@@ -1,4 +1,4 @@
-setting: batch_SZ_20 #RL_IDM
+setting: cruise_IDM #RL_IDM
 configuration:
   batch_SZ_2:
     goal: 2

@@ -158,7 +158,7 @@ class MinimalPublisher : public rclcpp::Node
         cnt = 1;
 
         RCLCPP_INFO(this->get_logger(),"NODES ARE UP");
-        outdata.open(map["configuration"][setting]["file"].as<string>());
+        // outdata.open(map["configuration"][setting]["file"].as<string>());
     }
     
   private:
@@ -285,9 +285,9 @@ void MinimalPublisher :: timer_callback()
         avg_speed = speed/loop;
         avg_time = total_time/loop;
 
-        outdata << x_init << " " << y_init << " " << psi_init << " " << message.v << " " << message.w 
-                << " " << (message.v - prev_v_send)/prob_data.t << " " << (message.w - prev_w_send)/prob_data.t
-                << " " << double(end - start) / double(CLOCKS_PER_SEC) << " " << loop << " " << index << endl;
+        // outdata << x_init << " " << y_init << " " << psi_init << " " << message.v << " " << message.w 
+        //         << " " << (message.v - prev_v_send)/prob_data.t << " " << (message.w - prev_w_send)/prob_data.t
+        //         << " " << double(end - start) / double(CLOCKS_PER_SEC) << " " << loop << " " << index << endl;
         // outdata2 << prob_data.x << " " << prob_data.y << endl;
         prev_v_send = message.v;
 		prev_w_send = message.w;
