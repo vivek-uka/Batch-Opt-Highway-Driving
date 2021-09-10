@@ -43,7 +43,7 @@ source ./install/setup.bash
 
 
 #### In the first terminal:
-* Running our proposed batch optimization  
+* Running our proposed multi-modal MPC  
 ```
 ros2 run mpc_car_batch mpc_node  
 ```
