@@ -12,6 +12,7 @@ The folder ```ros_ws/src``` contains the implementation of approaches: Standard 
 * **mpc_car_batch**: implementation of our proposed multi-modal MPC that is built on Eigen C++ library.
 * **highway_car**: a highway driving simulator where obstacles are motivated by Intelligent Driver Model (IDM).
 * **msgs_car**: custom ROS2 messages that consists of visualization data as well as control input data.
+* **stats**: folder where the simulation data is saved
 ## Dependencies
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)   
 ```
