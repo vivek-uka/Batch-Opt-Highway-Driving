@@ -9,7 +9,9 @@
 sudo apt install libeigen-quadprog-dev  
 sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ```  
-* [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)  
+* [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
+
+    The dataset is the I-80 freeway in the San Francisco Bay area , which can be downloaded from the above link. After downloading the data, place the downloaded file in `ros_ws/src/highway_car/highway/car`. The dataset has been taken from the [US Department of Transportaion website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). 
   
 
 ## Installation
@@ -22,13 +24,8 @@ colcon build
 source ./install/setup.bash  
 ``` 
 #### Setting a high-level driving mission  
-* In each approach folder, you will find ```config.yaml```, change ```setting``` to:  
-|Obstacles||Mission|Name|  
-|IDM|Cruise|cruise_IDM|  
-|IDM|High Speed and Close to Right Lane|HSRL_IDM| 
-|IDM|Merge to Right Lane|RL_IDM| 
-|NGSIM|Cruise|cruise_NGSIM|  
-|NGSIM|High Speed and Close to Right Lane|HSRL_NGSIM| 
+* In each approach folder, you will find ```config.yaml```, select ```setting``` :  
+    `cruise_IDM`, `cruise_NGSIM`, `HSRL_IDM`, `HSRL_NGSIM`
 
 
 #### In the first terminal:
@@ -42,7 +39,7 @@ ros2 run mpc_car_acado mpc_node
 ```
 * Running standard-mpc-acado   
 ```
-ros2 run mpc_car_acado mpc_node_single
+ros2 run mpc_car_acado_single mpc_node_single
 ```
 * Runinng frenet-frames
 ```  
