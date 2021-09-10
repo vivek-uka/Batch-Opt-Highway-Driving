@@ -70,4 +70,4 @@ ros2 run highway_car highway_node2
 Using the ```highway_car``` simulator for your own project:    
   
 
-Contact: [vivekadajania@gmail.com](mailto:vivekadajania@gmail.com)
+<!-- Contact: [vivekadajania@gmail.com](mailto:vivekadajania@gmail.com) -->
