@@ -20,7 +20,7 @@ sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ```  
 * [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
 
-    The dataset is for the I-80 freeway in the San Francisco Bay area , which can be downloaded from the above link. After downloading the data, place the downloaded file in `ros_ws/src/highway_car/highway/car`. The dataset has been taken from the [US Department of Transportaion website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). 
+    The dataset is of the I-80 freeway in the San Francisco Bay area. Download the dataset from the link above and place them in `ros_ws/src/highway_car/highway/car`. The dataset has been taken from the [US Department of Transportaion website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). 
   
 
 ## Installation
