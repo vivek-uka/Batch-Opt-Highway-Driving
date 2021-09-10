@@ -1,7 +1,7 @@
 # ROS2 Package - Repository associated with RAL-ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-[![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](http://img.youtube.com/vi/z2cDWWb_oS0&ab_channel=VivekAdajania/0.jpg)](http://www.youtube.com/watch?v=z2cDWWb_oS0&ab_channel=VivekAdajania)
+[![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](http://www.youtube.com/watch?v=z2cDWWb_oS0&ab_channel=VivekAdajania)
 
 ## Dependencies
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)   
