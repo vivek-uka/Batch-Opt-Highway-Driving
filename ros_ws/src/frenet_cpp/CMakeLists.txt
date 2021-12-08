@@ -37,17 +37,12 @@ target_link_libraries(cubic_spline_planner ${OpenCV_LIBS})
 add_library(frenet_optimal_trajectory src/frenet_optimal_trajectory.cpp)
 target_link_libraries(frenet_optimal_trajectory cubic_spline_planner ${OpenCV_LIBS})
 
-#add_executable(frenet_node src/frenet_main.cpp)
-#target_link_libraries(frenet_node frenet_optimal_trajectory cubic_spline_planner)
-#ament_target_dependencies(frenet_node rclcpp std_msgs)
-
 add_executable(frenet_car src/frenet_car.cpp)
 target_link_libraries(frenet_car frenet_optimal_trajectory cubic_spline_planner yaml-cpp)
 ament_target_dependencies(frenet_car rclcpp std_msgs msgs_car)
 
 
 install(TARGETS
-	#frenet_node
   frenet_car
 	DESTINATION lib/${PROJECT_NAME}
 )
