@@ -1,7 +1,7 @@
 # Repository associated with RAL-ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-[![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://drive.google.com/file/d/1d5h_tDJp0yw8UuDkdvnhEy2tM079zVve/view)  
+[![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://youtu.be/HPME4cYlR24)  
 Click on Image to watch it on Youtube  
 
 Individual HD video [link](https://drive.google.com/file/d/1d5h_tDJp0yw8UuDkdvnhEy2tM079zVve/view)  
