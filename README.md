@@ -1,10 +1,9 @@
-# Repository associated with RAL-ICRA 2022 submission:  
+# Repository associated with RA-L ICRA 2022 submission:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
 [![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://youtu.be/HPME4cYlR24)  
 Click on Image to watch it on Youtube  
-
-Individual HD video [link](https://drive.google.com/file/d/1d5h_tDJp0yw8UuDkdvnhEy2tM079zVve/view)  
+  
 ## Structure  
 The folder ```ros_ws/src``` contains the implementation of approaches: Standard MPC, Batch ACADO over parallel threads, Frenet Frame Planner in C++, and our proposed Multi-modal MPC. It also contains a highway driving simulator and custom ros2 messages used by the packages.  
 * **mpc_car_acado_single**: implementation of standard MPC. The problem formulation can be viewed in the code generation file (```code_gen.cpp```).  
