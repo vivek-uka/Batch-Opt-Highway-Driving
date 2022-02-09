@@ -1,5 +1,7 @@
-# Repository associated with RA-L ICRA 2022 submission:  
+# Repository associated with paper:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
+
+_##### Code commentary to be written_  
 
 [![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://youtu.be/HPME4cYlR24)  
 Click on Image to watch it on Youtube  
@@ -22,8 +24,7 @@ sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 * [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
 
     The dataset is of the I-80 freeway in the San Francisco Bay area. Download the dataset from the link above and place them in `ros_ws/src/highway_car/highway/car`. The dataset has been taken from the [US Department of Transportaion website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). 
-  
-### Code commentary to be written  
+   
 
 ## Installation
 After installing the dependencies, build our package as follows:  
