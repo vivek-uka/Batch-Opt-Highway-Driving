@@ -1,7 +1,6 @@
 # Repository associated with paper:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-_##### Code commentary to be written_  
 
 [![Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://youtu.be/HPME4cYlR24)  
 Click on Image to watch it on Youtube  
@@ -17,10 +16,6 @@ The folder ```ros_ws/src``` contains the implementation of approaches: Standard 
 * **stats**: folder where the simulation data is saved
 ## Dependencies
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)   
-```
-sudo apt install libeigen-quadprog-dev  
-sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
-```  
 * [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
 
     The dataset is of the I-80 freeway in the San Francisco Bay area. Download the dataset from the link above and place them in `ros_ws/src/highway_car/highway/car`. The dataset has been taken from the [US Department of Transportaion website](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj). 
@@ -68,8 +63,16 @@ ros2 run highway_car highway_node2
 ```  
 
 
-## Miscellaneous  
-Using the ```highway_car``` simulator for your own project:      
-To be written
-
-<!-- Contact: [vivekadajania@gmail.com](mailto:vivekadajania@gmail.com) -->
+If you this code for your own work, please consider citing:
+```
+@article{adajania2022multi,
+  title={Multi-Modal Model Predictive Control Through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving},
+  author={Adajania, Vivek K and Sharma, Aditya and Gupta, Anish and Masnavi, Houman and Krishna, K Madhava and Singh, Arun K},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={2},
+  pages={4220--4227},
+  year={2022},
+  publisher={IEEE}
+}
+```
