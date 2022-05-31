@@ -1,7 +1,7 @@
 # Repository associated with paper:  
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
 
-[Youtube](https://github.com/dv367/Batch-Opt-Highway-Driving/blob/master/ros_ws/stats/Screenshot.png)](https://youtu.be/HPME4cYlR24)  
+![Youtube](https://youtu.be/HPME4cYlR24)  
   
 ## Structure  
 The folder ```ros_ws/src``` contains the implementation of approaches: Standard MPC, Batch ACADO over parallel threads, Frenet Frame Planner in C++, and our proposed Multi-modal MPC. It also contains a highway driving simulator and custom ros2 messages used by the packages.  
