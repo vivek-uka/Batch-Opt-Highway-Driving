@@ -1,7 +1,20 @@
 # Repository associated with paper:  
-"Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving"
-
+"Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving" - 
 [Youtube](https://youtu.be/HPME4cYlR24)  
+
+If you this code for your own work, please consider citing:
+```
+@article{adajania2022multi,
+  title={Multi-Modal Model Predictive Control Through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving},
+  author={Adajania, Vivek K and Sharma, Aditya and Gupta, Anish and Masnavi, Houman and Krishna, K Madhava and Singh, Arun K},
+  journal={IEEE Robotics and Automation Letters},
+  volume={7},
+  number={2},
+  pages={4220--4227},
+  year={2022},
+  publisher={IEEE}
+}
+```
   
 ## Structure  
 The folder ```ros_ws/src``` contains the implementation of approaches: Standard MPC, Batch ACADO over parallel threads, Frenet Frame Planner in C++, and our proposed Multi-modal MPC. It also contains a highway driving simulator and custom ros2 messages used by the packages.  
@@ -61,16 +74,3 @@ ros2 run highway_car highway_node2
 ```  
 
 
-If you this code for your own work, please consider citing:
-```
-@article{adajania2022multi,
-  title={Multi-Modal Model Predictive Control Through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving},
-  author={Adajania, Vivek K and Sharma, Aditya and Gupta, Anish and Masnavi, Houman and Krishna, K Madhava and Singh, Arun K},
-  journal={IEEE Robotics and Automation Letters},
-  volume={7},
-  number={2},
-  pages={4220--4227},
-  year={2022},
-  publisher={IEEE}
-}
-```
