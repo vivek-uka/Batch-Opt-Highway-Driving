@@ -2,7 +2,7 @@
 "Multi-Modal Model Predictive Control through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving" - 
 [Youtube](https://youtu.be/HPME4cYlR24)  
 
-If you this code for your own work, please consider citing:
+If you use this code for your own work, please consider citing:
 ```
 @article{adajania2022multi,
   title={Multi-Modal Model Predictive Control Through Batch Non-Holonomic Trajectory Optimization: Application to Highway Driving},
@@ -26,6 +26,7 @@ The folder ```ros_ws/src``` contains the implementation of approaches: Standard 
 * **msgs_car**: custom ROS2 messages that consists of visualization data as well as control input data.
 * **stats**: folder where the simulation data is saved
 ## Dependencies
+* [ROS2](https://docs.ros.org/en/foxy/Installation.html)
 * [eigen_quad_prog](https://github.com/jrl-umi3218/eigen-quadprog)   
 * [NGSIM dataset](https://drive.google.com/drive/folders/1cgsOWnc4JTeyNdBN6Fjef2-J5HqjnWyX?usp=sharing)
 
